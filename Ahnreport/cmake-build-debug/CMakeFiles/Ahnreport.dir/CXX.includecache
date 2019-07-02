@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/raven/Desktop/Ahnreport/input/manage_input.cpp
+iostream
+-
+fstream
+-
+string.h
+-
+manage_input.h
+/home/raven/Desktop/Ahnreport/input/manage_input.h
+
+/home/raven/Desktop/Ahnreport/input/manage_input.h
+
