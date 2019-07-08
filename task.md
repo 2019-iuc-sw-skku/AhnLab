@@ -72,10 +72,10 @@
 - MD5
 - Sha256
 
-comments:
-    - `stat` and `readlink` command is included in GNU core utils, so it will not be a problem that some linux system does not have these commands
-    - procfs is common linux file system, so it will not be a problem, maybe?
-    - man page of procfs says that some elements and lines appeared and disappeared with version changes, so we must consider this
+comments:  
+    - `stat` and `readlink` command is included in GNU core utils, so it will not be a problem that some linux system does not have these commands  
+    - procfs is common linux file system, so it will not be a problem, maybe?  
+    - man page of procfs says that some elements and lines appeared and disappeared with version changes, so we must consider this  
 
 ##### Modules
 - Name
