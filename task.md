@@ -51,11 +51,12 @@
 - Session ID
     - /proc/[pid]/status : 6th element, **[sessionid]**
 - Integrity level
+    - only in Windows? ( [link](https://en.wikipedia.org/wiki/Mandatory_Integrity_Control) )
 - Command
     - /proc/[pid]/cmdline : just one line, and it is the command
 - Digital signatures
     - I CANNOT FIND THIS
-- Date created
+- ~~Date created~~
     - this is information about the time when the execution file of the process is created, NOT the time when the process is started, i think...
     - if i am right, linux does not save this information, so it should be discarded
 - Date accessed
@@ -79,21 +80,74 @@ comments:
 
 ##### Modules
 - Name
+    - /proc/[PID]/maps : every line, **[address] [permission] [offset?] [dev?] [inode] [pathname]**
+    - pathname contains what is in certain memory, so i can get .so file names by parsing this (and i already did this w/ C)
 - Attributes
 - PIDs
+    - PIDs of processes using this module
+    - should make hashmap which have path has key, and manage all PIDs by path
 - Digital signatures
-- Date created
+- ~~Date created~~
+    - linux does not have this data, so this should be discarded
 - Date accessed
+    - `stat [path]` : 5th line, **Access: [yyyy-MM-dd] [HH-mm-ss.~] [timezone]**
+    - should parse and remove .~ part
 - Date modified
+    - `stat [path]` : 6th line, **Modified: [yyyy-MM-dd] [HH-mm-ss.~] [timezone]**
+    - should parse and remove .~ part
 - Version
+    - /proc/[PID]/maps : every line, **[address] [permission] [offset?] [dev?] [inode] [pathname]**
+    - pathname contains version information, so i can get version by parsing this, and i already did w/ C
 - Product
 - Company
 - Path
+    - /proc/[PID]/maps : every line, **[address] [permission] [offset?] [dev?] [inode] [pathname]**
+    - can get pathname by parsing this, and i already did w/ C
 - MD5
 - Sha256
 
 ##### Startup
+- Name
+- Location
+- Platform
+- Status
+- Date modified
+- Command
+- Path
+- Digital signatures
+- MD5
+- Sha256
 
 ##### Services
+- Name
+- Key
+- Type
+- Status
+- PID
+- Startup type
+- Command
+- Additional info
+- Parameters
+- Path
+- Digital signatures
+- Version
+- MD5
+- Sha256
+- User
+- Date modified
 
 ##### Schedule tasks
+- Name
+- Location
+- Command
+- Attributes
+- Triggers
+- Last run time
+- User
+- Author
+- Priority
+comments:  
+- in windows, `taskschd.msc` serves these data
+- in linux, `crontab` serves these data`
+- `crontab` is defined in IEEE Std 1003.1-2017, so it will not be a problem that some linux systems do not contains this command
+- scheduled task is given by shell script not execution file, so several items should be changed
