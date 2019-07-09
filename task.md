@@ -2,12 +2,12 @@
 - Name
     - name of the process?
     - /proc/[pid]/status : 1st line, **Name: [name]**
-    - /proc/[pid]/stat : 2nd element, **(name)**
+    - /proc/[pid]/stat : 2nd element, **([name])**
     - there is no 'name' section in top or ps
 - Attributes
     - is it suspended or not? idk
     - /proc/[pid]/status : 3rd line, **State: [status] (status\_explanation)**
-    - /proc/[pid]/stat : 3rd element, **status**
+    - /proc/[pid]/stat : 3rd element, **[status]**
     - in linux, it is about process life cycle, not if it is suspended
 - PID
     - process id
@@ -16,14 +16,29 @@
 - PPID
     - parent process id
     - /proc/[pid]/status : 7th line, **PPid: [ppid]**
-    - /proc/[pid]/stat : 4th element, **PPid**
+    - /proc/[pid]/stat : 4th element, **[PPid]**
 - Threads
     - /proc/[pid]/status : 34th line, **Threads: [threads]**
 - Base priority
+    - actually, there are two independent priority in linux: priority and nice
+    - priority
+        - related to real-time scheduling policy
+        - /proc/[pid]/stat : 18th element, **[priority]**
+    - nice
+        - /proc/[pid]/stat : 19th element, **[nice]**
 - Creation time
+    - /proc/uptime : 1st element, **[uptime]**
+    - /proc/[pid]/stat : 22nd element, **[starttime]**
+    - creation time = uptime + starttime
+    - uptime is in seconds, and starttime is in clock ticks(since linux 2.6, before linux 2.6 it was in jiffies)
 - CPU
-    - cpu number where the process is working?
+    - ~~cpu number where the process is working?~~
+    - what is this?
 - CPU time
+    - /proc/[pid]/stat : 14th element, **[utime]**
+    - /proc/[pid]/stat : 15th element, **[stime]**
+    - cpu time = utime + stime
+    - utime and stime are in clock ticks, so should convert to seconds
 - Platform
     - 32 bit or 64 bit?
 - Memory working set
@@ -43,6 +58,7 @@
 - Virtual size
     - /proc/[pid]/status : 18th line, **VmSize: [VmSize]**
 - Handles
+    - what is this?
 - User
     - /proc/[pid]/status : 9th line, **Uid: [uid] [something] [something] [something]**
     - /etc/passwd : every line, **[user]:[pw]:[uid]:[gid]:[comment]:[homedir]:[loginshell]**
@@ -78,6 +94,7 @@ comments:
     - procfs is common linux file system, so it will not be a problem, maybe?  
     - man page of procfs says that some elements and lines appeared and disappeared with version changes, so we must consider this  
 
+
 ##### Modules
 - Name
     - /proc/[PID]/maps : every line, **[address] [permission] [offset?] [dev?] [inode] [pathname]**
@@ -106,6 +123,11 @@ comments:
 - MD5
 - Sha256
 
+comments:  
+    - in windows, this section is about dll files
+    - in linux, dll is shared library
+
+
 ##### Startup
 - Name
 - Location
@@ -117,6 +139,7 @@ comments:
 - Digital signatures
 - MD5
 - Sha256
+
 
 ##### Services
 - Name
@@ -136,6 +159,12 @@ comments:
 - User
 - Date modified
 
+comments:  
+- service in windows = daemon in linux?  
+- if this is right, this information can be optained while analyzing process  
+- if ppid of certain process is 1 or 2 and it has no tty, then it is daemon
+
+
 ##### Schedule tasks
 - Name
 - Location
@@ -146,8 +175,9 @@ comments:
 - User
 - Author
 - Priority
+
 comments:  
-- in windows, `taskschd.msc` serves these data
-- in linux, `crontab` serves these data`
-- `crontab` is defined in IEEE Std 1003.1-2017, so it will not be a problem that some linux systems do not contains this command
+- in windows, `taskschd.msc` serves these data  
+- in linux, `crontab` serves these data  
+- `crontab` is defined in IEEE Std 1003.1-2017, so it will not be a problem that some linux systems do not contains this command  
 - scheduled task is given by shell script not execution file, so several items should be changed
