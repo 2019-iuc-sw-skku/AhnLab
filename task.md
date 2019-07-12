@@ -58,7 +58,7 @@
 - Virtual size
     - /proc/[pid]/status : 18th line, **VmSize: [VmSize]**
 - Handles
-    - what is this?
+    - only in windows?
 - User
     - /proc/[pid]/status : 9th line, **Uid: [uid] [something] [something] [something]**
     - /etc/passwd : every line, **[user]:[pw]:[uid]:[gid]:[comment]:[homedir]:[loginshell]**
@@ -87,10 +87,12 @@
 - Path
     - `readlink /proc/[pid]/exe` : just one line, and it is the path
 - MD5
+    - `md5sum /proc/[pid]/exe` : just one line, **[MD5] [path]** 
 - Sha256
+    - `sha256sum /proc/[pid]/exe` : just one line, **[Sha256] [path]**
 
 comments:  
-    - `stat` and `readlink` command is included in GNU core utils, so it will not be a problem that some linux system does not have these commands  
+    - `stat`, `readlink`, `md5sum` and `sha256sum` commands are included in GNU core utils, so it will not be a problem that some linux system does not have these commands  
     - procfs is common linux file system, so it will not be a problem, maybe?  
     - man page of procfs says that some elements and lines appeared and disappeared with version changes, so we must consider this  
 
@@ -121,7 +123,9 @@ comments:
     - /proc/[PID]/maps : every line, **[address] [permission] [offset?] [dev?] [inode] [pathname]**
     - can get pathname by parsing this, and i already did w/ C
 - MD5
+    - `md5sum [path]` : just one line, **[MD5] [path]**
 - Sha256
+    - `sha256sum [path]` : just one line, **[Sha256] [path]**
 
 comments:  
     - in windows, this section is about dll files
