@@ -1,3 +1,0 @@
-/home/raven/Desktop/Ahnreport/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/raven/Desktop/Ahnreport/cmake-build-debug/CMakeFiles/Ahnreport.dir
-/home/raven/Desktop/Ahnreport/cmake-build-debug/CMakeFiles/edit_cache.dir

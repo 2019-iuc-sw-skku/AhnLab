@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/Ahnreport.dir/main.cpp.o CMakeFiles/Ahnreport.dir/input/manage_input.cpp.o  -o Ahnreport 

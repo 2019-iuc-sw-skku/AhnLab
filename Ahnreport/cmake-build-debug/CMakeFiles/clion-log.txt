@@ -1,4 +1,0 @@
-/home/raven/clion-2019.1.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/raven/Desktop/Ahnreport
--- Configuring done
--- Generating done
--- Build files have been written to: /home/raven/Desktop/Ahnreport/cmake-build-debug
