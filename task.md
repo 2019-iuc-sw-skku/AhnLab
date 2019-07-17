@@ -47,26 +47,28 @@
 - Page faults
     - /proc/[pid]/stat : 10th element, **[minorfault]**
     - /proc/[pid]/stat : 11th element, **[majorfault]**
-    - /proc/[pid]/stat : 12th element, **[childrenminorfault]**
-    - /proc/[pid]/stat : 13th element, **[chlidrenmajorfault]**
-- Paged pool
+    - ~~/proc/[pid]/stat : 12th element, **[childrenminorfault]**~~
+    - ~~/proc/[pid]/stat : 13th element, **[chlidrenmajorfault]**~~
+- ~~Paged pool~~
     - only in Windows?
-- Non paged pool
+- ~~Non paged pool~~
     - only in Windows?
 - Peak virtual size
     - /proc/[pid]/status : 17th line, **VmPeak: [VmPeak]**
 - Virtual size
     - /proc/[pid]/status : 18th line, **VmSize: [VmSize]**
-- Handles
+- ~~Handles~~
     - only in windows?
 - User
     - /proc/[pid]/status : 9th line, **Uid: [uid] [something] [something] [something]**
-    - /etc/passwd : every line, **[user]:[pw]:[uid]:[gid]:[comment]:[homedir]:[loginshell]**
-    - can find uid from /proc/[pid]/status, parse /etc/passwd/ and can get user
-    - `stat /proc/[pid]/exe` : 4th line, **Access: (permission/permission) Uid: ( [uid]/ [user]) Gid: ( [gid]/ [groupname?])**
+    - ~~/etc/passwd : every line, **[user]:[pw]:[uid]:[gid]:[comment]:[homedir]:[loginshell]**~~
+    - ~~can find uid from /proc/[pid]/status, parse /etc/passwd/ and can get user~~
+    - ~~`stat /proc/[pid]/exe` : 4th line, **Access: (permission/permission) Uid: ( [uid]/ [user]) Gid: ( [gid]/ [groupname?])**~~
+    - there are some usernames that cannot be found at /etc/passwd
+    - `id [uid]` : just one line, **uid:[uid]([user]) ~**
 - Session ID
-    - /proc/[pid]/status : 6th element, **[sessionid]**
-- Integrity level
+    - /proc/[pid]/stat : 6th element, **[sessionid]**
+- ~~Integrity level~~
     - only in Windows? ( [link](https://en.wikipedia.org/wiki/Mandatory_Integrity_Control) )
 - Command
     - /proc/[pid]/cmdline : just one line, and it is the command
