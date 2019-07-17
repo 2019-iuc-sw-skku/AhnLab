@@ -200,7 +200,8 @@ def processes():
             f"{proc.platform:<4} {proc.mem:<8} {proc.pfault:<8} "
             f"{proc.vmpeak:<8} {proc.vmsize:<8} {proc.user:<20} "
             f"{proc.sessid:<5} {proc.cmd:<50} {proc.accdate:<25} "
-            f"{proc.moddate:<25} {proc.path:<30} {proc.md5:<50} {proc.sha256:<50}"
+            f"{proc.moddate:<25} {proc.path:<30} {proc.md5:<50} "
+            f"{proc.sha256:<50}"
         )
         # Python 3.6+ code (f-string) ended
         print(printstr)
