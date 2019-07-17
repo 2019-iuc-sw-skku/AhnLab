@@ -33,7 +33,7 @@
     - uptime is in seconds, and starttime is in clock ticks(since linux 2.6, before linux 2.6 it was in jiffies)
 - CPU
     - ~~cpu number where the process is working?~~
-    - what is this?
+    - %cpu
 - CPU time
     - /proc/[pid]/stat : 14th element, **[utime]**
     - /proc/[pid]/stat : 15th element, **[stime]**
@@ -65,7 +65,7 @@
     - ~~can find uid from /proc/[pid]/status, parse /etc/passwd/ and can get user~~
     - ~~`stat /proc/[pid]/exe` : 4th line, **Access: (permission/permission) Uid: ( [uid]/ [user]) Gid: ( [gid]/ [groupname?])**~~
     - there are some usernames that cannot be found at /etc/passwd
-    - `id [uid]` : just one line, **uid:[uid]([user]) ~**
+    - `id [uid]` : just one line, **uid:[uid]\([user]) ~**
 - Session ID
     - /proc/[pid]/stat : 6th element, **[sessionid]**
 - ~~Integrity level~~
@@ -94,7 +94,7 @@
     - `sha256sum /proc/[pid]/exe` : just one line, **[Sha256] [path]**
 
 comments:  
-    - `stat`, `readlink`, `md5sum` and `sha256sum` commands are included in GNU core utils, so it will not be a problem that some linux system does not have these commands  
+    - `id`, `stat`, `readlink`, `md5sum` and `sha256sum` commands are included in GNU core utils, so it will not be a problem that some linux system does not have these commands  
     - procfs is common linux file system, so it will not be a problem, maybe?  
     - man page of procfs says that some elements and lines appeared and disappeared with version changes, so we must consider this  
 
