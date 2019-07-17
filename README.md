@@ -1,8 +1,10 @@
-I'm working on Task part of AhnReport.
-~~All source codes is in cpp file, but now, almost everything is based on C.~~
-moved to python
+AhnReport for Linux
 
-My plan:
-- C -> C++ -> Python
-- implement module\_stat structure
-- and what? idk
+- Products
+- Files
+- Tasks
+- System
+- Network
+- Hardware
+- Programs
+- Logs?
