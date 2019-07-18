@@ -1,0 +1,18 @@
+ahnRpt <option> <args>
+<option> (essential) - 각 파트별로 옵션 부여할 경우 원하는 옵션을 달아주세요
+-F: Check all
+-s: Check system information
+-n: Check network information (firewall, NIC)
+-p: Check package information (system packages, python packages)
+-h: Check hardware information (processor, memory, disk)
+-l: Check user/system log
+-t: Check task information (process, deamons)
+
+<args> (optional): output file name
+
+ahnRpt
+└─ check options => check what information is needed
+    └─ 각 파트별 class등으로 나눠서 모듈화, 데이터 처리
+    └─ 종합한 데이터를 정리, 출력
+
+coding style: PEP-8 준수
