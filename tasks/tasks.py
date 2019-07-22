@@ -2,9 +2,11 @@
 
 import sys
 import getopt
-
 import processes
 import modules
+import startup
+import services
+import scheduletasks
 
 
 def main():
@@ -27,11 +29,11 @@ def main():
         if o == "--modules":
             modules.modules()
         if o == "--startup":
-            print("startup")
+            startup.startup()
         if o == "--services":
-            print("services")
+            services.services()
         if o == "--schedule-tasks":
-            print("schedule-tasks")
+            scheduletasks.sched()
 
 
 if __name__ == "__main__":
