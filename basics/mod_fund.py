@@ -4,25 +4,34 @@ import time
 
 class test_fund:
     def __init__(self):
-        self.res_os = str
+        self.res_type = []
+        self.typecode = int
         self.res_kernel = str
         self.res_locale = str
         self.res_host = str
         self.res_memory = []
 
-    def check_os(self):
-        pre_os = os.popen("cat /etc/os-release").read().split('\n')
-        str_os = None
-        for line in pre_os:
+    def check_type(self):
+        pre_type = os.popen("cat /etc/os-release").read().split('\n')
+        str_type = None
+        list_type = []
+        for line in pre_type:
             if 'ID_LIKE' in line:
-                str_os = line.split('=')
-                break
-        if str_os is None:
-            for line in pre_os:
-                if 'ID' in line and 'VERSION' not in line:
-                    str_os = line.split('=')
-                    break
-        return str_os[1]
+                str_type = line.split('=')
+                list_type.append(str_type)
+            if 'ID' in line and 'VERSION' not in line and 'ID_LIKE' not in\
+                    line:
+                str_type = line.split('=')
+                list_type.append(str_type)
+        self.typecode = self.classify_type(list_type)
+        return list_type
+
+    def classify_type(self, input_list):
+        for i in input_list:
+            if i[0] == 'ID_LIKE':
+                str_type = i[1].lower()
+                return {'ubuntu': 1, 'debian': 1, 'fedora': 2, 'arch': 3}\
+                    .get(str_type, '-1')
 
     def check_kernel(self):
         res_kernel = os.popen("uname -r").read().split("\n")
