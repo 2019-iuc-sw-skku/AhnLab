@@ -1,19 +1,9 @@
 #!/usr/bin/env python3
 
 import re
-import time
 import subprocess
 import processes
-
-
-def logging_time(original_fn):
-    def wrapper_fn(*args, **kwargs):
-        start_time = time.time()
-        result = original_fn(*args, **kwargs)
-        end_time = time.time()
-        print("WorkingTime[{}]: {} sec".format(original_fn.__name__, end_time-start_time))
-        return result
-    return wrapper_fn
+from loggingtime import logging_time
 
 
 class ModClass:
@@ -30,11 +20,16 @@ class ModClass:
         self.path = path
         self.md5 = ""
         self.sha256 = ""
+        self.strpids = ""
 
     def add_pids(self, pids):
         for pid in pids:
             if pid not in self.pids:
                 self.pids.append(pid)
+
+    def make_strpids(self):
+        self.strpids = str(self.pids)
+        self.strpids = self.strpids.strip()
 
 
 def get_data(moddict):
@@ -43,13 +38,15 @@ def get_data(moddict):
 @logging_time
 def get_data_from_command(moddict):
     argstr = " ".join(moddict.keys())
-#    result = subprocess.check_output("./dateandhash.sh " + argstr, shell=True).decode("utf-8")
-    result = subprocess.check_output("./everyiteration.sh " + argstr, shell=True).decode("utf-8")
+#    result = subprocess.check_output("./dateandhash.sh " + argstr,
+#                                     shell=True).decode("utf-8")
+    result = subprocess.check_output("./everyiteration.sh " + argstr,
+                                     shell=True).decode("utf-8")
     result = result.strip()
     result = result.split("\n")
     for line in result:
-##        if line == "":
-##            continue
+        if line == "":
+            continue
         line = line.split(" | ")
         path = line[0]
         moddict[path].accdate = line[1]
@@ -86,7 +83,8 @@ def modules():
             continue
 
     argstr = " ".join(moddict.keys())
-    result = subprocess.check_output("./popensh.sh " + argstr, shell=True).decode("utf-8")
+    result = subprocess.check_output("./popensh.sh " + argstr,
+                                     shell=True).decode("utf-8")
     result = result.strip()
     result = result.split("\n")
     for line in result:
@@ -96,10 +94,17 @@ def modules():
         moddict[line[1]].add_pids(moddict[line[0]].pids)
         del moddict[line[0]]
     get_data(moddict)
-        
-#placeholder
 
+    for mod in moddict.values():
+        mod.make_strpids()
+        printstr = (
+            f"{mod.name:<20} {mod.att:<3} {mod.strpids:<50} "
+            f"{mod.accdate:<20} {mod.moddate:<20} {mod.version:<5} "
+            f"{mod.path:<40} {mod.md5:<50} {mod.sha256:<50}"
+        )
+        print(printstr)
 
+# placeholder
 if __name__ == "__main__":
     modules()
 
