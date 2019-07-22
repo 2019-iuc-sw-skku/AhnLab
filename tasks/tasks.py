@@ -4,6 +4,7 @@ import sys
 import getopt
 
 import processes
+import modules
 
 
 def main():
@@ -24,7 +25,7 @@ def main():
         if o == "--processes":
             processes.processes()
         if o == "--modules":
-            print("modules")
+            modules.modules()
         if o == "--startup":
             print("startup")
         if o == "--services":
