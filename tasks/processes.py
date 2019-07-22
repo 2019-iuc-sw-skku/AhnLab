@@ -48,8 +48,8 @@ class ProcClass:
         self.get_data_from_statm()
 
     def get_data_from_stat(self):
-        file = open(self.dirpath + "/stat", 'r')
-        data = file.read()
+        f = open(self.dirpath + "/stat", 'r')
+        data = f.read()
         datalist = data.split(' ')
 
         cnt = 0
@@ -68,11 +68,11 @@ class ProcClass:
         self.pfault = int(datalist[9]) + int(datalist[10])
         self.priority = int(datalist[17])
         self.nice = int(datalist[18])
-        file.close()
+        f.close()
 
     def get_data_from_status(self):
-        file = open(self.dirpath + "/status", 'r')
-        data = file.readlines()
+        f = open(self.dirpath + "/status", 'r')
+        data = f.readlines()
         for line in data:
             line = line.replace('\t', ' ')
             line = line.replace('\n', '')
@@ -101,7 +101,7 @@ class ProcClass:
                 result = result.split('(', 1)[1]
                 result = result.split(')', 1)[0]
                 self.user = result
-        file.close()
+        f.close()
 
     def get_data_from_exe(self):
         exepath = self.dirpath + "/exe"
@@ -167,24 +167,27 @@ class ProcClass:
             self.sha256 = ""
 
     def get_data_from_statm(self):
-        file = open(self.dirpath + "/statm", 'r')
-        data = file.read()
+        f = open(self.dirpath + "/statm", 'r')
+        data = f.read()
         data = data.replace('\n', ' ')
         data = data.replace('\t', ' ')
         data = data.split(' ', 1)
         self.mem = data[0]
-        file.close()
+        f.close()
 
 
-def processes():
-    basepath = "/proc/"
-    dirlist = os.listdir(basepath)
-
+def get_processes(path):
+    dirlist = os.listdir(path)
     for dirname in copy.deepcopy(dirlist):
         if (not dirname.isdigit()) or\
-                (not os.path.isfile(basepath + dirname + "/stat")):
+                (not os.path.isfile(path + dirname + "/stat")):
             dirlist.remove(dirname)
+    return dirlist
 
+        
+def processes():
+    basepath = "/proc/"
+    dirlist = get_processes(basepath)
     proclist = list()
     for dirname in dirlist:
         if os.path.isfile(basepath + dirname + "/stat"):
@@ -200,7 +203,8 @@ def processes():
             f"{proc.platform:<4} {proc.mem:<8} {proc.pfault:<8} "
             f"{proc.vmpeak:<8} {proc.vmsize:<8} {proc.user:<20} "
             f"{proc.sessid:<5} {proc.cmd:<50} {proc.accdate:<25} "
-            f"{proc.moddate:<25} {proc.path:<30} {proc.md5:<50} {proc.sha256:<50}"
+            f"{proc.moddate:<25} {proc.path:<30} {proc.md5:<50} "
+            f"{proc.sha256:<50}"
         )
         # Python 3.6+ code (f-string) ended
         print(printstr)
