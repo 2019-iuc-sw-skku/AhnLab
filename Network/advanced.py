@@ -50,7 +50,7 @@ class NicInfo:
             print(output_string)
         print("")
         return " "
-                
+
 
     def check_nic(self):
         interfaces = netifaces.interfaces()
@@ -68,3 +68,4 @@ class NicInfo:
 if __name__ == "__main__":
     nic = NicInfo()
     nic.check_nic()
+

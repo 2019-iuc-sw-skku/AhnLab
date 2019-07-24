@@ -58,7 +58,7 @@ def get_data_from_command(moddict):
 @logging_time
 def modules():
     dirlist = processes.get_processes("/proc/")
-    
+
     moddict = dict()
     for dirname in dirlist:
         try:

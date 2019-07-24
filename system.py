@@ -20,39 +20,39 @@ def extract_system_info():
                 print(i+"!")
 
 ##############환경변수 정보 수집########################
-class Environment:    
-     def __init__(self):
-         self.envname = ' '
-         self.envval = ' '
-         self.envuser = []
-         self.envnum = ' '
-            
-     def set_env_name(self, envname):
-         self.envname=envname
-     
-     def set_env_value(self, envvalue):
-         self.envval=envvalue
-        
-     def set_env_user(self, user):
-         self.envuser.append(user)
+class Environment:
+    def __init__(self):
+        self.envname = ' '
+        self.envval = ' '
+        self.envuser = []
+        self.envnum = ' '
 
-     def print_env(self):
-         if len(self.envname) > 15:
-             print(self.envname[:13]+"..",end='')
-         else:
-             print(self.envname.ljust(15),end='')
-         if len(self.envval) > 15:
-             print(self.envval[:13]+"..",end='')
-         else:
-             print(self.envval.ljust(15),end='')
-         idx=0
-         for i in self.envuser:
-             if idx > 3:
-                 print("..")
-                 break
-             print(i+" ",end='')
-             idx+=1
-         print("")
+    def set_env_name(self, envname):
+        self.envname=envname
+
+    def set_env_value(self, envvalue):
+        self.envval=envvalue
+
+    def set_env_user(self, user):
+        self.envuser.append(user)
+
+    def print_env(self):
+        if len(self.envname) > 15:
+            print(self.envname[:13]+"..",end='')
+        else:
+            print(self.envname.ljust(15),end='')
+        if len(self.envval) > 15:
+            print(self.envval[:13]+"..",end='')
+        else:
+            print(self.envval.ljust(15),end='')
+        idx=0
+        for i in self.envuser:
+            if idx > 3:
+                print("..")
+                break
+            print(i+" ",end='')
+            idx+=1
+        print("")
 
 #########env 명령어로 환경변수 수집##############        
 
@@ -83,7 +83,7 @@ def extract_env_user(env_data):
 #########export 명령어로 환경변수 수집###################
 
 def extract_export_list(envlist):
-    command="./exeexport.sh"     
+    command="./exeexport.sh"
     fd_popen=subprocess.Popen(command,stdout=subprocess.PIPE,shell=True).stdout
     while True:
         exportdata=fd_popen.readline().strip().decode()
@@ -136,5 +136,5 @@ if __name__ == "__main__":
     extract_export_list(envlist)
     print(" 이름".ljust(15)+"  값".ljust(15)+"사용자".ljust(15))
     for i in envlist:
-        i.print_env() 
+        i.print_env()
 
