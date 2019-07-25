@@ -35,7 +35,7 @@ class SystemInfo:
 
     def set_sys_rlyear(self , rlyear):
         self.rlyear = rlyear
-    
+
     def set_sys_rlmonth(self , rlmonth):
         self.rlmonth = rlmonth
 
@@ -50,7 +50,7 @@ class SystemInfo:
 
    # def print_sys(self):
        # print(self.year+"년"+self.month+"월"+self.day+"일"+self.time
-        
+
 
 def extract_sys_year(sys_data):
     endidx = sys_data.find("-") - 1
@@ -83,7 +83,7 @@ def extract_sys_min(sys_data):
     return minute
 
 def extract_sys_rlyear(sys_data):
-    
+
 
 
 def extract_sys_info(syslist):
@@ -107,6 +107,4 @@ def extract_sys_info(syslist):
 if __name__ == "__main__":
     syslist = []
     extract_sys_info(syslist)
-
-
 

@@ -61,7 +61,7 @@ class ProcClass:
             datalist[1] += " " + datalist[i]
         for i in range(2 + cnt, len(datalist)):
             datalist[i - cnt] = datalist[i]
-            
+
         self.att = datalist[2]
         self.ppid = int(datalist[3])
         self.sessid = int(datalist[5])
@@ -184,7 +184,7 @@ def get_processes(path):
             dirlist.remove(dirname)
     return dirlist
 
-        
+
 def processes():
     basepath = "/proc/"
     dirlist = get_processes(basepath)
