@@ -46,7 +46,6 @@
 ##### Services
 - Key
 - Type
-- Status
 - Startup type
 - Command
 - Additional info
