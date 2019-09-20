@@ -1,0 +1,4776 @@
+---------------------------------------------
+Individual Package info
+
+Package: accountsservice
+Installed-Size: 440
+Architecture: amd64
+Version: 0.6.45-1ubuntu1
+Depends: dbus, libaccountsservice0 (= 0.6.45-1ubuntu1), libc6 (>= 2.4), libglib2.0-0 (>= 2.37.3), libpolkit-gobject-1-0 (>= 0.99)
+Description: query and manipulate user account information
+Homepage: https://www.freedesktop.org/wiki/Software/AccountsService/
+
+Package: acl
+Installed-Size: 200
+Architecture: amd64
+Version: 2.2.52-3build1
+Depends: libacl1 (= 2.2.52-3build1), libc6 (>= 2.14)
+Description: Access control list utilities
+Homepage: http://savannah.nongnu.org/projects/acl/
+
+Package: acpid
+Installed-Size: 139
+Architecture: amd64
+Version: 1:2.0.28-1ubuntu1
+Depends: libc6 (>= 2.15), init-system-helpers (>= 1.18~), lsb-base (>= 3.2-14), kmod
+Description: Advanced Configuration and Power Interface event daemon
+Homepage: http://sourceforge.net/projects/acpid2/
+
+Package: adduser
+Installed-Size: 624
+Architecture: all
+Version: 3.116ubuntu1
+Depends: passwd, debconf (>= 0.5) | debconf-2.0
+Description: add and remove users and groups
+Homepage: http://alioth.debian.org/projects/adduser/
+
+Package: apparmor
+Installed-Size: 1848
+Architecture: amd64
+Version: 2.12-4ubuntu5.1
+Depends: debconf, lsb-base, debconf (>= 0.5) | debconf-2.0, python3:any, libc6 (>= 2.17)
+Description: user-space parser utility for AppArmor
+Homepage: http://apparmor.net/
+
+Package: apport
+Installed-Size: 772
+Architecture: all
+Version: 2.20.9-0ubuntu7.7
+Depends: python3, python3-apport (>= 2.20.9-0ubuntu7.7), lsb-base (>= 3.0-6), python3-gi, gir1.2-glib-2.0 (>= 1.29.17)
+Description: automatically generate crash reports for debugging
+Homepage: https://wiki.ubuntu.com/Apport
+
+Package: apport-symptoms
+Installed-Size: 75
+Architecture: all
+Version: 0.20
+Description: symptom scripts for apport
+Homepage: https://wiki.ubuntu.com/Apport
+
+Package: apt
+Installed-Size: 3866
+Architecture: amd64
+Version: 1.6.12
+Depends: adduser, gpgv | gpgv2 | gpgv1, ubuntu-keyring, libapt-pkg5.0 (>= 1.6.12), libc6 (>= 2.15), libgcc1 (>= 1:3.0), libgnutls30 (>= 3.5.6), libseccomp2 (>= 1.0.1), libstdc++6 (>= 5.2)
+Description: commandline package manager
+
+Package: apt-utils
+Installed-Size: 768
+Architecture: amd64
+Version: 1.6.12
+Depends: apt (= 1.6.12), libapt-inst2.0 (>= 1.0.5), libapt-pkg5.0 (>= 1.3~rc2), libc6 (>= 2.14), libdb5.3, libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Description: package management related utility programs
+
+Package: at
+Installed-Size: 151
+Architecture: amd64
+Version: 3.1.20-3.1ubuntu2
+Depends: libpam-runtime (>= 1.0.1-11), lsb-base (>= 3.2-14), libc6 (>= 2.14), libpam0g (>= 0.99.7.1), libselinux1 (>= 2.1.9)
+Description: Delayed job execution and batch processing
+Homepage: http://blog.calhariz.com
+
+Package: base-files
+Installed-Size: 386
+Architecture: amd64
+Version: 10.1ubuntu2.6
+Depends: libc6 (>= 2.3.4)
+Pre-Depends: awk
+Description: Debian base system miscellaneous files
+
+Package: base-passwd
+Installed-Size: 228
+Architecture: amd64
+Version: 3.5.44
+Depends: libc6 (>= 2.8), libdebconfclient0 (>= 0.145)
+Description: Debian base system master password and group files
+
+Package: bash
+Installed-Size: 1588
+Architecture: amd64
+Version: 4.4.18-2ubuntu1.2
+Depends: base-files (>= 2.1.12), debianutils (>= 2.15)
+Pre-Depends: libc6 (>= 2.15), libtinfo5 (>= 6)
+Description: GNU Bourne Again SHell
+Homepage: http://tiswww.case.edu/php/chet/bash/bashtop.html
+
+Package: bash-completion
+Installed-Size: 1361
+Architecture: all
+Version: 1:2.8-1ubuntu1
+Description: programmable completion for the bash shell
+Homepage: https://github.com/scop/bash-completion
+
+Package: bc
+Installed-Size: 218
+Architecture: amd64
+Version: 1.07.1-2
+Depends: libc6 (>= 2.14), libreadline7 (>= 6.0)
+Description: GNU bc arbitrary precision calculator language
+Homepage: http://ftp.gnu.org/gnu/bc/
+
+Package: bcache-tools
+Installed-Size: 86
+Architecture: amd64
+Version: 1.0.8-2build1
+Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.8), libuuid1 (>= 2.16)
+Description: bcache userspace tools
+Homepage: http://bcache.evilpiepirate.org/
+
+Package: bind9-host
+Installed-Size: 174
+Architecture: amd64
+Version: 1:9.11.3+dfsg-1ubuntu1.9
+Depends: libbind9-160 (= 1:9.11.3+dfsg-1ubuntu1.9), libdns1100 (= 1:9.11.3+dfsg-1ubuntu1.9), libisc169 (= 1:9.11.3+dfsg-1ubuntu1.9), libisccfg160 (= 1:9.11.3+dfsg-1ubuntu1.9), liblwres160 (= 1:9.11.3+dfsg-1ubuntu1.9), libc6 (>= 2.4)
+Description: DNS lookup utility (deprecated)
+Homepage: https://www.isc.org/downloads/bind/
+
+Package: binutils
+Installed-Size: 102
+Architecture: amd64
+Version: 2.30-21ubuntu1~18.04.2
+Depends: libc6 (>= 2.27), zlib1g (>= 1:1.1.4), binutils-common (= 2.30-21ubuntu1~18.04.2), libbinutils (= 2.30-21ubuntu1~18.04.2), binutils-x86-64-linux-gnu (= 2.30-21ubuntu1~18.04.2)
+Description: GNU assembler, linker and binary utilities
+Homepage: https://www.gnu.org/software/binutils/
+
+Package: binutils-common
+Installed-Size: 416
+Architecture: amd64
+Version: 2.30-21ubuntu1~18.04.2
+Description: Common files for the GNU assembler, linker and binary utilities
+Homepage: https://www.gnu.org/software/binutils/
+
+Package: binutils-x86-64-linux-gnu
+Installed-Size: 11758
+Architecture: amd64
+Version: 2.30-21ubuntu1~18.04.2
+Depends: binutils-common (= 2.30-21ubuntu1~18.04.2), libbinutils (= 2.30-21ubuntu1~18.04.2), libc6 (>= 2.27), zlib1g (>= 1:1.1.4)
+Description: GNU binary utilities, for x86-64-linux-gnu target
+Homepage: https://www.gnu.org/software/binutils/
+
+Package: bsdmainutils
+Installed-Size: 583
+Architecture: amd64
+Version: 11.1.2ubuntu1
+Depends: libbsd0 (>= 0.2.0), libc6 (>= 2.14), libtinfo5 (>= 6), bsdutils (>= 3.0-0), debianutils (>= 1.8)
+Description: collection of more utilities from FreeBSD
+
+Package: bsdutils
+Installed-Size: 264
+Architecture: amd64
+Version: 1:2.31.1-0.4ubuntu3.4
+Pre-Depends: libc6 (>= 2.14), libsystemd0
+Description: basic utilities from 4.4BSD-Lite
+
+Package: btrfs-progs
+Installed-Size: 4110
+Architecture: amd64
+Version: 4.15.1-1build1
+Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.8), liblzo2-2, libuuid1 (>= 2.16), libzstd1 (>= 1.3.2), zlib1g (>= 1:1.2.0)
+Description: Checksumming Copy on Write Filesystem utilities
+Homepage: http://btrfs.wiki.kernel.org/
+
+Package: btrfs-tools
+Installed-Size: 18
+Architecture: amd64
+Version: 4.15.1-1build1
+Depends: btrfs-progs
+Description: transitional dummy package
+Homepage: http://btrfs.wiki.kernel.org/
+
+Package: build-essential
+Installed-Size: 20
+Architecture: amd64
+Version: 12.4ubuntu1
+Depends: libc6-dev | libc-dev, gcc (>= 4:7.2), g++ (>= 4:7.2), make, dpkg-dev (>= 1.17.11)
+Description: Informational list of build-essential packages
+
+Package: busybox-initramfs
+Installed-Size: 345
+Architecture: amd64
+Version: 1:1.27.2-2ubuntu3.2
+Depends: libc6 (>= 2.11)
+Description: Standalone shell setup for initramfs
+Homepage: http://www.busybox.net
+
+Package: busybox-static
+Installed-Size: 2113
+Architecture: amd64
+Version: 1:1.27.2-2ubuntu3.2
+Description: Standalone rescue shell with tons of builtin utilities
+Homepage: http://www.busybox.net
+
+Package: byobu
+Installed-Size: 650
+Architecture: all
+Version: 5.125-0ubuntu1
+Depends: debconf (>= 0.5) | debconf-2.0, python3:any (>= 3.3.2-2~), gettext-base, net-tools, python3, python3-newt, tmux (>= 1.5), gawk
+Description: text window manager, shell multiplexer, integrated DevOps environment
+Homepage: http://byobu.org
+
+Package: bzip2
+Installed-Size: 177
+Architecture: amd64
+Version: 1.0.6-8.1ubuntu0.2
+Depends: libbz2-1.0 (= 1.0.6-8.1ubuntu0.2), libc6 (>= 2.14)
+Description: high-quality block-sorting file compressor - utilities
+Homepage: http://www.bzip.org/
+
+Package: ca-certificates
+Installed-Size: 392
+Architecture: all
+Version: 20180409
+Depends: openssl (>= 1.1.0), debconf (>= 0.5) | debconf-2.0
+Description: Common CA certificates
+
+Package: cloud-guest-utils
+Installed-Size: 57
+Architecture: all
+Version: 0.30-0ubuntu5
+Depends: e2fsprogs (>= 1.4), util-linux (>= 2.17.2), python3:any
+Description: cloud guest utilities
+
+Package: cloud-init
+Installed-Size: 1970
+Architecture: all
+Version: 19.2-24-ge7881d5c-0ubuntu1~18.04.1
+Depends: cloud-guest-utils | cloud-utils, isc-dhcp-client, iproute2, netplan.io | ifupdown, procps, python3, python3-requests, python3-serial, debconf (>= 0.5) | debconf-2.0, python3-configobj, python3-jinja2, python3-jsonpatch, python3-jsonschema, python3-oauthlib, python3-six, python3-yaml, python3:any (>= 3.3.2-2~)
+Description: Init scripts for cloud instances
+
+Package: cloud-initramfs-copymods
+Installed-Size: 25
+Architecture: all
+Version: 0.40ubuntu1.1
+Depends: initramfs-tools
+Description: copy initramfs modules into root filesystem for later use
+Homepage: http://launchpad.net/cloud-initramfs-tools
+
+Package: cloud-initramfs-dyn-netconf
+Installed-Size: 31
+Architecture: all
+Version: 0.40ubuntu1.1
+Depends: initramfs-tools
+Description: write a network interface file in /run for BOOTIF
+Homepage: http://launchpad.net/cloud-initramfs-tools
+
+Package: command-not-found
+Installed-Size: 35
+Architecture: all
+Version: 18.04.5
+Depends: python3-commandnotfound (= 18.04.5)
+Description: Suggest installation of packages in interactive bash sessions
+
+Package: command-not-found-data
+Installed-Size: 2961
+Architecture: amd64
+Version: 18.04.5
+Description: Set of data files for command-not-found.
+
+Package: console-setup
+Installed-Size: 446
+Architecture: all
+Version: 1.178ubuntu2.9
+Depends: console-setup-linux | console-setup-freebsd | hurd, xkb-data (>= 0.9), keyboard-configuration (= 1.178ubuntu2.9)
+Pre-Depends: debconf (>= 1.5.34)
+Description: console font and keymap setup program
+
+Package: console-setup-linux
+Installed-Size: 1229
+Architecture: all
+Version: 1.178ubuntu2.9
+Depends: kbd (>= 0.99-12) | console-tools (>= 1:0.2.3-16), keyboard-configuration (= 1.178ubuntu2.9), init-system-helpers (>= 1.29~) | initscripts
+Description: Linux specific part of console-setup
+
+Package: coreutils
+Installed-Size: 6560
+Architecture: amd64
+Version: 8.28-1ubuntu1
+Pre-Depends: libacl1 (>= 2.2.51-8), libattr1 (>= 1:2.4.46-8), libc6 (>= 2.25), libselinux1 (>= 2.1.13)
+Description: GNU core utilities
+Homepage: http://gnu.org/software/coreutils
+
+Package: cpio
+Installed-Size: 348
+Architecture: amd64
+Version: 2.12+dfsg-6
+Depends: libc6 (>= 2.17)
+Description: GNU cpio -- a program to manage archives of files
+Homepage: http://www.gnu.org/software/cpio/
+
+Package: cpp
+Installed-Size: 64
+Architecture: amd64
+Version: 4:7.4.0-1ubuntu2.3
+Depends: cpp-7 (>= 7.4.0-1~)
+Description: GNU C preprocessor (cpp)
+
+Package: cpp-7
+Installed-Size: 22753
+Architecture: amd64
+Version: 7.4.0-1ubuntu1~18.04.1
+Depends: gcc-7-base (= 7.4.0-1ubuntu1~18.04.1), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libisl19 (>= 0.15), libmpc3, libmpfr6 (>= 3.1.3), zlib1g (>= 1:1.1.4)
+Description: GNU C preprocessor
+Homepage: http://gcc.gnu.org/
+
+Package: cron
+Installed-Size: 247
+Architecture: amd64
+Version: 3.0pl1-128.1ubuntu1
+Depends: libc6 (>= 2.7), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), debianutils (>= 1.7), adduser, lsb-base (>= 3.0-10), libpam-runtime (>= 1.0.1-11)
+Pre-Depends: dpkg (>= 1.15.7.2)
+Description: process scheduling daemon
+Homepage: http://ftp.isc.org/isc/cron/
+
+Package: cryptsetup
+Installed-Size: 393
+Architecture: amd64
+Version: 2:2.0.2-1ubuntu1.1
+Depends: cryptsetup-bin (>= 2:1.6.0), dmsetup, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.15)
+Description: disk encryption support - startup scripts
+Homepage: https://gitlab.com/cryptsetup/cryptsetup
+
+Package: cryptsetup-bin
+Installed-Size: 416
+Architecture: amd64
+Version: 2:2.0.2-1ubuntu1.1
+Depends: libc6 (>= 2.15), libcryptsetup12 (>= 2:2.0.1), libpopt0 (>= 1.14), libuuid1 (>= 2.16)
+Description: disk encryption support - command line tools
+Homepage: https://gitlab.com/cryptsetup/cryptsetup
+
+Package: curl
+Installed-Size: 387
+Architecture: amd64
+Version: 7.58.0-2ubuntu3.8
+Depends: libc6 (>= 2.17), libcurl4 (= 7.58.0-2ubuntu3.8), zlib1g (>= 1:1.1.4)
+Description: command line tool for transferring data with URL syntax
+Homepage: http://curl.haxx.se
+
+Package: dash
+Installed-Size: 214
+Architecture: amd64
+Version: 0.5.8-2.10
+Depends: debianutils (>= 2.15), dpkg (>= 1.15.0)
+Pre-Depends: libc6 (>= 2.14)
+Description: POSIX-compliant shell
+Homepage: http://gondor.apana.org.au/~herbert/dash/
+
+Package: dbus
+Installed-Size: 560
+Architecture: amd64
+Version: 1.12.2-1ubuntu1.1
+Depends: adduser, lsb-base, libapparmor1 (>= 2.8.94), libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), libcap-ng0, libdbus-1-3 (= 1.12.2-1ubuntu1.1), libexpat1 (>= 2.1~beta3), libselinux1 (>= 2.0.65), libsystemd0
+Description: simple interprocess messaging system (daemon and utilities)
+Homepage: http://dbus.freedesktop.org/
+
+Package: dbus-x11
+Installed-Size: 147
+Architecture: amd64
+Version: 1.12.2-1ubuntu1.1
+Depends: dbus, libc6 (>= 2.15), libdbus-1-3 (= 1.12.2-1ubuntu1.1), libx11-6
+Description: simple interprocess messaging system (X11 deps)
+Homepage: http://dbus.freedesktop.org/
+
+Package: debconf
+Installed-Size: 544
+Architecture: all
+Version: 1.5.66ubuntu1
+Pre-Depends: perl-base (>= 5.20.1-3~)
+Description: Debian configuration management system
+
+Package: debconf-i18n
+Installed-Size: 780
+Architecture: all
+Version: 1.5.66ubuntu1
+Depends: debconf (= 1.5.66ubuntu1), liblocale-gettext-perl, libtext-iconv-perl, libtext-wrapi18n-perl, libtext-charwidth-perl
+Description: full internationalization support for debconf
+
+Package: debianutils
+Installed-Size: 212
+Architecture: amd64
+Version: 4.8.4
+Pre-Depends: libc6 (>= 2.15)
+Description: Miscellaneous utilities specific to Debian
+
+Package: dh-python
+Installed-Size: 429
+Architecture: all
+Version: 3.20180325ubuntu2
+Depends: python3:any (>= 3.3.2-2~), python3-distutils
+Description: Debian helper tools for packaging Python libraries and applications
+
+Package: diffutils
+Installed-Size: 452
+Architecture: amd64
+Version: 1:3.6-1
+Pre-Depends: libc6 (>= 2.17)
+Description: File comparison utilities
+Homepage: http://www.gnu.org/software/diffutils/
+
+Package: dirmngr
+Installed-Size: 852
+Architecture: amd64
+Version: 2.2.4-1ubuntu1.2
+Depends: adduser, gpgconf (= 2.2.4-1ubuntu1.2), lsb-base (>= 3.2-13), libassuan0 (>= 2.4.0), libc6 (>= 2.15), libgcrypt20 (>= 1.8.0), libgnutls30 (>= 3.5.6), libgpg-error0 (>= 1.21), libksba8 (>= 1.3.4), libldap-2.4-2 (>= 2.4.7), libnpth0 (>= 0.90)
+Description: GNU privacy guard - network certificate management service
+Homepage: https://www.gnupg.org/
+
+Package: distro-info-data
+Installed-Size: 16
+Architecture: all
+Version: 0.37ubuntu0.5
+Description: information about the distributions' releases (data files)
+
+Package: dmeventd
+Installed-Size: 188
+Architecture: amd64
+Version: 2:1.02.145-4.1ubuntu3.18.04.1
+Depends: libc6 (>= 2.14), libdevmapper-event1.02.1 (>= 2:1.02.110), libdevmapper1.02.1 (>= 2:1.02.141), liblvm2cmd2.02 (>= 2.02.176)
+Description: Linux Kernel Device Mapper event daemon
+Homepage: http://sources.redhat.com/lvm2/
+
+Package: dmidecode
+Installed-Size: 178
+Architecture: amd64
+Version: 3.1-1
+Depends: libc6 (>= 2.4)
+Description: SMBIOS/DMI table decoder
+Homepage: http://nongnu.org/dmidecode/
+
+Package: dmsetup
+Installed-Size: 254
+Architecture: amd64
+Version: 2:1.02.145-4.1ubuntu3.18.04.1
+Depends: libc6 (>= 2.14), libdevmapper1.02.1 (>= 2:1.02.138)
+Description: Linux Kernel Device Mapper userspace library
+Homepage: http://sources.redhat.com/lvm2/
+
+Package: dns-root-data
+Installed-Size: 17
+Architecture: all
+Version: 2018013001
+Description: DNS root data including root zone and DNSSEC key
+Homepage: https://data.iana.org/root-anchors/
+
+Package: dnsmasq-base
+Installed-Size: 764
+Architecture: amd64
+Version: 2.79-1
+Depends: adduser, libc6 (>= 2.14), libdbus-1-3 (>= 1.9.14), libgmp10, libhogweed4, libidn11 (>= 1.13), libnetfilter-conntrack3, libnettle6 (>= 3.4~)
+Description: Small caching DNS proxy and DHCP/TFTP server
+Homepage: http://www.thekelleys.org.uk/dnsmasq/doc.html
+
+Package: dnsutils
+Installed-Size: 502
+Architecture: amd64
+Version: 1:9.11.3+dfsg-1ubuntu1.9
+Depends: bind9-host | host, libbind9-160 (= 1:9.11.3+dfsg-1ubuntu1.9), libdns1100 (= 1:9.11.3+dfsg-1ubuntu1.9), libisc169 (= 1:9.11.3+dfsg-1ubuntu1.9), libisccfg160 (= 1:9.11.3+dfsg-1ubuntu1.9), liblwres160 (= 1:9.11.3+dfsg-1ubuntu1.9), libc6 (>= 2.4), libirs160 (>= 1:9.10.6+dfsg), libkrb5-3 (>= 1.6.dfsg.2)
+Description: Clients provided with BIND
+Homepage: https://www.isc.org/downloads/bind/
+
+Package: dosfstools
+Installed-Size: 211
+Architecture: amd64
+Version: 4.1-1
+Depends: libc6 (>= 2.14), libudev1 (>= 183)
+Description: utilities for making and checking MS-DOS FAT filesystems
+Homepage: https://github.com/dosfstools/dosfstools
+
+Package: dpkg
+Installed-Size: 6770
+Architecture: amd64
+Version: 1.19.0.5ubuntu2.2
+Depends: tar (>= 1.28-1)
+Pre-Depends: libbz2-1.0, libc6 (>= 2.14), liblzma5 (>= 5.2.2), libselinux1 (>= 2.3), zlib1g (>= 1:1.1.4)
+Description: Debian package management system
+Homepage: https://wiki.debian.org/Teams/Dpkg
+
+Package: dpkg-dev
+Installed-Size: 1929
+Architecture: all
+Version: 1.19.0.5ubuntu2.2
+Depends: perl:any, libdpkg-perl (= 1.19.0.5ubuntu2.2), tar (>= 1.28-1), bzip2, xz-utils, patch (>= 2.7), make, binutils
+Description: Debian package development tools
+Homepage: https://wiki.debian.org/Teams/Dpkg
+
+Package: e2fsprogs
+Installed-Size: 1227
+Architecture: amd64
+Version: 1.44.1-1ubuntu1.1
+Pre-Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.14), libcom-err2 (>= 1.42~WIP-2011-10-05-1), libext2fs2 (= 1.44.1-1ubuntu1.1), libss2 (>= 1.34-1), libuuid1 (>= 2.16)
+Description: ext2/ext3/ext4 file system utilities
+Homepage: http://e2fsprogs.sourceforge.net
+
+Package: eatmydata
+Installed-Size: 21
+Architecture: all
+Version: 105-6
+Depends: libeatmydata1 (>= 105-6)
+Description: Library and utilities designed to disable fsync and friends
+Homepage: https://launchpad.net/libeatmydata
+
+Package: ebtables
+Installed-Size: 348
+Architecture: amd64
+Version: 2.0.10.4-3.5ubuntu2.18.04.3
+Depends: libc6 (>= 2.14)
+Description: Ethernet bridge frame table administration
+Homepage: http://ebtables.sourceforge.net
+
+Package: ed
+Installed-Size: 101
+Architecture: amd64
+Version: 1.10-2.1
+Depends: libc6 (>= 2.14)
+Description: classic UNIX line editor
+Homepage: http://www.gnu.org/software/ed/
+
+Package: eject
+Installed-Size: 160
+Architecture: amd64
+Version: 2.1.5+deb1+cvs20081104-13.2
+Depends: libc6 (>= 2.8), libdevmapper1.02.1 (>= 2:1.02.97)
+Description: ejects CDs and operates CD-Changers under Linux
+Homepage: http://www.pobox.com/~tranter/eject.html
+
+Package: ethtool
+Installed-Size: 383
+Architecture: amd64
+Version: 1:4.15-0ubuntu1
+Depends: libc6 (>= 2.14)
+Description: display or change Ethernet device settings
+Homepage: https://www.kernel.org/pub/software/network/ethtool/
+
+Package: fakeroot
+Installed-Size: 215
+Architecture: amd64
+Version: 1.22-2ubuntu1
+Depends: libfakeroot (>= 1.22-2ubuntu1), libc6 (>= 2.15)
+Description: tool for simulating superuser privileges
+
+Package: fdisk
+Installed-Size: 427
+Architecture: amd64
+Version: 2.31.1-0.4ubuntu3.4
+Depends: libc6 (>= 2.14), libfdisk1 (>= 2.31.1), libmount1 (>= 2.24.2), libncursesw5 (>= 6), libsmartcols1 (>= 2.28~rc1), libtinfo5 (>= 6)
+Description: collection of partitioning utilities
+
+Package: file
+Installed-Size: 80
+Architecture: amd64
+Version: 1:5.32-2ubuntu0.2
+Depends: libc6 (>= 2.4), libmagic1 (= 1:5.32-2ubuntu0.2)
+Description: Recognize the type of data in a file using "magic" numbers
+Homepage: http://www.darwinsys.com/file/
+
+Package: findutils
+Installed-Size: 580
+Architecture: amd64
+Version: 4.6.0+git+20170828-2
+Pre-Depends: libc6 (>= 2.17), libselinux1 (>= 1.32)
+Description: utilities for finding files--find, xargs
+Homepage: https://savannah.gnu.org/projects/findutils/
+
+Package: fontconfig-config
+Installed-Size: 414
+Architecture: all
+Version: 2.12.6-0ubuntu2
+Depends: ucf (>= 0.29), fonts-dejavu-core | ttf-bitstream-vera | fonts-liberation | fonts-freefont
+Description: generic font configuration library - configuration
+Homepage: https://www.freedesktop.org/wiki/Software/fontconfig/
+
+Package: fonts-dejavu-core
+Installed-Size: 2954
+Architecture: all
+Version: 2.37-1
+Description: Vera font family derivate with additional characters
+Homepage: http://dejavu-fonts.org/
+
+Package: fonts-ubuntu-console
+Installed-Size: 62
+Architecture: all
+Version: 0.83-2
+Description: console version of the Ubuntu Mono font
+Homepage: https://design.ubuntu.com/font/
+
+Package: friendly-recovery
+Installed-Size: 45
+Architecture: all
+Version: 0.2.38ubuntu1.1
+Depends: systemd-sysv, whiptail
+Description: Make recovery boot mode more user-friendly
+
+Package: ftp
+Installed-Size: 136
+Architecture: amd64
+Version: 0.17-34
+Depends: libc6 (>= 2.15), libreadline7 (>= 6.0), netbase
+Description: classical file transfer client
+
+Package: fuse
+Installed-Size: 104
+Architecture: amd64
+Version: 2.9.7-1ubuntu1
+Depends: libc6 (>= 2.14), libfuse2 (= 2.9.7-1ubuntu1), adduser, mount (>= 2.19.1), sed (>= 4)
+Description: Filesystem in Userspace
+Homepage: https://github.com/libfuse/libfuse/wiki
+
+Package: g++
+Installed-Size: 16
+Architecture: amd64
+Version: 4:7.4.0-1ubuntu2.3
+Depends: cpp (>= 4:7.4.0-1ubuntu2.3), gcc (>= 4:7.4.0-1ubuntu2.3), g++-7 (>= 7.4.0-1~), gcc-7 (>= 7.4.0-1~)
+Description: GNU C++ compiler
+
+Package: g++-7
+Installed-Size: 24379
+Architecture: amd64
+Version: 7.4.0-1ubuntu1~18.04.1
+Depends: gcc-7-base (= 7.4.0-1ubuntu1~18.04.1), gcc-7 (= 7.4.0-1ubuntu1~18.04.1), libstdc++-7-dev (= 7.4.0-1ubuntu1~18.04.1), libc6 (>= 2.14), libgmp10 (>= 2:5.0.1~), libisl19 (>= 0.15), libmpc3, libmpfr6 (>= 3.1.3), zlib1g (>= 1:1.1.4)
+Description: GNU C++ compiler
+Homepage: http://gcc.gnu.org/
+
+Package: gawk
+Installed-Size: 1516
+Architecture: amd64
+Version: 1:4.1.4+dfsg-1build1
+Pre-Depends: libc6 (>= 2.15), libgmp10, libmpfr6 (>= 3.1.3), libreadline7 (>= 6.0), libsigsegv2 (>= 2.9)
+Description: GNU awk, a pattern scanning and processing language
+Homepage: http://www.gnu.org/software/gawk/
+
+Package: gcc
+Installed-Size: 50
+Architecture: amd64
+Version: 4:7.4.0-1ubuntu2.3
+Depends: cpp (>= 4:7.4.0-1ubuntu2.3), gcc-7 (>= 7.4.0-1~)
+Description: GNU C compiler
+
+Package: gcc-7
+Installed-Size: 26005
+Architecture: amd64
+Version: 7.4.0-1ubuntu1~18.04.1
+Depends: cpp-7 (= 7.4.0-1ubuntu1~18.04.1), gcc-7-base (= 7.4.0-1ubuntu1~18.04.1), libcc1-0 (>= 7.4.0-1ubuntu1~18.04.1), binutils (>= 2.30), libgcc-7-dev (= 7.4.0-1ubuntu1~18.04.1), libc6 (>= 2.15), libgcc1 (>= 1:3.0), libgmp10 (>= 2:5.0.1~), libisl19 (>= 0.15), libmpc3, libmpfr6 (>= 3.1.3), libstdc++6 (>= 5), zlib1g (>= 1:1.1.4)
+Description: GNU C compiler
+Homepage: http://gcc.gnu.org/
+
+Package: gcc-7-base
+Installed-Size: 112
+Architecture: amd64
+Version: 7.4.0-1ubuntu1~18.04.1
+Description: GCC, the GNU Compiler Collection (base package)
+Homepage: http://gcc.gnu.org/
+
+Package: gcc-8-base
+Installed-Size: 113
+Architecture: amd64
+Version: 8.3.0-6ubuntu1~18.04.1
+Description: GCC, the GNU Compiler Collection (base package)
+Homepage: http://gcc.gnu.org/
+
+Package: gdisk
+Installed-Size: 783
+Architecture: amd64
+Version: 1.0.3-1
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libncursesw5 (>= 6), libpopt0 (>= 1.14), libstdc++6 (>= 5.2), libtinfo5 (>= 6), libuuid1 (>= 2.16)
+Description: GPT fdisk text-mode partitioning tool
+Homepage: http://sourceforge.net/projects/gptfdisk/
+
+Package: geoip-database
+Installed-Size: 6834
+Architecture: all
+Version: 20180315-1
+Description: IP lookup command line tools that use the GeoIP library (country database)
+Homepage: http://www.maxmind.com/
+
+Package: gettext-base
+Installed-Size: 710
+Architecture: amd64
+Version: 0.19.8.1-6ubuntu0.3
+Depends: libc6 (>= 2.14)
+Description: GNU Internationalization utilities for the base system
+Homepage: http://www.gnu.org/software/gettext/
+
+Package: gir1.2-glib-2.0
+Installed-Size: 630
+Architecture: amd64
+Version: 1.56.1-1
+Depends: libgirepository-1.0-1 (>= 1.45.4), libglib2.0-0 (>= 2.56.1)
+Description: Introspection data for GLib, GObject, Gio and GModule
+Homepage: https://wiki.gnome.org/GObjectIntrospection
+
+Package: git
+Installed-Size: 31444
+Architecture: amd64
+Version: 1:2.17.1-1ubuntu0.4
+Depends: libc6 (>= 2.16), libcurl3-gnutls (>= 7.16.2), libexpat1 (>= 2.0.1), libpcre3, zlib1g (>= 1:1.2.0), perl, liberror-perl, git-man (>> 1:2.17.1), git-man (<< 1:2.17.1-.)
+Description: fast, scalable, distributed revision control system
+Homepage: https://git-scm.com/
+
+Package: git-man
+Installed-Size: 1589
+Architecture: all
+Version: 1:2.17.1-1ubuntu0.4
+Description: fast, scalable, distributed revision control system (manual pages)
+Homepage: https://git-scm.com/
+
+Package: gnupg
+Installed-Size: 362
+Architecture: amd64
+Version: 2.2.4-1ubuntu1.2
+Depends: dirmngr (= 2.2.4-1ubuntu1.2), gnupg-l10n (= 2.2.4-1ubuntu1.2), gnupg-utils (= 2.2.4-1ubuntu1.2), gpg (= 2.2.4-1ubuntu1.2), gpg-agent (= 2.2.4-1ubuntu1.2), gpg-wks-client (= 2.2.4-1ubuntu1.2), gpg-wks-server (= 2.2.4-1ubuntu1.2), gpgsm (= 2.2.4-1ubuntu1.2), gpgv (= 2.2.4-1ubuntu1.2)
+Description: GNU privacy guard - a free PGP replacement
+Homepage: https://www.gnupg.org/
+
+Package: gnupg-l10n
+Installed-Size: 364
+Architecture: all
+Version: 2.2.4-1ubuntu1.2
+Description: GNU privacy guard - localization files
+Homepage: https://www.gnupg.org/
+
+Package: gnupg-utils
+Installed-Size: 466
+Architecture: amd64
+Version: 2.2.4-1ubuntu1.2
+Depends: libassuan0 (>= 2.0.1), libbz2-1.0, libc6 (>= 2.15), libgcrypt20 (>= 1.8.0), libgpg-error0 (>= 1.14), libksba8 (>= 1.3.4), zlib1g (>= 1:1.1.4)
+Description: GNU privacy guard - utility programs
+Homepage: https://www.gnupg.org/
+
+Package: gpg
+Installed-Size: 1082
+Architecture: amd64
+Version: 2.2.4-1ubuntu1.2
+Depends: gpgconf (= 2.2.4-1ubuntu1.2), libassuan0 (>= 2.0.1), libbz2-1.0, libc6 (>= 2.14), libgcrypt20 (>= 1.8.0), libgpg-error0 (>= 1.14), libreadline7 (>= 6.0), libsqlite3-0 (>= 3.7.15), zlib1g (>= 1:1.1.4)
+Description: GNU Privacy Guard -- minimalist public key operations
+Homepage: https://www.gnupg.org/
+
+Package: gpg-agent
+Installed-Size: 855
+Architecture: amd64
+Version: 2.2.4-1ubuntu1.2
+Depends: gpgconf (= 2.2.4-1ubuntu1.2), pinentry-curses | pinentry, libassuan0 (>= 2.5.1), libc6 (>= 2.17), libgcrypt20 (>= 1.8.0), libgpg-error0 (>= 1.14), libnpth0 (>= 0.90)
+Description: GNU privacy guard - cryptographic agent
+Homepage: https://www.gnupg.org/
+
+Package: gpg-wks-client
+Installed-Size: 251
+Architecture: amd64
+Version: 2.2.4-1ubuntu1.2
+Depends: dirmngr (= 2.2.4-1ubuntu1.2), gpg (= 2.2.4-1ubuntu1.2), gpg-agent (= 2.2.4-1ubuntu1.2), libassuan0 (>= 2.0.1), libc6 (>= 2.14), libgcrypt20 (>= 1.8.0), libgpg-error0 (>= 1.21)
+Description: GNU privacy guard - Web Key Service client
+Homepage: https://www.gnupg.org/
+
+Package: gpg-wks-server
+Installed-Size: 235
+Architecture: amd64
+Version: 2.2.4-1ubuntu1.2
+Depends: gpg (= 2.2.4-1ubuntu1.2), gpg-agent (= 2.2.4-1ubuntu1.2), libc6 (>= 2.14), libgcrypt20 (>= 1.8.0), libgpg-error0 (>= 1.21)
+Description: GNU privacy guard - Web Key Service server
+Homepage: https://www.gnupg.org/
+
+Package: gpgconf
+Installed-Size: 384
+Architecture: amd64
+Version: 2.2.4-1ubuntu1.2
+Depends: libassuan0 (>= 2.0.1), libc6 (>= 2.14), libgcrypt20 (>= 1.8.0), libgpg-error0 (>= 1.14), libreadline7 (>= 6.0)
+Description: GNU privacy guard - core configuration utilities
+Homepage: https://www.gnupg.org/
+
+Package: gpgsm
+Installed-Size: 549
+Architecture: amd64
+Version: 2.2.4-1ubuntu1.2
+Depends: gpgconf (= 2.2.4-1ubuntu1.2), libassuan0 (>= 2.0.1), libc6 (>= 2.14), libgcrypt20 (>= 1.8.0), libgpg-error0 (>= 1.14), libksba8 (>= 1.3.4), libreadline7 (>= 6.0)
+Description: GNU privacy guard - S/MIME version
+Homepage: https://www.gnupg.org/
+
+Package: gpgv
+Installed-Size: 476
+Architecture: amd64
+Version: 2.2.4-1ubuntu1.2
+Depends: libbz2-1.0, libc6 (>= 2.14), libgcrypt20 (>= 1.8.0), libgpg-error0 (>= 1.14), zlib1g (>= 1:1.1.4)
+Description: GNU privacy guard - signature verification tool
+Homepage: https://www.gnupg.org/
+
+Package: grep
+Installed-Size: 508
+Architecture: amd64
+Version: 3.1-2
+Depends: dpkg (>= 1.15.4) | install-info
+Pre-Depends: libc6 (>= 2.14), libpcre3
+Description: GNU grep, egrep and fgrep
+Homepage: http://www.gnu.org/software/grep/
+
+Package: groff-base
+Installed-Size: 3298
+Architecture: amd64
+Version: 1.22.3-10
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.0), libstdc++6 (>= 4.1.1)
+Description: GNU troff text-formatting system (base system components)
+Homepage: https://www.gnu.org/software/groff/
+
+Package: gzip
+Installed-Size: 229
+Architecture: amd64
+Version: 1.6-5ubuntu1
+Depends: dpkg (>= 1.15.4) | install-info
+Pre-Depends: libc6 (>= 2.17)
+Description: GNU compression utilities
+
+Package: hdparm
+Installed-Size: 235
+Architecture: amd64
+Version: 9.54+ds-1
+Depends: libc6 (>= 2.14), lsb-base
+Description: tune hard disk parameters for high performance
+Homepage: http://sourceforge.net/projects/hdparm/
+
+Package: hostname
+Installed-Size: 46
+Architecture: amd64
+Version: 3.20
+Pre-Depends: libc6 (>= 2.4)
+Description: utility to set/show the host name or domain name
+
+Package: htop
+Installed-Size: 216
+Architecture: amd64
+Version: 2.1.0-3
+Depends: libc6 (>= 2.15), libncursesw5 (>= 6), libtinfo5 (>= 6)
+Description: interactive processes viewer
+Homepage: https://hisham.hm/htop/
+
+Package: info
+Installed-Size: 585
+Architecture: amd64
+Version: 6.5.0.dfsg.1-2
+Depends: libc6 (>= 2.15), libtinfo5 (>= 6), install-info
+Description: Standalone GNU Info documentation browser
+
+Package: init
+Installed-Size: 19
+Architecture: amd64
+Version: 1.51
+Depends: init-system-helpers (>= 1.25)
+Pre-Depends: systemd-sysv
+Description: metapackage ensuring an init system is installed
+
+Package: init-system-helpers
+Installed-Size: 129
+Architecture: all
+Version: 1.51
+Depends: perl-base (>= 5.20.1-3)
+Description: helper tools for all init systems
+
+Package: initramfs-tools
+Installed-Size: 137
+Architecture: all
+Version: 0.130ubuntu3.8
+Depends: initramfs-tools-core (= 0.130ubuntu3.8), linux-base
+Description: generic modular initramfs generator (automation)
+
+Package: initramfs-tools-bin
+Installed-Size: 114
+Architecture: amd64
+Version: 0.130ubuntu3.8
+Depends: libc6 (>= 2.4), libudev1 (>= 183)
+Description: binaries used by initramfs-tools
+
+Package: initramfs-tools-core
+Installed-Size: 269
+Architecture: all
+Version: 0.130ubuntu3.8
+Depends: busybox-initramfs (>= 1:1.22.0-17~), initramfs-tools-bin (= 0.130ubuntu3.8), klibc-utils (>= 2.0.4-8~), cpio, kmod | module-init-tools, udev, coreutils (>= 8.24)
+Description: generic modular initramfs generator (core tools)
+
+Package: install-info
+Installed-Size: 382
+Architecture: amd64
+Version: 6.5.0.dfsg.1-2
+Depends: libc6 (>= 2.14)
+Pre-Depends: dpkg (>= 1.16.1)
+Description: Manage installed documentation in info format
+
+Package: iproute2
+Installed-Size: 2088
+Architecture: amd64
+Version: 4.15.0-2ubuntu1
+Depends: libc6 (>= 2.27), libdb5.3, libelf1 (>= 0.131), libmnl0 (>= 1.0.3-4~), libselinux1 (>= 2.0.15)
+Description: networking and traffic control tools
+Homepage: https://wiki.linuxfoundation.org/networking/iproute2
+
+Package: iptables
+Installed-Size: 1597
+Architecture: amd64
+Version: 1.6.1-2ubuntu2
+Depends: libip4tc0 (= 1.6.1-2ubuntu2), libip6tc0 (= 1.6.1-2ubuntu2), libiptc0 (= 1.6.1-2ubuntu2), libxtables12 (= 1.6.1-2ubuntu2), libc6 (>= 2.14), libnetfilter-conntrack3, libnfnetlink0
+Description: administration tools for packet filtering and NAT
+Homepage: http://www.netfilter.org/
+
+Package: iputils-ping
+Installed-Size: 115
+Architecture: amd64
+Version: 3:20161105-1ubuntu3
+Depends: libc6 (>= 2.14), libcap2 (>= 1:2.10), libidn11 (>= 1.13), libnettle6
+Description: Tools to test the reachability of network hosts
+
+Package: iputils-tracepath
+Installed-Size: 76
+Architecture: amd64
+Version: 3:20161105-1ubuntu3
+Depends: libc6 (>= 2.15), libcap2 (>= 1:2.10), libidn11 (>= 1.13)
+Description: Tools to trace the network path to a remote host
+
+Package: irqbalance
+Installed-Size: 155
+Architecture: amd64
+Version: 1.3.0-0.1ubuntu0.18.04.1
+Depends: libc6 (>= 2.14), libcap-ng0, libglib2.0-0 (>= 2.35.8), libncurses5 (>= 6), libnuma1 (>= 2.0.11), libsystemd0, libtinfo5 (>= 6), debconf (>= 0.5) | debconf-2.0, lsb-base (>= 3.1)
+Description: Daemon to balance interrupts for SMP systems
+Homepage: https://github.com/Irqbalance/irqbalance
+
+Package: isc-dhcp-client
+Installed-Size: 702
+Architecture: amd64
+Version: 4.3.5-3ubuntu7.1
+Depends: libc6 (>= 2.15), libdns-export1100, libisc-export169, debianutils (>= 2.8.2), iproute2
+Description: DHCP client for automatically obtaining an IP address
+Homepage: http://www.isc.org
+
+Package: isc-dhcp-common
+Installed-Size: 155
+Architecture: amd64
+Version: 4.3.5-3ubuntu7.1
+Depends: debianutils (>= 2.8.2)
+Description: common manpages relevant to all of the isc-dhcp packages
+Homepage: http://www.isc.org
+
+Package: iso-codes
+Installed-Size: 18648
+Architecture: all
+Version: 3.79-1
+Description: ISO language, territory, currency, script codes and their translations
+Homepage: https://salsa.debian.org/iso-codes-team/iso-codes
+
+Package: kbd
+Installed-Size: 1248
+Architecture: amd64
+Version: 2.0.4-2ubuntu1
+Depends: libc6 (>= 2.14), console-setup | console-setup-mini
+Description: Linux console font and keytable utilities
+Homepage: http://www.kbd-project.org/
+
+Package: keyboard-configuration
+Installed-Size: 2558
+Architecture: all
+Version: 1.178ubuntu2.9
+Depends: liblocale-gettext-perl
+Pre-Depends: debconf (>= 1.5.34)
+Description: system-wide keyboard preferences
+
+Package: klibc-utils
+Installed-Size: 390
+Architecture: amd64
+Version: 2.0.4-9ubuntu2
+Depends: libklibc (= 2.0.4-9ubuntu2)
+Description: small utilities built with klibc for early boot
+Homepage: https://git.kernel.org/cgit/libs/klibc/klibc.git
+
+Package: kmod
+Installed-Size: 232
+Architecture: amd64
+Version: 24-1ubuntu3.2
+Depends: libc6 (>= 2.17), libkmod2 (= 24-1ubuntu3.2), lsb-base
+Description: tools for managing Linux kernel modules
+
+Package: krb5-locales
+Installed-Size: 136
+Architecture: all
+Version: 1.16-2ubuntu0.1
+Description: internationalization support for MIT Kerberos
+Homepage: http://web.mit.edu/kerberos/
+
+Package: landscape-common
+Installed-Size: 396
+Architecture: amd64
+Version: 18.01-0ubuntu3.4
+Depends: python3:any (>= 3.5~), debconf (>= 0.5) | debconf-2.0, python3-twisted, python3-configobj, python3-apt, ca-certificates, python3-gdbm, lsb-release, lsb-base, adduser, bc, lshw, libpam-modules
+Description: Landscape administration system client - Common files
+
+Package: language-selector-common
+Installed-Size: 1656
+Architecture: all
+Version: 0.188.3
+Depends: python3:any (>= 3.3.2-2~), iso-codes, python3-apt (>= 0.7.12.0), python3-dbus, dbus, accountsservice (>= 0.6.29-1ubuntu6)
+Pre-Depends: dpkg (>= 1.15.7.2)
+Description: Language selector for Ubuntu
+
+Package: less
+Installed-Size: 284
+Architecture: amd64
+Version: 487-0.1
+Depends: libc6 (>= 2.14), libtinfo5 (>= 6), debianutils (>= 1.8)
+Description: pager program similar to more
+Homepage: http://www.greenwoodsoftware.com/less/
+
+Package: libaccountsservice0
+Installed-Size: 348
+Architecture: amd64
+Version: 0.6.45-1ubuntu1
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.37.3), libsystemd0 (>= 209)
+Description: query and manipulate user account information - shared libraries
+Homepage: https://www.freedesktop.org/wiki/Software/AccountsService/
+
+Package: libacl1
+Installed-Size: 57
+Architecture: amd64
+Version: 2.2.52-3build1
+Depends: libattr1 (>= 1:2.4.46-8), libc6 (>= 2.14)
+Description: Access control list shared library
+Homepage: http://savannah.nongnu.org/projects/acl/
+
+Package: libalgorithm-diff-perl
+Installed-Size: 136
+Architecture: all
+Version: 1.19.03-1
+Depends: perl
+Description: module to find differences between files
+Homepage: http://search.cpan.org/~tyemq/Algorithm-Diff/
+
+Package: libalgorithm-diff-xs-perl
+Installed-Size: 41
+Architecture: amd64
+Version: 0.04-5
+Depends: perl (>= 5.26.1-4), perlapi-5.26.1, libc6 (>= 2.14), libalgorithm-diff-perl
+Description: module to find differences between files (XS accelerated)
+Homepage: https://metacpan.org/release/Algorithm-Diff-XS
+
+Package: libalgorithm-merge-perl
+Installed-Size: 42
+Architecture: all
+Version: 0.08-3
+Depends: perl, libalgorithm-diff-perl
+Description: Perl module for three-way merge of textual data
+Homepage: https://metacpan.org/release/Algorithm-Merge
+
+Package: libapparmor1
+Installed-Size: 142
+Architecture: amd64
+Version: 2.12-4ubuntu5.1
+Depends: libc6 (>= 2.17)
+Description: changehat AppArmor library
+Homepage: http://apparmor.net/
+
+Package: libapt-inst2.0
+Installed-Size: 478
+Architecture: amd64
+Version: 1.6.12
+Depends: libapt-pkg5.0 (>= 1.1~exp9), libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Description: deb package format runtime library
+
+Package: libapt-pkg5.0
+Installed-Size: 3139
+Architecture: amd64
+Version: 1.6.12
+Depends: libbz2-1.0, libc6 (>= 2.27), libgcc1 (>= 1:3.0), liblz4-1 (>= 0.0~r127), liblzma5 (>= 5.1.1alpha+20120614), libstdc++6 (>= 5.2), libsystemd0 (>= 221), libudev1 (>= 183), libzstd1 (>= 1.3.2), zlib1g (>= 1:1.2.2.3)
+Description: package management runtime library
+
+Package: libargon2-0
+Installed-Size: 55
+Architecture: amd64
+Version: 0~20161029-1.1
+Depends: libc6 (>= 2.14)
+Description: memory-hard hashing function - runtime library
+Homepage: https://github.com/P-H-C/phc-winner-argon2
+
+Package: libasan4
+Installed-Size: 1441
+Architecture: amd64
+Version: 7.4.0-1ubuntu1~18.04.1
+Depends: gcc-7-base (= 7.4.0-1ubuntu1~18.04.1), libc6 (>= 2.23), libgcc1
+Description: AddressSanitizer -- a fast memory error detector
+Homepage: http://gcc.gnu.org/
+
+Package: libasn1-8-heimdal
+Installed-Size: 782
+Architecture: amd64
+Version: 7.5.0+dfsg-1
+Depends: libc6 (>= 2.14), libcomerr2 (>= 1.01), libroken18-heimdal (>= 1.4.0+git20110226)
+Description: Heimdal Kerberos - ASN.1 library
+Homepage: http://www.h5l.org/
+
+Package: libassuan0
+Installed-Size: 100
+Architecture: amd64
+Version: 2.5.1-2
+Depends: libc6 (>= 2.14), libgpg-error0 (>= 1.14)
+Description: IPC library for the GnuPG components
+Homepage: https://www.gnupg.org/related_software/libassuan/index.html
+
+Package: libasyncns0
+Installed-Size: 39
+Architecture: amd64
+Version: 0.8-6
+Depends: libc6 (>= 2.15)
+Description: Asynchronous name service query library
+Homepage: http://0pointer.de/lennart/projects/libasyncns/
+
+Package: libatm1
+Installed-Size: 105
+Architecture: amd64
+Version: 1:2.5.1-2build1
+Depends: libc6 (>= 2.14)
+Description: shared library for ATM (Asynchronous Transfer Mode)
+Homepage: http://linux-atm.sourceforge.net/
+
+Package: libatomic1
+Installed-Size: 41
+Architecture: amd64
+Version: 8.3.0-6ubuntu1~18.04.1
+Depends: gcc-8-base (= 8.3.0-6ubuntu1~18.04.1), libc6 (>= 2.14)
+Description: support library providing __atomic built-in functions
+Homepage: http://gcc.gnu.org/
+
+Package: libattr1
+Installed-Size: 36
+Architecture: amd64
+Version: 1:2.4.47-2build1
+Depends: libc6 (>= 2.4)
+Description: Extended attribute shared library
+Homepage: http://savannah.nongnu.org/projects/attr/
+
+Package: libaudit-common
+Installed-Size: 23
+Architecture: all
+Version: 1:2.8.2-1ubuntu1
+Description: Dynamic library for security auditing - common files
+Homepage: https://people.redhat.com/sgrubb/audit/
+
+Package: libaudit1
+Installed-Size: 147
+Architecture: amd64
+Version: 1:2.8.2-1ubuntu1
+Depends: libaudit-common (>= 1:2.8.2-1ubuntu1), libc6 (>= 2.14), libcap-ng0
+Description: Dynamic library for security auditing
+Homepage: https://people.redhat.com/sgrubb/audit/
+
+Package: libbind9-160
+Installed-Size: 113
+Architecture: amd64
+Version: 1:9.11.3+dfsg-1ubuntu1.9
+Depends: libdns1100 (= 1:9.11.3+dfsg-1ubuntu1.9), libisc169 (= 1:9.11.3+dfsg-1ubuntu1.9), libisccfg160 (= 1:9.11.3+dfsg-1ubuntu1.9), libc6 (>= 2.4)
+Description: BIND9 Shared Library used by BIND
+Homepage: https://www.isc.org/downloads/bind/
+
+Package: libbinutils
+Installed-Size: 3039
+Architecture: amd64
+Version: 2.30-21ubuntu1~18.04.2
+Depends: libc6 (>= 2.14), zlib1g (>= 1:1.2.0), binutils-common (= 2.30-21ubuntu1~18.04.2)
+Description: GNU binary utilities (private shared library)
+Homepage: https://www.gnu.org/software/binutils/
+
+Package: libblkid1
+Installed-Size: 398
+Architecture: amd64
+Version: 2.31.1-0.4ubuntu3.4
+Depends: libc6 (>= 2.25), libuuid1 (>= 2.16)
+Description: block device ID library
+
+Package: libbsd0
+Installed-Size: 170
+Architecture: amd64
+Version: 0.8.7-1
+Depends: libc6 (>= 2.25)
+Description: utility functions from BSD systems - shared library
+Homepage: https://libbsd.freedesktop.org/
+
+Package: libbz2-1.0
+Installed-Size: 90
+Architecture: amd64
+Version: 1.0.6-8.1ubuntu0.2
+Depends: libc6 (>= 2.4)
+Description: high-quality block-sorting file compressor library - runtime
+Homepage: http://www.bzip.org/
+
+Package: libc-bin
+Installed-Size: 3631
+Architecture: amd64
+Version: 2.27-3ubuntu1
+Depends: libc6 (>> 2.27), libc6 (<< 2.28)
+Description: GNU C Library
+Homepage: https://www.gnu.org/software/libc/libc.html
+
+Package: libc-dev-bin
+Installed-Size: 418
+Architecture: amd64
+Version: 2.27-3ubuntu1
+Depends: libc6 (>> 2.27), libc6 (<< 2.28)
+Description: GNU C Library
+Homepage: https://www.gnu.org/software/libc/libc.html
+
+Package: libc6
+Installed-Size: 11877
+Architecture: amd64
+Version: 2.27-3ubuntu1
+Depends: libgcc1
+Description: GNU C Library
+Homepage: https://www.gnu.org/software/libc/libc.html
+
+Package: libc6-dev
+Installed-Size: 18812
+Architecture: amd64
+Version: 2.27-3ubuntu1
+Depends: libc6 (= 2.27-3ubuntu1), libc-dev-bin (= 2.27-3ubuntu1), linux-libc-dev
+Description: GNU C Library
+Homepage: https://www.gnu.org/software/libc/libc.html
+
+Package: libcap-ng0
+Installed-Size: 36
+Architecture: amd64
+Version: 0.7.7-3.1
+Depends: libc6 (>= 2.8)
+Description: An alternate POSIX capabilities library
+Homepage: http://people.redhat.com/sgrubb/libcap-ng
+
+Package: libcap2
+Installed-Size: 46
+Architecture: amd64
+Version: 1:2.25-1.2
+Depends: libc6 (>= 2.14)
+Description: POSIX 1003.1e capabilities (library)
+Homepage: http://sites.google.com/site/fullycapable/
+
+Package: libcap2-bin
+Installed-Size: 84
+Architecture: amd64
+Version: 1:2.25-1.2
+Depends: libc6 (>= 2.14), libcap2 (>= 1:2.10)
+Description: POSIX 1003.1e capabilities (utilities)
+Homepage: http://sites.google.com/site/fullycapable/
+
+Package: libcc1-0
+Installed-Size: 148
+Architecture: amd64
+Version: 8.3.0-6ubuntu1~18.04.1
+Depends: gcc-8-base (= 8.3.0-6ubuntu1~18.04.1), libc6 (>= 2.15), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Description: GCC cc1 plugin for GDB
+Homepage: http://gcc.gnu.org/
+
+Package: libcilkrts5
+Installed-Size: 143
+Architecture: amd64
+Version: 7.4.0-1ubuntu1~18.04.1
+Depends: gcc-7-base (= 7.4.0-1ubuntu1~18.04.1), libc6 (>= 2.6), libgcc1, libstdc++6
+Description: Intel Cilk Plus language extensions (runtime)
+Homepage: http://gcc.gnu.org/
+
+Package: libcom-err2
+Installed-Size: 87
+Architecture: amd64
+Version: 1.44.1-1ubuntu1.1
+Depends: libc6 (>= 2.17)
+Description: common error description library
+Homepage: http://e2fsprogs.sourceforge.net
+
+Package: libcryptsetup12
+Installed-Size: 375
+Architecture: amd64
+Version: 2:2.0.2-1ubuntu1.1
+Depends: libgpg-error0 (>= 1.10-0.1), libargon2-0 (>= 0~20160406~), libc6 (>= 2.15), libdevmapper1.02.1 (>= 2:1.02.97), libgcrypt20 (>= 1.8.0), libjson-c3 (>= 0.11), libuuid1 (>= 2.16)
+Description: disk encryption support - shared library
+Homepage: https://gitlab.com/cryptsetup/cryptsetup
+
+Package: libcurl3-gnutls
+Installed-Size: 622
+Architecture: amd64
+Version: 7.58.0-2ubuntu3.8
+Depends: libc6 (>= 2.17), libgnutls30 (>= 3.5.6), libgssapi-krb5-2 (>= 1.14+dfsg), libidn2-0 (>= 0.6), libldap-2.4-2 (>= 2.4.7), libnettle6, libnghttp2-14 (>= 1.12.0), libpsl5 (>= 0.13.0), librtmp1 (>= 2.4+20131018.git79459a2-3~), zlib1g (>= 1:1.1.4)
+Description: easy-to-use client-side URL transfer library (GnuTLS flavour)
+Homepage: http://curl.haxx.se
+
+Package: libcurl4
+Installed-Size: 627
+Architecture: amd64
+Version: 7.58.0-2ubuntu3.8
+Depends: libc6 (>= 2.17), libgssapi-krb5-2 (>= 1.14+dfsg), libidn2-0 (>= 0.6), libldap-2.4-2 (>= 2.4.7), libnghttp2-14 (>= 1.12.0), libpsl5 (>= 0.13.0), librtmp1 (>= 2.4+20131018.git79459a2-3~), libssl1.1 (>= 1.1.1), zlib1g (>= 1:1.1.4)
+Description: easy-to-use client-side URL transfer library (OpenSSL flavour)
+Homepage: http://curl.haxx.se
+
+Package: libdb5.3
+Installed-Size: 1729
+Architecture: amd64
+Version: 5.3.28-13.1ubuntu1.1
+Depends: libc6 (>= 2.17)
+Description: Berkeley v5.3 Database Libraries [runtime]
+Homepage: http://www.oracle.com/technetwork/database/database-technologies/berkeleydb/overview/index.html
+
+Package: libdbus-1-3
+Installed-Size: 448
+Architecture: amd64
+Version: 1.12.2-1ubuntu1.1
+Depends: libc6 (>= 2.17), libsystemd0
+Description: simple interprocess messaging system (library)
+Homepage: http://dbus.freedesktop.org/
+
+Package: libdebconfclient0
+Installed-Size: 68
+Architecture: amd64
+Version: 0.213ubuntu1
+Depends: libc6 (>= 2.4)
+Description: Debian Configuration Management System (C-implementation library)
+
+Package: libdevmapper-event1.02.1
+Installed-Size: 64
+Architecture: amd64
+Version: 2:1.02.145-4.1ubuntu3.18.04.1
+Depends: libc6 (>= 2.14), libdevmapper1.02.1 (>= 2:1.02.103)
+Description: Linux Kernel Device Mapper event support library
+Homepage: http://sources.redhat.com/lvm2/
+
+Package: libdevmapper1.02.1
+Installed-Size: 482
+Architecture: amd64
+Version: 2:1.02.145-4.1ubuntu3.18.04.1
+Depends: libc6 (>= 2.22), libselinux1 (>= 1.32), libudev1 (>= 183)
+Description: Linux Kernel Device Mapper userspace library
+Homepage: http://sources.redhat.com/lvm2/
+
+Package: libdns-export1100
+Installed-Size: 2210
+Architecture: amd64
+Version: 1:9.11.3+dfsg-1ubuntu1.9
+Depends: libc6 (>= 2.14), libisc-export169, libssl1.1 (>= 1.1.0)
+Description: Exported DNS Shared Library
+Homepage: https://www.isc.org/downloads/bind/
+
+Package: libdns1100
+Installed-Size: 4649
+Architecture: amd64
+Version: 1:9.11.3+dfsg-1ubuntu1.9
+Depends: libisc169 (= 1:9.11.3+dfsg-1ubuntu1.9), libc6 (>= 2.14), libgeoip1, libgssapi-krb5-2 (>= 1.14+dfsg), libjson-c3 (>= 0.10), libkrb5-3 (>= 1.6.dfsg.2), libssl1.1 (>= 1.1.0), libxml2 (>= 2.7.4)
+Description: DNS Shared Library used by BIND
+Homepage: https://www.isc.org/downloads/bind/
+
+Package: libdpkg-perl
+Installed-Size: 2020
+Architecture: all
+Version: 1.19.0.5ubuntu2.2
+Depends: perl, dpkg (>= 1.18.11)
+Description: Dpkg perl modules
+Homepage: https://wiki.debian.org/Teams/Dpkg
+
+Package: libdrm-amdgpu1
+Installed-Size: 75
+Architecture: amd64
+Version: 2.4.97-1ubuntu1~18.04.1
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.89)
+Description: Userspace interface to amdgpu-specific kernel DRM services -- runtime
+Homepage: https://cgit.freedesktop.org/mesa/drm/
+
+Package: libdrm-common
+Installed-Size: 40
+Architecture: all
+Version: 2.4.97-1ubuntu1~18.04.1
+Description: Userspace interface to kernel DRM services -- common files
+Homepage: https://cgit.freedesktop.org/mesa/drm/
+
+Package: libdrm-intel1
+Installed-Size: 181
+Architecture: amd64
+Version: 2.4.97-1ubuntu1~18.04.1
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.4.38), libpciaccess0
+Description: Userspace interface to intel-specific kernel DRM services -- runtime
+Homepage: https://cgit.freedesktop.org/mesa/drm/
+
+Package: libdrm-nouveau2
+Installed-Size: 73
+Architecture: amd64
+Version: 2.4.97-1ubuntu1~18.04.1
+Depends: libc6 (>= 2.14), libdrm2 (>= 2.4.38)
+Description: Userspace interface to nouveau-specific kernel DRM services -- runtime
+Homepage: https://cgit.freedesktop.org/mesa/drm/
+
+Package: libdrm-radeon1
+Installed-Size: 86
+Architecture: amd64
+Version: 2.4.97-1ubuntu1~18.04.1
+Depends: libc6 (>= 2.4), libdrm2 (>= 2.4.38)
+Description: Userspace interface to radeon-specific kernel DRM services -- runtime
+Homepage: https://cgit.freedesktop.org/mesa/drm/
+
+Package: libdrm2
+Installed-Size: 111
+Architecture: amd64
+Version: 2.4.97-1ubuntu1~18.04.1
+Depends: libdrm-common (>= 2.4.97-1ubuntu1~18.04.1), libc6 (>= 2.17)
+Description: Userspace interface to kernel DRM services -- runtime
+Homepage: https://cgit.freedesktop.org/mesa/drm/
+
+Package: libdumbnet1
+Installed-Size: 89
+Architecture: amd64
+Version: 1.12-7build1
+Depends: libc6 (>= 2.14)
+Description: dumb, portable networking library -- shared library
+Homepage: http://code.google.com/p/libdnet/
+
+Package: libeatmydata1
+Installed-Size: 33
+Architecture: amd64
+Version: 105-6
+Depends: libc6 (>= 2.4)
+Description: Library and utilities to disable fsync and friends - shared library
+Homepage: https://launchpad.net/libeatmydata
+
+Package: libedit2
+Installed-Size: 234
+Architecture: amd64
+Version: 3.1-20170329-1
+Depends: libc6 (>= 2.17), libtinfo5 (>= 6)
+Description: BSD editline and history libraries
+Homepage: http://www.thrysoee.dk/editline/
+
+Package: libelf1
+Installed-Size: 180
+Architecture: amd64
+Version: 0.170-0.4ubuntu0.1
+Depends: libc6 (>= 2.14), zlib1g (>= 1:1.1.4)
+Description: library to read and write ELF files
+Homepage: https://sourceware.org/elfutils/
+
+Package: liberror-perl
+Installed-Size: 62
+Architecture: all
+Version: 0.17025-1
+Depends: perl
+Description: Perl module for error/exception handling in an OO-ish way
+Homepage: https://metacpan.org/release/Error
+
+Package: libestr0
+Installed-Size: 30
+Architecture: amd64
+Version: 0.1.10-2.1
+Depends: libc6 (>= 2.14)
+Description: Helper functions for handling strings (lib)
+Homepage: http://libestr.sourceforge.net/
+
+Package: libevent-2.1-6
+Installed-Size: 370
+Architecture: amd64
+Version: 2.1.8-stable-4build1
+Depends: libc6 (>= 2.17)
+Description: Asynchronous event notification library
+Homepage: http://libevent.org/
+
+Package: libexpat1
+Installed-Size: 439
+Architecture: amd64
+Version: 2.2.5-3ubuntu0.2
+Depends: libc6 (>= 2.25)
+Description: XML parsing C library - runtime library
+Homepage: https://libexpat.github.io/
+
+Package: libexpat1-dev
+Installed-Size: 1135
+Architecture: amd64
+Version: 2.2.5-3ubuntu0.2
+Depends: libexpat1 (= 2.2.5-3ubuntu0.2), libc6-dev | libc-dev
+Description: XML parsing C library - development kit
+Homepage: https://libexpat.github.io/
+
+Package: libext2fs2
+Installed-Size: 452
+Architecture: amd64
+Version: 1.44.1-1ubuntu1.1
+Depends: libc6 (>= 2.17)
+Description: ext2/ext3/ext4 file system libraries
+Homepage: http://e2fsprogs.sourceforge.net
+
+Package: libfakeroot
+Installed-Size: 149
+Architecture: amd64
+Version: 1.22-2ubuntu1
+Depends: libc6 (>= 2.14)
+Description: tool for simulating superuser privileges - shared libraries
+
+Package: libfastjson4
+Installed-Size: 61
+Architecture: amd64
+Version: 0.99.8-2
+Depends: libc6 (>= 2.14)
+Description: fast json library for C
+Homepage: https://github.com/rsyslog/libfastjson
+
+Package: libfdisk1
+Installed-Size: 508
+Architecture: amd64
+Version: 2.31.1-0.4ubuntu3.4
+Depends: libblkid1 (>= 2.24.2), libc6 (>= 2.25), libuuid1 (>= 2.16)
+Description: fdisk partitioning library
+
+Package: libffi6
+Installed-Size: 52
+Architecture: amd64
+Version: 3.2.1-8
+Depends: libc6 (>= 2.14)
+Description: Foreign Function Interface library runtime
+
+Package: libfile-fcntllock-perl
+Installed-Size: 123
+Architecture: amd64
+Version: 0.22-3build2
+Depends: perl (>= 5.26.0-4), perlapi-5.26.0, libc6 (>= 2.4)
+Description: Perl module for file locking with fcntl(2)
+Homepage: https://metacpan.org/release/File-FcntlLock
+
+Package: libflac8
+Installed-Size: 520
+Architecture: amd64
+Version: 1.3.2-1
+Depends: libc6 (>= 2.14), libogg0 (>= 1.0rc3)
+Description: Free Lossless Audio Codec - runtime C library
+Homepage: http://xiph.org/flac/
+
+Package: libfontconfig1
+Installed-Size: 553
+Architecture: amd64
+Version: 2.12.6-0ubuntu2
+Depends: libc6 (>= 2.14), libexpat1 (>= 2.0.1), libfreetype6 (>= 2.2.1), fontconfig-config (>= 2.12.6-0ubuntu2)
+Description: generic font configuration library - runtime
+Homepage: https://www.freedesktop.org/wiki/Software/fontconfig/
+
+Package: libfontenc1
+Installed-Size: 47
+Architecture: amd64
+Version: 1:1.1.3-1
+Depends: libc6 (>= 2.14), zlib1g (>= 1:1.1.4)
+Description: X11 font encoding library
+
+Package: libfreetype6
+Installed-Size: 918
+Architecture: amd64
+Version: 2.8.1-2ubuntu2
+Depends: libc6 (>= 2.14), libpng16-16 (>= 1.6.2-1), zlib1g (>= 1:1.1.4)
+Description: FreeType 2 font engine, shared library files
+Homepage: http://www.freetype.org
+
+Package: libfribidi0
+Installed-Size: 118
+Architecture: amd64
+Version: 0.19.7-2
+Depends: libc6 (>= 2.4)
+Description: Free Implementation of the Unicode BiDi algorithm
+Homepage: http://www.fribidi.org/
+
+Package: libfuse2
+Installed-Size: 306
+Architecture: amd64
+Version: 2.9.7-1ubuntu1
+Depends: libc6 (>= 2.17)
+Description: Filesystem in Userspace (library)
+Homepage: https://github.com/libfuse/libfuse/wiki
+
+Package: libgcc-7-dev
+Installed-Size: 13643
+Architecture: amd64
+Version: 7.4.0-1ubuntu1~18.04.1
+Depends: gcc-7-base (= 7.4.0-1ubuntu1~18.04.1), libgcc1 (>= 1:7.4.0-1ubuntu1~18.04.1), libgomp1 (>= 7.4.0-1ubuntu1~18.04.1), libitm1 (>= 7.4.0-1ubuntu1~18.04.1), libatomic1 (>= 7.4.0-1ubuntu1~18.04.1), libasan4 (>= 7.4.0-1ubuntu1~18.04.1), liblsan0 (>= 7.4.0-1ubuntu1~18.04.1), libtsan0 (>= 7.4.0-1ubuntu1~18.04.1), libubsan0 (>= 7.4.0-1ubuntu1~18.04.1), libcilkrts5 (>= 7.4.0-1ubuntu1~18.04.1), libmpx2 (>= 7.4.0-1ubuntu1~18.04.1), libquadmath0 (>= 7.4.0-1ubuntu1~18.04.1)
+Description: GCC support library (development files)
+Homepage: http://gcc.gnu.org/
+
+Package: libgcc1
+Installed-Size: 112
+Architecture: amd64
+Version: 1:8.3.0-6ubuntu1~18.04.1
+Depends: gcc-8-base (= 8.3.0-6ubuntu1~18.04.1), libc6 (>= 2.14)
+Description: GCC support library
+Homepage: http://gcc.gnu.org/
+
+Package: libgcrypt20
+Installed-Size: 1209
+Architecture: amd64
+Version: 1.8.1-4ubuntu1.1
+Depends: libc6 (>= 2.15), libgpg-error0 (>= 1.25)
+Description: LGPL Crypto library - runtime library
+Homepage: http://directory.fsf.org/project/libgcrypt/
+
+Package: libgdbm-compat4
+Installed-Size: 38
+Architecture: amd64
+Version: 1.14.1-6
+Depends: libc6 (>= 2.14), libgdbm5 (>= 1.14)
+Description: GNU dbm database routines (legacy support runtime version) 
+Homepage: https://gnu.org/software/gdbm
+
+Package: libgdbm5
+Installed-Size: 77
+Architecture: amd64
+Version: 1.14.1-6
+Depends: libc6 (>= 2.14)
+Description: GNU dbm database routines (runtime version) 
+Homepage: https://gnu.org/software/gdbm
+
+Package: libgeoip1
+Installed-Size: 235
+Architecture: amd64
+Version: 1.6.12-1
+Depends: libc6 (>= 2.4)
+Description: non-DNS IP-to-country resolver library
+Homepage: https://www.maxmind.com/
+
+Package: libgirepository-1.0-1
+Installed-Size: 243
+Architecture: amd64
+Version: 1.56.1-1
+Depends: libc6 (>= 2.14), libffi6 (>= 3.0.4), libglib2.0-0 (>= 2.56.1)
+Description: Library for handling GObject introspection data (runtime library)
+Homepage: https://wiki.gnome.org/GObjectIntrospection
+
+Package: libgl1
+Installed-Size: 671
+Architecture: amd64
+Version: 1.0.0-2ubuntu2.3
+Depends: libc6 (>= 2.14), libglvnd0 (= 1.0.0-2ubuntu2.3), libglx0 (= 1.0.0-2ubuntu2.3)
+Description: Vendor neutral GL dispatch library -- legacy GL support
+Homepage: https://github.com/NVIDIA/libglvnd
+
+Package: libgl1-mesa-dri
+Installed-Size: 163608
+Architecture: amd64
+Version: 19.0.8-0ubuntu0~18.04.1
+Depends: libc6 (>= 2.27), libdrm-amdgpu1 (>= 2.4.97), libdrm-intel1 (>= 2.4.38), libdrm-nouveau2 (>= 2.4.66), libdrm-radeon1 (>= 2.4.31), libdrm2 (>= 2.4.75), libelf1 (>= 0.142), libexpat1 (>= 2.0.1), libgcc1 (>= 1:3.4), libglapi-mesa, libllvm8 (>= 1:8~svn298832-1~), libsensors4 (>= 1:3.0.0), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
+Description: free implementation of the OpenGL API -- DRI modules
+Homepage: https://mesa3d.org/
+
+Package: libgl1-mesa-glx
+Installed-Size: 73
+Architecture: amd64
+Version: 19.0.8-0ubuntu0~18.04.1
+Depends: libgl1, libglx-mesa0
+Description: transitional dummy package
+Homepage: https://mesa3d.org/
+
+Package: libglapi-mesa
+Installed-Size: 276
+Architecture: amd64
+Version: 19.0.8-0ubuntu0~18.04.1
+Depends: libc6 (>= 2.14)
+Description: free implementation of the GL API -- shared library
+Homepage: https://mesa3d.org/
+
+Package: libglib2.0-0
+Installed-Size: 3674
+Architecture: amd64
+Version: 2.56.4-0ubuntu0.18.04.4
+Depends: libc6 (>= 2.17), libffi6 (>= 3.0.4), libmount1 (>= 2.19.1), libpcre3, libselinux1 (>= 1.32), zlib1g (>= 1:1.2.2)
+Description: GLib library of C routines
+Homepage: http://www.gtk.org/
+
+Package: libglib2.0-data
+Installed-Size: 88
+Architecture: all
+Version: 2.56.4-0ubuntu0.18.04.4
+Description: Common files for GLib library
+Homepage: http://www.gtk.org/
+
+Package: libglvnd0
+Installed-Size: 624
+Architecture: amd64
+Version: 1.0.0-2ubuntu2.3
+Depends: libc6 (>= 2.14)
+Description: Vendor neutral GL dispatch library
+Homepage: https://github.com/NVIDIA/libglvnd
+
+Package: libglx-mesa0
+Installed-Size: 599
+Architecture: amd64
+Version: 19.0.8-0ubuntu0~18.04.1
+Depends: libc6 (>= 2.14), libdrm2 (>= 2.4.75), libexpat1 (>= 2.0.1), libglapi-mesa (= 19.0.8-0ubuntu0~18.04.1), libx11-6 (>= 2:1.4.99.1), libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb-dri3-0 (>= 1.13), libxcb-glx0 (>= 1.8), libxcb-present0, libxcb-sync1, libxcb1 (>= 1.9.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxshmfence1, libxxf86vm1, libgl1-mesa-dri
+Description: free implementation of the OpenGL API -- GLX vendor library
+Homepage: https://mesa3d.org/
+
+Package: libglx0
+Installed-Size: 90
+Architecture: amd64
+Version: 1.0.0-2ubuntu2.3
+Depends: libc6 (>= 2.14), libglvnd0 (= 1.0.0-2ubuntu2.3), libx11-6 (>= 2:1.4.99.1), libglx-mesa0
+Description: Vendor neutral GL dispatch library -- GLX support
+Homepage: https://github.com/NVIDIA/libglvnd
+
+Package: libgmp10
+Installed-Size: 558
+Architecture: amd64
+Version: 2:6.1.2+dfsg-2
+Depends: libc6 (>= 2.14)
+Description: Multiprecision arithmetic library
+Homepage: http://gmplib.org/
+
+Package: libgnutls30
+Installed-Size: 1708
+Architecture: amd64
+Version: 3.5.18-1ubuntu1.1
+Depends: libc6 (>= 2.25), libgmp10 (>= 2:6), libhogweed4, libidn2-0 (>= 0.6), libnettle6, libp11-kit0 (>= 0.23.1), libtasn1-6 (>= 4.12), libunistring2 (>= 0.9.7), zlib1g (>= 1:1.1.4)
+Description: GNU TLS library - main runtime library
+Homepage: http://www.gnutls.org/
+
+Package: libgomp1
+Installed-Size: 211
+Architecture: amd64
+Version: 8.3.0-6ubuntu1~18.04.1
+Depends: gcc-8-base (= 8.3.0-6ubuntu1~18.04.1), libc6 (>= 2.17)
+Description: GCC OpenMP (GOMP) support library
+Homepage: http://gcc.gnu.org/
+
+Package: libgpg-error0
+Installed-Size: 164
+Architecture: amd64
+Version: 1.27-6
+Depends: libc6 (>= 2.15)
+Description: library for common error values and messages in GnuPG components
+Homepage: https://www.gnupg.org/related_software/libgpg-error/
+
+Package: libgpm2
+Installed-Size: 59
+Architecture: amd64
+Version: 1.20.7-5
+Depends: libc6 (>= 2.15)
+Description: General Purpose Mouse - shared library
+Homepage: https://nico.schottelius.org/software/gpm/
+
+Package: libgssapi-krb5-2
+Installed-Size: 423
+Architecture: amd64
+Version: 1.16-2ubuntu0.1
+Depends: libc6 (>= 2.27), libcom-err2 (>= 1.34), libk5crypto3 (>= 1.16), libkrb5-3 (= 1.16-2ubuntu0.1), libkrb5support0 (>= 1.15~beta1)
+Description: MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+Homepage: http://web.mit.edu/kerberos/
+
+Package: libgssapi3-heimdal
+Installed-Size: 312
+Architecture: amd64
+Version: 7.5.0+dfsg-1
+Depends: libasn1-8-heimdal (>= 1.4.0+git20110226), libc6 (>= 2.14), libcomerr2 (>= 1.01), libhcrypto4-heimdal (>= 1.4.0+git20110226), libheimntlm0-heimdal (>= 1.4.0+git20110226), libkrb5-26-heimdal (>= 1.6~git20131117), libroken18-heimdal (>= 1.4.0+git20110226)
+Description: Heimdal Kerberos - GSSAPI support library
+Homepage: http://www.h5l.org/
+
+Package: libhcrypto4-heimdal
+Installed-Size: 270
+Architecture: amd64
+Version: 7.5.0+dfsg-1
+Depends: libasn1-8-heimdal (>= 1.4.0+git20110226), libc6 (>= 2.14), libheimbase1-heimdal (>= 1.4.0+git20110226), libroken18-heimdal (>= 1.4.0+git20110226)
+Description: Heimdal Kerberos - crypto library
+Homepage: http://www.h5l.org/
+
+Package: libheimbase1-heimdal
+Installed-Size: 104
+Architecture: amd64
+Version: 7.5.0+dfsg-1
+Depends: libc6 (>= 2.14)
+Description: Heimdal Kerberos - Base library
+Homepage: http://www.h5l.org/
+
+Package: libheimntlm0-heimdal
+Installed-Size: 77
+Architecture: amd64
+Version: 7.5.0+dfsg-1
+Depends: libc6 (>= 2.4), libhcrypto4-heimdal (>= 1.4.0+git20110226), libkrb5-26-heimdal (>= 1.4.0+git20110226), libroken18-heimdal (>= 1.4.0+git20110226), libwind0-heimdal (>= 1.4.0+git20110226)
+Description: Heimdal Kerberos - NTLM support library
+Homepage: http://www.h5l.org/
+
+Package: libhogweed4
+Installed-Size: 228
+Architecture: amd64
+Version: 3.4-1
+Depends: libc6 (>= 2.14), libgmp10 (>= 2:6.0.0), libnettle6 (= 3.4-1)
+Description: low level cryptographic library (public-key cryptos)
+Homepage: http://www.lysator.liu.se/~nisse/nettle/
+
+Package: libhx509-5-heimdal
+Installed-Size: 348
+Architecture: amd64
+Version: 7.5.0+dfsg-1
+Depends: libasn1-8-heimdal (>= 1.4.0+git20110226), libc6 (>= 2.14), libcomerr2 (>= 1.34), libhcrypto4-heimdal (>= 1.4.0+git20110226), libheimbase1-heimdal (>= 1.6~git20131117), libroken18-heimdal (>= 1.7~git20150920), libwind0-heimdal (>= 1.4.0+git20110226)
+Description: Heimdal Kerberos - X509 support library
+Homepage: http://www.h5l.org/
+
+Package: libice6
+Installed-Size: 112
+Architecture: amd64
+Version: 2:1.0.9-2
+Depends: libbsd0 (>= 0.2.0), libc6 (>= 2.14), x11-common
+Description: X11 Inter-Client Exchange library
+
+Package: libicu60
+Installed-Size: 31070
+Architecture: amd64
+Version: 60.2-3ubuntu3
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Description: International Components for Unicode
+Homepage: http://www.icu-project.org
+
+Package: libidn11
+Installed-Size: 240
+Architecture: amd64
+Version: 1.33-2.1ubuntu1.2
+Depends: libc6 (>= 2.14)
+Description: GNU Libidn library, implementation of IETF IDN specifications
+Homepage: https://www.gnu.org/software/libidn/
+
+Package: libidn2-0
+Installed-Size: 146
+Architecture: amd64
+Version: 2.0.4-1.1build2
+Depends: libc6 (>= 2.14), libunistring2 (>= 0.9.7)
+Description: Internationalized domain names (IDNA2008/TR46) library
+Homepage: https://www.gnu.org/software/libidn/#libidn2
+
+Package: libip4tc0
+Installed-Size: 77
+Architecture: amd64
+Version: 1.6.1-2ubuntu2
+Depends: libc6 (>= 2.14)
+Description: netfilter libip4tc library
+Homepage: http://www.netfilter.org/
+
+Package: libip6tc0
+Installed-Size: 77
+Architecture: amd64
+Version: 1.6.1-2ubuntu2
+Depends: libc6 (>= 2.14)
+Description: netfilter libip6tc library
+Homepage: http://www.netfilter.org/
+
+Package: libiptc0
+Installed-Size: 55
+Architecture: amd64
+Version: 1.6.1-2ubuntu2
+Depends: libc6 (>= 2.2.5)
+Description: netfilter libiptc library
+Homepage: http://www.netfilter.org/
+
+Package: libirs160
+Installed-Size: 90
+Architecture: amd64
+Version: 1:9.11.3+dfsg-1ubuntu1.9
+Depends: libisc169 (= 1:9.11.3+dfsg-1ubuntu1.9), libc6 (>= 2.4), libdns1100 (>= 1:9.11.3+dfsg), libisccfg160 (>= 1:9.10.6+dfsg)
+Description: DNS Shared Library used by BIND
+Homepage: https://www.isc.org/downloads/bind/
+
+Package: libisc-export169
+Installed-Size: 475
+Architecture: amd64
+Version: 1:9.11.3+dfsg-1ubuntu1.9
+Depends: libc6 (>= 2.25), libssl1.1 (>= 1.1.0), zlib1g (>= 1:1.1.4)
+Description: Exported ISC Shared Library
+Homepage: https://www.isc.org/downloads/bind/
+
+Package: libisc169
+Installed-Size: 1107
+Architecture: amd64
+Version: 1:9.11.3+dfsg-1ubuntu1.9
+Depends: libc6 (>= 2.25), libjson-c3 (>= 0.10), libssl1.1 (>= 1.1.0), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
+Description: ISC Shared Library used by BIND
+Homepage: https://www.isc.org/downloads/bind/
+
+Package: libisccc160
+Installed-Size: 88
+Architecture: amd64
+Version: 1:9.11.3+dfsg-1ubuntu1.9
+Depends: libisc169 (= 1:9.11.3+dfsg-1ubuntu1.9), libc6 (>= 2.4)
+Description: Command Channel Library used by BIND
+Homepage: https://www.isc.org/downloads/bind/
+
+Package: libisccfg160
+Installed-Size: 232
+Architecture: amd64
+Version: 1:9.11.3+dfsg-1ubuntu1.9
+Depends: libdns1100 (= 1:9.11.3+dfsg-1ubuntu1.9), libisc169 (= 1:9.11.3+dfsg-1ubuntu1.9), libisccc160 (= 1:9.11.3+dfsg-1ubuntu1.9), libc6 (>= 2.4)
+Description: Config File Handling Library used by BIND
+Homepage: https://www.isc.org/downloads/bind/
+
+Package: libisl19
+Installed-Size: 1736
+Architecture: amd64
+Version: 0.19-1
+Depends: libc6 (>= 2.14), libgmp10
+Description: manipulating sets and relations of integer points bounded by linear constraints
+Homepage: http://isl.gforge.inria.fr/
+
+Package: libisns0
+Installed-Size: 979
+Architecture: amd64
+Version: 0.97-2build1
+Depends: libc6 (>= 2.14), libssl1.1 (>= 1.1.0)
+Description: Internet Storage Name Service - shared libraries
+Homepage: https://github.com/open-iscsi/open-isns
+
+Package: libitm1
+Installed-Size: 127
+Architecture: amd64
+Version: 8.3.0-6ubuntu1~18.04.1
+Depends: gcc-8-base (= 8.3.0-6ubuntu1~18.04.1), libc6 (>= 2.14)
+Description: GNU Transactional Memory Library
+Homepage: http://gcc.gnu.org/
+
+Package: libjson-c3
+Installed-Size: 65
+Architecture: amd64
+Version: 0.12.1-1.3
+Depends: libc6 (>= 2.14)
+Description: JSON manipulation library - shared library
+Homepage: https://github.com/json-c/json-c/wiki
+
+Package: libk5crypto3
+Installed-Size: 308
+Architecture: amd64
+Version: 1.16-2ubuntu0.1
+Depends: libc6 (>= 2.14), libkrb5support0 (>= 1.16)
+Description: MIT Kerberos runtime libraries - Crypto Library
+Homepage: http://web.mit.edu/kerberos/
+
+Package: libkeyutils1
+Installed-Size: 36
+Architecture: amd64
+Version: 1.5.9-9.2ubuntu2
+Depends: libc6 (>= 2.14)
+Description: Linux Key Management Utilities (library)
+Homepage: http://people.redhat.com/~dhowells/keyutils/
+
+Package: libklibc
+Installed-Size: 109
+Architecture: amd64
+Version: 2.0.4-9ubuntu2
+Description: minimal libc subset for use with initramfs
+Homepage: https://git.kernel.org/cgit/libs/klibc/klibc.git
+
+Package: libkmod2
+Installed-Size: 120
+Architecture: amd64
+Version: 24-1ubuntu3.2
+Depends: libc6 (>= 2.17)
+Description: libkmod shared library
+
+Package: libkrb5-26-heimdal
+Installed-Size: 645
+Architecture: amd64
+Version: 7.5.0+dfsg-1
+Depends: libasn1-8-heimdal (>= 1.6~git20131117), libc6 (>= 2.15), libcomerr2 (>= 1.41.11), libhcrypto4-heimdal (>= 1.7~git20161112), libheimbase1-heimdal (>= 1.6~git20131117), libhx509-5-heimdal (>= 1.4.0+git20110226), libroken18-heimdal (>= 1.7~git20160418), libsqlite3-0 (>= 3.5.9), libwind0-heimdal (>= 1.6~git20120311)
+Description: Heimdal Kerberos - libraries
+Homepage: http://www.h5l.org/
+
+Package: libkrb5-3
+Installed-Size: 1011
+Architecture: amd64
+Version: 1.16-2ubuntu0.1
+Depends: libc6 (>= 2.16), libcom-err2 (>= 1.34), libk5crypto3 (>= 1.15~beta1), libkeyutils1 (>= 1.5.9), libkrb5support0 (= 1.16-2ubuntu0.1)
+Description: MIT Kerberos runtime libraries
+Homepage: http://web.mit.edu/kerberos/
+
+Package: libkrb5support0
+Installed-Size: 155
+Architecture: amd64
+Version: 1.16-2ubuntu0.1
+Depends: libc6 (>= 2.14)
+Description: MIT Kerberos runtime libraries - Support library
+Homepage: http://web.mit.edu/kerberos/
+
+Package: libksba8
+Installed-Size: 259
+Architecture: amd64
+Version: 1.3.5-2
+Depends: libc6 (>= 2.14), libgpg-error0 (>= 1.14)
+Description: X.509 and CMS support library
+Homepage: http://www.gnupg.org/related_software/libksba/
+
+Package: libldap-2.4-2
+Installed-Size: 498
+Architecture: amd64
+Version: 2.4.45+dfsg-1ubuntu1.4
+Depends: libc6 (>= 2.14), libgnutls30 (>= 3.5.6), libgssapi3-heimdal (>= 1.4.0+git20110226), libsasl2-2, libldap-common (>= 2.4.45+dfsg-1ubuntu1.4)
+Description: OpenLDAP libraries
+Homepage: http://www.openldap.org/
+
+Package: libldap-common
+Installed-Size: 97
+Architecture: all
+Version: 2.4.45+dfsg-1ubuntu1.4
+Description: OpenLDAP common files for libraries
+Homepage: http://www.openldap.org/
+
+Package: libllvm8
+Installed-Size: 61388
+Architecture: amd64
+Version: 1:8-3~ubuntu18.04.1
+Depends: libc6 (>= 2.15), libedit2 (>= 2.11-20080614), libffi6 (>= 3.0.4), libgcc1 (>= 1:3.3), libstdc++6 (>= 6), libtinfo5 (>= 6), zlib1g (>= 1:1.2.0)
+Description: Modular compiler and toolchain technologies, runtime library
+Homepage: https://www.llvm.org/
+
+Package: liblocale-gettext-perl
+Installed-Size: 54
+Architecture: amd64
+Version: 1.07-3build2
+Depends: libc6 (>= 2.2.5)
+Pre-Depends: perl-base (>= 5.26.0-4), perlapi-5.26.0
+Description: module using libc functions for internationalization in Perl
+Homepage: https://metacpan.org/release/gettext
+
+Package: liblsan0
+Installed-Size: 354
+Architecture: amd64
+Version: 8.3.0-6ubuntu1~18.04.1
+Depends: gcc-8-base (= 8.3.0-6ubuntu1~18.04.1), libc6 (>= 2.4), libgcc1 (>= 1:3.3)
+Description: LeakSanitizer -- a memory leak detector (runtime)
+Homepage: http://gcc.gnu.org/
+
+Package: liblvm2app2.2
+Installed-Size: 1694
+Architecture: amd64
+Version: 2.02.176-4.1ubuntu3.18.04.1
+Depends: libblkid1 (>= 2.24.2), libc6 (>= 2.17), libdevmapper-event1.02.1 (>= 2:1.02.74), libdevmapper1.02.1 (>= 2:1.02.141), libsystemd0 (>= 222), libudev1 (>= 183)
+Description: LVM2 application library
+Homepage: http://sources.redhat.com/lvm2/
+
+Package: liblvm2cmd2.02
+Installed-Size: 2484
+Architecture: amd64
+Version: 2.02.176-4.1ubuntu3.18.04.1
+Depends: libblkid1 (>= 2.24.2), libc6 (>= 2.17), libdevmapper-event1.02.1 (>= 2:1.02.74), libdevmapper1.02.1 (>= 2:1.02.141), libsystemd0 (>= 222), libudev1 (>= 183), dmeventd
+Description: LVM2 command library
+Homepage: http://sources.redhat.com/lvm2/
+
+Package: liblwres160
+Installed-Size: 125
+Architecture: amd64
+Version: 1:9.11.3+dfsg-1ubuntu1.9
+Depends: libc6 (>= 2.15)
+Description: Lightweight Resolver Library used by BIND
+Homepage: https://www.isc.org/downloads/bind/
+
+Package: liblxc-common
+Installed-Size: 1456
+Architecture: amd64
+Version: 3.0.3-0ubuntu1~18.04.1
+Depends: liblxc1 (= 3.0.3-0ubuntu1~18.04.1), libc6 (>= 2.27), libgnutls30 (>= 3.5.0)
+Description: Linux Containers userspace tools (common tools)
+Homepage: https://linuxcontainers.org
+
+Package: liblxc1
+Installed-Size: 837
+Architecture: amd64
+Version: 3.0.3-0ubuntu1~18.04.1
+Depends: cgroup-lite | systemd, liblxc-common (= 3.0.3-0ubuntu1~18.04.1), rsync, libc6 (>= 2.27), libcap2 (>= 1:2.10), libgnutls30 (>= 3.5.0), libseccomp2 (>= 2.1.0), libselinux1 (>= 1.32)
+Description: Linux Containers userspace tools (library)
+Homepage: https://linuxcontainers.org
+
+Package: liblz4-1
+Installed-Size: 132
+Architecture: amd64
+Version: 0.0~r131-2ubuntu3
+Depends: libc6 (>= 2.14)
+Description: Fast LZ compression algorithm library - runtime
+Homepage: https://github.com/Cyan4973/lz4
+
+Package: liblzma5
+Installed-Size: 338
+Architecture: amd64
+Version: 5.2.2-1.3
+Depends: libc6 (>= 2.17)
+Description: XZ-format compression library
+Homepage: http://tukaani.org/xz/
+
+Package: liblzo2-2
+Installed-Size: 180
+Architecture: amd64
+Version: 2.08-1.2
+Depends: libc6 (>= 2.14)
+Pre-Depends: multiarch-support
+Description: data compression library
+Homepage: http://www.oberhumer.com/opensource/lzo/
+
+Package: libmagic-mgc
+Installed-Size: 4892
+Architecture: amd64
+Version: 1:5.32-2ubuntu0.2
+Description: File type determination library using "magic" numbers (compiled magic file)
+Homepage: http://www.darwinsys.com/file/
+
+Package: libmagic1
+Installed-Size: 198
+Architecture: amd64
+Version: 1:5.32-2ubuntu0.2
+Depends: libc6 (>= 2.15), zlib1g (>= 1:1.1.4), libmagic-mgc (= 1:5.32-2ubuntu0.2)
+Description: Recognize the type of data in a file using "magic" numbers - library
+Homepage: http://www.darwinsys.com/file/
+
+Package: libmnl0
+Installed-Size: 42
+Architecture: amd64
+Version: 1.0.4-2
+Depends: libc6 (>= 2.14)
+Description: minimalistic Netlink communication library
+Homepage: http://netfilter.org/projects/libmnl/
+
+Package: libmount1
+Installed-Size: 433
+Architecture: amd64
+Version: 2.31.1-0.4ubuntu3.4
+Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.25), libselinux1 (>= 2.6-3~)
+Description: device mounting library
+
+Package: libmpc3
+Installed-Size: 110
+Architecture: amd64
+Version: 1.1.0-1
+Depends: libc6 (>= 2.4), libgmp10, libmpfr6 (>= 4.0.0)
+Description: multiple precision complex floating-point library
+Homepage: http://www.multiprecision.org/mpc/
+
+Package: libmpdec2
+Installed-Size: 247
+Architecture: amd64
+Version: 2.4.2-1ubuntu1
+Depends: libc6 (>= 2.14)
+Description: library for decimal floating point arithmetic (runtime library)
+Homepage: http://www.bytereef.org/mpdecimal/index.html
+
+Package: libmpfr6
+Installed-Size: 1083
+Architecture: amd64
+Version: 4.0.1-1
+Depends: libc6 (>= 2.14), libgmp10
+Description: multiple precision floating-point computation
+Homepage: http://www.mpfr.org/
+
+Package: libmpx2
+Installed-Size: 46
+Architecture: amd64
+Version: 8.3.0-6ubuntu1~18.04.1
+Depends: gcc-8-base (= 8.3.0-6ubuntu1~18.04.1), libc6 (>= 2.17)
+Description: Intel memory protection extensions (runtime)
+Homepage: http://gcc.gnu.org/
+
+Package: libmspack0
+Installed-Size: 91
+Architecture: amd64
+Version: 0.6-3ubuntu0.3
+Depends: libc6 (>= 2.14)
+Description: library for Microsoft compression formats (shared library)
+Homepage: https://www.cabextract.org.uk/libmspack/
+
+Package: libncurses5
+Installed-Size: 283
+Architecture: amd64
+Version: 6.1-1ubuntu1.18.04
+Depends: libtinfo5 (= 6.1-1ubuntu1.18.04), libc6 (>= 2.14)
+Description: shared libraries for terminal handling
+Homepage: https://invisible-island.net/ncurses/
+
+Package: libncursesw5
+Installed-Size: 343
+Architecture: amd64
+Version: 6.1-1ubuntu1.18.04
+Depends: libtinfo5 (= 6.1-1ubuntu1.18.04), libc6 (>= 2.14)
+Description: shared libraries for terminal handling (wide character support)
+Homepage: https://invisible-island.net/ncurses/
+
+Package: libnetfilter-conntrack3
+Installed-Size: 130
+Architecture: amd64
+Version: 1.0.6-2
+Depends: libc6 (>= 2.14), libmnl0 (>= 1.0.3-4~), libnfnetlink0
+Description: Netfilter netlink-conntrack library
+Homepage: http://www.netfilter.org/projects/libnetfilter_conntrack/
+
+Package: libnettle6
+Installed-Size: 373
+Architecture: amd64
+Version: 3.4-1
+Depends: libc6 (>= 2.14)
+Description: low level cryptographic library (symmetric and one-way cryptos)
+Homepage: http://www.lysator.liu.se/~nisse/nettle/
+
+Package: libnewt0.52
+Installed-Size: 188
+Architecture: amd64
+Version: 0.52.20-1ubuntu1
+Depends: libc6 (>= 2.15), libslang2 (>= 2.2.4)
+Description: Not Erik's Windowing Toolkit - text mode windowing with slang
+Homepage: https://fedorahosted.org/newt/
+
+Package: libnfnetlink0
+Installed-Size: 60
+Architecture: amd64
+Version: 1.0.1-3
+Depends: libc6 (>= 2.14)
+Pre-Depends: multiarch-support
+Description: Netfilter netlink library
+
+Package: libnghttp2-14
+Installed-Size: 201
+Architecture: amd64
+Version: 1.30.0-1ubuntu1
+Depends: libc6 (>= 2.14)
+Description: library implementing HTTP/2 protocol (shared library)
+Homepage: https://nghttp2.org/
+
+Package: libnih1
+Installed-Size: 135
+Architecture: amd64
+Version: 1.0.3-6ubuntu2
+Pre-Depends: libc6 (>= 2.15~)
+Description: NIH Utility Library
+Homepage: https://launchpad.net/libnih
+
+Package: libnpth0
+Installed-Size: 32
+Architecture: amd64
+Version: 1.5-3
+Depends: libc6 (>= 2.17)
+Description: replacement for GNU Pth using system threads
+Homepage: https://www.gnupg.org/
+
+Package: libnss-systemd
+Installed-Size: 366
+Architecture: amd64
+Version: 237-3ubuntu10.29
+Depends: libc6 (>= 2.25), systemd (= 237-3ubuntu10.29)
+Description: nss module providing dynamic user and group name resolution
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+
+Package: libntfs-3g88
+Installed-Size: 349
+Architecture: amd64
+Version: 1:2017.3.23-2ubuntu0.18.04.2
+Depends: libc6 (>= 2.17)
+Description: read/write NTFS driver for FUSE (runtime library)
+Homepage: http://www.tuxera.com/community/ntfs-3g-advanced/
+
+Package: libnuma1
+Installed-Size: 77
+Architecture: amd64
+Version: 2.0.11-2.1ubuntu0.1
+Depends: libc6 (>= 2.14)
+Description: Libraries for controlling NUMA policy
+Homepage: http://oss.sgi.com/projects/libnuma/
+
+Package: libogg0
+Installed-Size: 76
+Architecture: amd64
+Version: 1.3.2-1
+Depends: libc6 (>= 2.14)
+Pre-Depends: multiarch-support
+Description: Ogg bitstream library
+Homepage: http://xiph.org/ogg/
+
+Package: libp11-kit0
+Installed-Size: 1246
+Architecture: amd64
+Version: 0.23.9-2
+Depends: libc6 (>= 2.26), libffi6 (>= 3.0.4)
+Description: library for loading and coordinating access to PKCS#11 modules - runtime
+Homepage: http://p11-glue.freedesktop.org/p11-kit.html
+
+Package: libpam-cap
+Installed-Size: 39
+Architecture: amd64
+Version: 1:2.25-1.2
+Depends: libc6 (>= 2.14), libcap2 (>= 1:2.10), libpam0g (>= 0.99.7.1), libpam-runtime (>= 1.1.3-2~)
+Description: POSIX 1003.1e capabilities (PAM module)
+Homepage: http://sites.google.com/site/fullycapable/
+
+Package: libpam-modules
+Installed-Size: 916
+Architecture: amd64
+Version: 1.1.8-3.6ubuntu2.18.04.1
+Pre-Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.27), libdb5.3, libpam0g (>= 1.1.3-2), libselinux1 (>= 2.1.9), debconf (>= 0.5) | debconf-2.0, libpam-modules-bin (= 1.1.8-3.6ubuntu2.18.04.1)
+Description: Pluggable Authentication Modules for PAM
+Homepage: http://www.linux-pam.org/
+
+Package: libpam-modules-bin
+Installed-Size: 267
+Architecture: amd64
+Version: 1.1.8-3.6ubuntu2.18.04.1
+Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32)
+Description: Pluggable Authentication Modules for PAM - helper binaries
+Homepage: http://www.linux-pam.org/
+
+Package: libpam-runtime
+Installed-Size: 300
+Architecture: all
+Version: 1.1.8-3.6ubuntu2.18.04.1
+Depends: debconf (>= 0.5) | debconf-2.0, debconf (>= 1.5.19) | cdebconf, libpam-modules (>= 1.0.1-6)
+Description: Runtime support for the PAM library
+Homepage: http://www.linux-pam.org/
+
+Package: libpam-systemd
+Installed-Size: 363
+Architecture: amd64
+Version: 237-3ubuntu10.29
+Depends: libc6 (>= 2.25), libpam0g (>= 0.99.7.1), systemd (= 237-3ubuntu10.29), libpam-runtime (>= 1.0.1-6), dbus, systemd-shim (>= 10-3~) | systemd-sysv
+Description: system and service manager - PAM module
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+
+Package: libpam0g
+Installed-Size: 212
+Architecture: amd64
+Version: 1.1.8-3.6ubuntu2.18.04.1
+Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), debconf (>= 0.5) | debconf-2.0
+Description: Pluggable Authentication Modules library
+Homepage: http://www.linux-pam.org/
+
+Package: libparted2
+Installed-Size: 364
+Architecture: amd64
+Version: 3.2-20ubuntu0.2
+Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.14), libdevmapper1.02.1 (>= 2:1.02.97), libuuid1 (>= 2.16)
+Description: disk partition manipulator - shared library
+Homepage: http://www.gnu.org/software/parted
+
+Package: libpcap0.8
+Installed-Size: 309
+Architecture: amd64
+Version: 1.8.1-6ubuntu1
+Depends: libc6 (>= 2.14)
+Description: system interface for user-level packet capture
+Homepage: http://www.tcpdump.org/
+
+Package: libpci3
+Installed-Size: 99
+Architecture: amd64
+Version: 1:3.5.2-1ubuntu1.1
+Depends: libc6 (>= 2.14), libudev1 (>= 196), zlib1g (>= 1:1.1.4)
+Description: Linux PCI Utilities (shared library)
+Homepage: http://atrey.karlin.mff.cuni.cz/~mj/pciutils.shtml
+
+Package: libpciaccess0
+Installed-Size: 57
+Architecture: amd64
+Version: 0.14-1
+Depends: libc6 (>= 2.7), zlib1g (>= 1:1.1.4)
+Description: Generic PCI access library for X
+
+Package: libpcre3
+Installed-Size: 665
+Architecture: amd64
+Version: 2:8.39-9
+Depends: libc6 (>= 2.14)
+Description: Old Perl 5 Compatible Regular Expression Library - runtime files
+
+Package: libperl5.26
+Installed-Size: 21395
+Architecture: amd64
+Version: 5.26.1-6ubuntu0.3
+Depends: libbz2-1.0, libc6 (>= 2.23), libdb5.3, libgdbm-compat4, libgdbm5 (>= 1.12), zlib1g (>= 1:1.2.2.3), perl-modules-5.26 (>= 5.26.1-6ubuntu0.3)
+Description: shared Perl library
+Homepage: http://dev.perl.org/perl5/
+
+Package: libpipeline1
+Installed-Size: 73
+Architecture: amd64
+Version: 1.5.0-1
+Depends: libc6 (>= 2.15)
+Description: pipeline manipulation library
+Homepage: http://libpipeline.nongnu.org/
+
+Package: libplymouth4
+Installed-Size: 297
+Architecture: amd64
+Version: 0.9.3-1ubuntu7.18.04.2
+Depends: libc6 (>= 2.14), libpng16-16 (>= 1.6.2-1), libudev1 (>= 183)
+Description: graphical boot animation and logger - shared libraries
+Homepage: http://www.freedesktop.org/wiki/Software/Plymouth
+
+Package: libpng16-16
+Installed-Size: 319
+Architecture: amd64
+Version: 1.6.34-1ubuntu0.18.04.2
+Depends: libc6 (>= 2.14), zlib1g (>= 1:1.2.11)
+Description: PNG library - runtime (version 1.6)
+Homepage: http://libpng.org/pub/png/libpng.html
+
+Package: libpolkit-agent-1-0
+Installed-Size: 64
+Architecture: amd64
+Version: 0.105-20ubuntu0.18.04.5
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.37.3), libpolkit-gobject-1-0 (= 0.105-20ubuntu0.18.04.5)
+Description: PolicyKit Authentication Agent API
+Homepage: https://www.freedesktop.org/wiki/Software/polkit/
+
+Package: libpolkit-backend-1-0
+Installed-Size: 131
+Architecture: amd64
+Version: 0.105-20ubuntu0.18.04.5
+Depends: libc6 (>= 2.4), libexpat1 (>= 2.0.1), libglib2.0-0 (>= 2.37.3), libpolkit-gobject-1-0 (= 0.105-20ubuntu0.18.04.5), libsystemd0 (>= 213)
+Description: PolicyKit backend API
+Homepage: https://www.freedesktop.org/wiki/Software/polkit/
+
+Package: libpolkit-gobject-1-0
+Installed-Size: 142
+Architecture: amd64
+Version: 0.105-20ubuntu0.18.04.5
+Depends: libc6 (>= 2.7), libglib2.0-0 (>= 2.37.3), libsystemd0 (>= 213)
+Description: PolicyKit Authorization API
+Homepage: https://www.freedesktop.org/wiki/Software/polkit/
+
+Package: libpopt0
+Installed-Size: 116
+Architecture: amd64
+Version: 1.16-11
+Depends: libc6 (>= 2.27)
+Description: lib for parsing cmdline parameters
+Homepage: http://rpm5.org/
+
+Package: libprocps6
+Installed-Size: 118
+Architecture: amd64
+Version: 2:3.3.12-3ubuntu1.2
+Depends: libc6 (>= 2.14), libsystemd0 (>= 209)
+Description: library for accessing process information from /proc
+Homepage: https://gitlab.com/procps-ng/procps
+
+Package: libpsl5
+Installed-Size: 74
+Architecture: amd64
+Version: 0.19.1-5build1
+Depends: libidn2-0 (>= 0.16), libc6 (>= 2.4), libunistring2 (>= 0.9.7)
+Description: Library for Public Suffix List (shared libraries)
+Homepage: https://github.com/rockdaboot/libpsl
+
+Package: libpulse0
+Installed-Size: 998
+Architecture: amd64
+Version: 1:11.1-1ubuntu7.2
+Depends: libasyncns0 (>= 0.3), libc6 (>= 2.27), libdbus-1-3 (>= 1.9.14), libsndfile1 (>= 1.0.20), libsystemd0, libwrap0 (>= 7.6-4~), libxcb1
+Description: PulseAudio client libraries
+Homepage: http://www.pulseaudio.org
+
+Package: libpulsedsp
+Installed-Size: 181
+Architecture: amd64
+Version: 1:11.1-1ubuntu7.2
+Depends: libc6 (>= 2.4), libpulse0 (= 1:11.1-1ubuntu7.2)
+Description: PulseAudio OSS pre-load library
+Homepage: http://www.pulseaudio.org
+
+Package: libpython3-dev
+Installed-Size: 44
+Architecture: amd64
+Version: 3.6.7-1~18.04
+Depends: libpython3.6-dev (>= 3.6.7-1~)
+Description: header files and a static library for Python (default)
+Homepage: https://www.python.org/
+
+Package: libpython3-stdlib
+Installed-Size: 37
+Architecture: amd64
+Version: 3.6.7-1~18.04
+Depends: libpython3.6-stdlib (>= 3.6.7-1~)
+Description: interactive high-level object-oriented language (default python3 version)
+Homepage: https://www.python.org/
+
+Package: libpython3.6
+Installed-Size: 4648
+Architecture: amd64
+Version: 3.6.8-1~18.04.2
+Depends: libpython3.6-stdlib (= 3.6.8-1~18.04.2), libc6 (>= 2.25), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)
+Description: Shared Python runtime library (version 3.6)
+
+Package: libpython3.6-dev
+Installed-Size: 74279
+Architecture: amd64
+Version: 3.6.8-1~18.04.2
+Depends: libpython3.6-stdlib (= 3.6.8-1~18.04.2), libpython3.6 (= 3.6.8-1~18.04.2), libexpat1-dev
+Description: Header files and a static library for Python (v3.6)
+
+Package: libpython3.6-minimal
+Installed-Size: 3809
+Architecture: amd64
+Version: 3.6.8-1~18.04.2
+Depends: libc6 (>= 2.4), libssl1.1 (>= 1.1.1)
+Description: Minimal subset of the Python language (version 3.6)
+
+Package: libpython3.6-stdlib
+Installed-Size: 7820
+Architecture: amd64
+Version: 3.6.8-1~18.04.2
+Depends: libpython3.6-minimal (= 3.6.8-1~18.04.2), mime-support, libbz2-1.0, libc6 (>= 2.15), libdb5.3, libffi6 (>= 3.0.4), liblzma5 (>= 5.1.1alpha+20120614), libmpdec2, libncursesw5 (>= 6), libreadline7 (>= 7.0~beta), libsqlite3-0 (>= 3.5.9), libtinfo5 (>= 6)
+Description: Interactive high-level object-oriented language (standard library, version 3.6)
+
+Package: libquadmath0
+Installed-Size: 269
+Architecture: amd64
+Version: 8.3.0-6ubuntu1~18.04.1
+Depends: gcc-8-base (= 8.3.0-6ubuntu1~18.04.1), libc6 (>= 2.23)
+Description: GCC Quad-Precision Math Library
+Homepage: http://gcc.gnu.org/
+
+Package: libreadline5
+Installed-Size: 324
+Architecture: amd64
+Version: 5.2+dfsg-3build1
+Depends: readline-common, libc6 (>= 2.15), libtinfo5 (>= 6)
+Description: GNU readline and history libraries, run-time libraries
+
+Package: libreadline7
+Installed-Size: 402
+Architecture: amd64
+Version: 7.0-3
+Depends: readline-common, libc6 (>= 2.15), libtinfo5 (>= 6)
+Description: GNU readline and history libraries, run-time libraries
+
+Package: libroken18-heimdal
+Installed-Size: 137
+Architecture: amd64
+Version: 7.5.0+dfsg-1
+Depends: libc6 (>= 2.16)
+Description: Heimdal Kerberos - roken support library
+Homepage: http://www.h5l.org/
+
+Package: librtmp1
+Installed-Size: 131
+Architecture: amd64
+Version: 2.4+20151223.gitfa8646d.1-1
+Depends: libc6 (>= 2.14), libgmp10, libgnutls30 (>= 3.4.2), libhogweed4, libnettle6, zlib1g (>= 1:1.1.4)
+Description: toolkit for RTMP streams (shared library)
+Homepage: http://rtmpdump.mplayerhq.hu/
+
+Package: libsasl2-2
+Installed-Size: 148
+Architecture: amd64
+Version: 2.1.27~101-g0780600+dfsg-3ubuntu2
+Depends: libsasl2-modules-db (>= 2.1.27~101-g0780600+dfsg-3ubuntu2), libc6 (>= 2.15)
+Description: Cyrus SASL - authentication abstraction library
+Homepage: https://www.cyrusimap.org/
+
+Package: libsasl2-modules
+Installed-Size: 224
+Architecture: amd64
+Version: 2.1.27~101-g0780600+dfsg-3ubuntu2
+Depends: libc6 (>= 2.14), libssl1.1 (>= 1.1.0)
+Description: Cyrus SASL - pluggable authentication modules
+Homepage: https://www.cyrusimap.org/
+
+Package: libsasl2-modules-db
+Installed-Size: 61
+Architecture: amd64
+Version: 2.1.27~101-g0780600+dfsg-3ubuntu2
+Depends: libc6 (>= 2.14), libdb5.3
+Description: Cyrus SASL - pluggable authentication modules (DB)
+Homepage: https://www.cyrusimap.org/
+
+Package: libseccomp2
+Installed-Size: 302
+Architecture: amd64
+Version: 2.4.1-0ubuntu0.18.04.2
+Depends: libc6 (>= 2.4)
+Description: high level interface to Linux seccomp filter
+Homepage: https://github.com/seccomp/libseccomp
+
+Package: libselinux1
+Installed-Size: 193
+Architecture: amd64
+Version: 2.7-2build2
+Depends: libc6 (>= 2.14), libpcre3
+Description: SELinux runtime shared libraries
+Homepage: http://userspace.selinuxproject.org/
+
+Package: libsemanage-common
+Installed-Size: 29
+Architecture: all
+Version: 2.7-2build2
+Description: Common files for SELinux policy management libraries
+Homepage: http://userspace.selinuxproject.org/
+
+Package: libsemanage1
+Installed-Size: 292
+Architecture: amd64
+Version: 2.7-2build2
+Depends: libsemanage-common (= 2.7-2build2), libaudit1 (>= 1:2.2.1), libbz2-1.0, libc6 (>= 2.14), libselinux1 (>= 2.7), libsepol1 (>= 2.7)
+Description: SELinux policy management library
+Homepage: http://userspace.selinuxproject.org/
+
+Package: libsensors4
+Installed-Size: 110
+Architecture: amd64
+Version: 1:3.4.0-4
+Depends: libc6 (>= 2.14)
+Description: library to read temperature/voltage/fan sensors
+Homepage: http://www.lm-sensors.org
+
+Package: libsepol1
+Installed-Size: 720
+Architecture: amd64
+Version: 2.7-1
+Depends: libc6 (>= 2.14)
+Description: SELinux library for manipulating binary security policies
+Homepage: http://userspace.selinuxproject.org/
+
+Package: libsigsegv2
+Installed-Size: 43
+Architecture: amd64
+Version: 2.12-1
+Depends: libc6 (>= 2.4)
+Description: Library for handling page faults in a portable way
+Homepage: http://www.gnu.org/software/libsigsegv/
+
+Package: libslang2
+Installed-Size: 1544
+Architecture: amd64
+Version: 2.3.1a-3ubuntu1
+Depends: libc6 (>= 2.14)
+Description: S-Lang programming library - runtime version
+Homepage: http://www.jedsoft.org/slang/
+
+Package: libsm6
+Installed-Size: 67
+Architecture: amd64
+Version: 2:1.2.2-1
+Depends: libc6 (>= 2.14), libice6 (>= 1:1.0.0), libuuid1 (>= 2.16)
+Pre-Depends: multiarch-support
+Description: X11 Session Management library
+
+Package: libsmartcols1
+Installed-Size: 287
+Architecture: amd64
+Version: 2.31.1-0.4ubuntu3.4
+Depends: libc6 (>= 2.25)
+Description: smart column output alignment library
+
+Package: libsndfile1
+Installed-Size: 507
+Architecture: amd64
+Version: 1.0.28-4ubuntu0.18.04.1
+Depends: libc6 (>= 2.14), libflac8 (>= 1.3.0), libogg0 (>= 1.0rc3), libvorbis0a (>= 1.2.3), libvorbisenc2 (>= 1.1.2)
+Description: Library for reading/writing audio files
+Homepage: http://www.mega-nerd.com/libsndfile/
+
+Package: libsqlite3-0
+Installed-Size: 1180
+Architecture: amd64
+Version: 3.22.0-1ubuntu0.1
+Depends: libc6 (>= 2.14)
+Description: SQLite 3 shared library
+Homepage: http://www.sqlite.org/
+
+Package: libss2
+Installed-Size: 99
+Architecture: amd64
+Version: 1.44.1-1ubuntu1.1
+Depends: libcom-err2, libc6 (>= 2.17)
+Description: command-line interface parsing library
+Homepage: http://e2fsprogs.sourceforge.net
+
+Package: libssl1.0.0
+Installed-Size: 3415
+Architecture: amd64
+Version: 1.0.2n-1ubuntu5.3
+Depends: libc6 (>= 2.14), debconf (>= 0.5) | debconf-2.0
+Description: Secure Sockets Layer toolkit - shared libraries
+Homepage: https://www.openssl.org
+
+Package: libssl1.1
+Installed-Size: 3933
+Architecture: amd64
+Version: 1.1.1-1ubuntu2.1~18.04.4
+Depends: libc6 (>= 2.25), debconf (>= 0.5) | debconf-2.0
+Description: Secure Sockets Layer toolkit - shared libraries
+Homepage: https://www.openssl.org/
+
+Package: libstdc++-7-dev
+Installed-Size: 15342
+Architecture: amd64
+Version: 7.4.0-1ubuntu1~18.04.1
+Depends: gcc-7-base (= 7.4.0-1ubuntu1~18.04.1), libgcc-7-dev (= 7.4.0-1ubuntu1~18.04.1), libstdc++6 (>= 7.4.0-1ubuntu1~18.04.1), libc6-dev (>= 2.13-0ubuntu6)
+Description: GNU Standard C++ Library v3 (development files)
+Homepage: http://gcc.gnu.org/
+
+Package: libstdc++6
+Installed-Size: 2041
+Architecture: amd64
+Version: 8.3.0-6ubuntu1~18.04.1
+Depends: gcc-8-base (= 8.3.0-6ubuntu1~18.04.1), libc6 (>= 2.18), libgcc1 (>= 1:4.2)
+Description: GNU Standard C++ Library v3
+Homepage: http://gcc.gnu.org/
+
+Package: libsystemd0
+Installed-Size: 649
+Architecture: amd64
+Version: 237-3ubuntu10.29
+Pre-Depends: libc6 (>= 2.27), libgcrypt20 (>= 1.8.0), liblz4-1 (>= 0.0~r113), liblzma5 (>= 5.1.1alpha+20120614)
+Description: systemd utility library
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+
+Package: libtasn1-6
+Installed-Size: 112
+Architecture: amd64
+Version: 4.13-2
+Depends: libc6 (>= 2.14)
+Description: Manage ASN.1 structures (runtime)
+Homepage: http://www.gnu.org/software/libtasn1/
+
+Package: libtext-charwidth-perl
+Installed-Size: 38
+Architecture: amd64
+Version: 0.04-7.1
+Depends: libc6 (>= 2.4), perl-base (>= 5.26.0-5), perlapi-5.26.0
+Description: get display widths of characters on the terminal
+Homepage: http://search.cpan.org/search?module=Text::CharWidth
+
+Package: libtext-iconv-perl
+Installed-Size: 48
+Architecture: amd64
+Version: 1.7-5build6
+Depends: libc6 (>= 2.4), perl-base (>= 5.26.0-4), perlapi-5.26.0
+Description: converts between character sets in Perl
+Homepage: http://search.cpan.org/search?module=Text::Iconv
+
+Package: libtext-wrapi18n-perl
+Installed-Size: 26
+Architecture: all
+Version: 0.06-7.1
+Depends: libtext-charwidth-perl
+Description: internationalized substitute of Text::Wrap
+Homepage: http://search.cpan.org/search?module=Text::WrapI18N
+
+Package: libtinfo5
+Installed-Size: 497
+Architecture: amd64
+Version: 6.1-1ubuntu1.18.04
+Depends: libc6 (>= 2.16)
+Description: shared low-level terminfo library for terminal handling
+Homepage: https://invisible-island.net/ncurses/
+
+Package: libtsan0
+Installed-Size: 1023
+Architecture: amd64
+Version: 8.3.0-6ubuntu1~18.04.1
+Depends: gcc-8-base (= 8.3.0-6ubuntu1~18.04.1), libc6 (>= 2.23), libgcc1 (>= 1:3.3)
+Description: ThreadSanitizer -- a Valgrind-based detector of data races (runtime)
+Homepage: http://gcc.gnu.org/
+
+Package: libubsan0
+Installed-Size: 337
+Architecture: amd64
+Version: 7.4.0-1ubuntu1~18.04.1
+Depends: gcc-7-base (= 7.4.0-1ubuntu1~18.04.1), libc6 (>= 2.4), libgcc1, libstdc++6
+Description: UBSan -- undefined behaviour sanitizer (runtime)
+Homepage: http://gcc.gnu.org/
+
+Package: libudev1
+Installed-Size: 228
+Architecture: amd64
+Version: 237-3ubuntu10.29
+Depends: libc6 (>= 2.25)
+Description: libudev shared library
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+
+Package: libunistring2
+Installed-Size: 1569
+Architecture: amd64
+Version: 0.9.9-0ubuntu2
+Depends: libc6 (>= 2.14)
+Description: Unicode string library for C
+Homepage: http://www.gnu.org/software/libunistring/
+
+Package: libunwind8
+Installed-Size: 172
+Architecture: amd64
+Version: 1.2.1-8
+Depends: libc6 (>= 2.4), liblzma5 (>= 5.1.1alpha+20110809)
+Description: library to determine the call-chain of a program - runtime
+Homepage: http://www.nongnu.org/libunwind
+
+Package: libusb-1.0-0
+Installed-Size: 124
+Architecture: amd64
+Version: 2:1.0.21-2
+Depends: libc6 (>= 2.17), libudev1 (>= 183)
+Description: userspace USB programming library
+Homepage: http://www.libusb.info
+
+Package: libutempter0
+Installed-Size: 41
+Architecture: amd64
+Version: 1.1.6-3
+Depends: libc6 (>= 2.4)
+Description: privileged helper for utmp/wtmp updates (runtime)
+Homepage: http://git.altlinux.org/people/ldv/packages/?p=libutempter.git
+
+Package: libuuid1
+Installed-Size: 116
+Architecture: amd64
+Version: 2.31.1-0.4ubuntu3.4
+Depends: libc6 (>= 2.25)
+Description: Universally Unique ID library
+
+Package: libuv1
+Installed-Size: 183
+Architecture: amd64
+Version: 1.18.0-3
+Depends: libc6 (>= 2.14)
+Description: asynchronous event notification library - runtime library
+Homepage: https://github.com/libuv/libuv
+
+Package: libvorbis0a
+Installed-Size: 201
+Architecture: amd64
+Version: 1.3.5-4.2
+Depends: libc6 (>= 2.15), libogg0 (>= 1.1.0)
+Description: decoder library for Vorbis General Audio Compression Codec
+Homepage: http://www.xiph.org/vorbis/
+
+Package: libvorbisenc2
+Installed-Size: 699
+Architecture: amd64
+Version: 1.3.5-4.2
+Depends: libc6 (>= 2.4), libvorbis0a (= 1.3.5-4.2)
+Description: encoder library for Vorbis General Audio Compression Codec
+Homepage: http://www.xiph.org/vorbis/
+
+Package: libwind0-heimdal
+Installed-Size: 204
+Architecture: amd64
+Version: 7.5.0+dfsg-1
+Depends: libc6 (>= 2.14), libcomerr2 (>= 1.01), libroken18-heimdal (>= 1.4.0+git20110226)
+Description: Heimdal Kerberos - stringprep implementation
+Homepage: http://www.h5l.org/
+
+Package: libwrap0
+Installed-Size: 104
+Architecture: amd64
+Version: 7.6.q-27
+Depends: libc6 (>= 2.14)
+Description: Wietse Venema's TCP wrappers library
+
+Package: libx11-6
+Installed-Size: 1357
+Architecture: amd64
+Version: 2:1.6.4-3ubuntu0.2
+Depends: libc6 (>= 2.15), libxcb1 (>= 1.11.1), libx11-data
+Description: X11 client-side library
+
+Package: libx11-data
+Installed-Size: 1503
+Architecture: all
+Version: 2:1.6.4-3ubuntu0.2
+Description: X11 client-side library
+
+Package: libx11-xcb1
+Installed-Size: 75
+Architecture: amd64
+Version: 2:1.6.4-3ubuntu0.2
+Description: Xlib/XCB interface library
+
+Package: libxau6
+Installed-Size: 50
+Architecture: amd64
+Version: 1:1.0.8-1
+Depends: libc6 (>= 2.4)
+Pre-Depends: multiarch-support
+Description: X11 authorisation library
+
+Package: libxaw7
+Installed-Size: 487
+Architecture: amd64
+Version: 2:1.0.13-1
+Depends: libc6 (>= 2.15), libx11-6, libxext6, libxmu6, libxpm4, libxt6
+Description: X11 Athena Widget library
+
+Package: libxcb-dri2-0
+Installed-Size: 42
+Architecture: amd64
+Version: 1.13-2~ubuntu18.04
+Depends: libc6 (>= 2.4), libxcb1
+Description: X C Binding, dri2 extension
+Homepage: https://xcb.freedesktop.org
+
+Package: libxcb-dri3-0
+Installed-Size: 38
+Architecture: amd64
+Version: 1.13-2~ubuntu18.04
+Depends: libc6 (>= 2.4), libxcb1 (>= 1.12)
+Description: X C Binding, dri3 extension
+Homepage: https://xcb.freedesktop.org
+
+Package: libxcb-glx0
+Installed-Size: 150
+Architecture: amd64
+Version: 1.13-2~ubuntu18.04
+Depends: libc6 (>= 2.4), libxcb1
+Description: X C Binding, glx extension
+Homepage: https://xcb.freedesktop.org
+
+Package: libxcb-present0
+Installed-Size: 32
+Architecture: amd64
+Version: 1.13-2~ubuntu18.04
+Depends: libc6 (>= 2.4), libxcb1
+Description: X C Binding, present extension
+Homepage: https://xcb.freedesktop.org
+
+Package: libxcb-shape0
+Installed-Size: 37
+Architecture: amd64
+Version: 1.13-2~ubuntu18.04
+Depends: libc6 (>= 2.4), libxcb1
+Description: X C Binding, shape extension
+Homepage: https://xcb.freedesktop.org
+
+Package: libxcb-sync1
+Installed-Size: 51
+Architecture: amd64
+Version: 1.13-2~ubuntu18.04
+Depends: libc6 (>= 2.14), libxcb1
+Description: X C Binding, sync extension
+Homepage: https://xcb.freedesktop.org
+
+Package: libxcb1
+Installed-Size: 202
+Architecture: amd64
+Version: 1.13-2~ubuntu18.04
+Depends: libc6 (>= 2.14), libxau6, libxdmcp6
+Description: X C Binding
+Homepage: https://xcb.freedesktop.org
+
+Package: libxcomposite1
+Installed-Size: 28
+Architecture: amd64
+Version: 1:0.4.4-2
+Depends: libc6 (>= 2.4), libx11-6 (>= 2:1.4.99.1)
+Description: X11 Composite extension library
+
+Package: libxdamage1
+Installed-Size: 27
+Architecture: amd64
+Version: 1:1.1.4-3
+Depends: libc6 (>= 2.4), libx11-6 (>= 2:1.4.99.1)
+Description: X11 damaged region extension library
+Homepage: https://www.x.org
+
+Package: libxdmcp6
+Installed-Size: 39
+Architecture: amd64
+Version: 1:1.1.2-3
+Depends: libbsd0 (>= 0.2.0), libc6 (>= 2.4)
+Description: X11 Display Manager Control Protocol library
+
+Package: libxext6
+Installed-Size: 122
+Architecture: amd64
+Version: 2:1.3.3-1
+Depends: libc6 (>= 2.14), libx11-6 (>= 2:1.6.0)
+Pre-Depends: multiarch-support
+Description: X11 miscellaneous extension library
+
+Package: libxfixes3
+Installed-Size: 43
+Architecture: amd64
+Version: 1:5.0.3-1
+Depends: libc6 (>= 2.14), libx11-6 (>= 2:1.6.0)
+Description: X11 miscellaneous 'fixes' extension library
+
+Package: libxft2
+Installed-Size: 125
+Architecture: amd64
+Version: 2.3.2-1
+Depends: libc6 (>= 2.14), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.3.5), libx11-6, libxrender1
+Pre-Depends: multiarch-support
+Description: FreeType-based font drawing library for X
+
+Package: libxi6
+Installed-Size: 88
+Architecture: amd64
+Version: 2:1.7.9-1
+Depends: libc6 (>= 2.14), libx11-6 (>= 2:1.6.0), libxext6
+Description: X11 Input extension library
+Homepage: https://www.x.org/
+
+Package: libxinerama1
+Installed-Size: 49
+Architecture: amd64
+Version: 2:1.1.3-1
+Depends: libc6 (>= 2.2.5), libx11-6 (>= 2:1.4.99.1), libxext6
+Pre-Depends: multiarch-support
+Description: X11 Xinerama extension library
+
+Package: libxml2
+Installed-Size: 1950
+Architecture: amd64
+Version: 2.9.4+dfsg1-6.1ubuntu1.2
+Depends: libc6 (>= 2.15), libicu60 (>= 60.1-1~), liblzma5 (>= 5.1.1alpha+20120614), zlib1g (>= 1:1.2.3.3)
+Description: GNOME XML library
+Homepage: http://xmlsoft.org
+
+Package: libxmlsec1
+Installed-Size: 438
+Architecture: amd64
+Version: 1.2.25-1build1
+Depends: libc6 (>= 2.14), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25)
+Description: XML security library
+Homepage: http://www.aleksey.com/xmlsec/
+
+Package: libxmlsec1-openssl
+Installed-Size: 303
+Architecture: amd64
+Version: 1.2.25-1build1
+Depends: libc6 (>= 2.14), libssl1.1 (>= 1.1.0), libxml2 (>= 2.7.4), libxmlsec1 (>= 1.2.25)
+Description: Openssl engine for the XML security library
+Homepage: http://www.aleksey.com/xmlsec/
+
+Package: libxmu6
+Installed-Size: 119
+Architecture: amd64
+Version: 2:1.1.2-2
+Depends: libc6 (>= 2.14), libx11-6, libxext6, libxt6
+Description: X11 miscellaneous utility library
+
+Package: libxmuu1
+Installed-Size: 33
+Architecture: amd64
+Version: 2:1.1.2-2
+Depends: libc6 (>= 2.4), libx11-6
+Description: X11 miscellaneous micro-utility library
+
+Package: libxpm4
+Installed-Size: 89
+Architecture: amd64
+Version: 1:3.5.12-1
+Depends: libc6 (>= 2.14), libx11-6
+Description: X11 pixmap library
+Homepage: https://www.x.org
+
+Package: libxrandr2
+Installed-Size: 65
+Architecture: amd64
+Version: 2:1.5.1-1
+Depends: libc6 (>= 2.14), libx11-6 (>= 2:1.6.0), libxext6, libxrender1
+Description: X11 RandR extension library
+
+Package: libxrender1
+Installed-Size: 60
+Architecture: amd64
+Version: 1:0.9.10-1
+Depends: libc6 (>= 2.14), libx11-6 (>= 2:1.6.0)
+Description: X Rendering Extension client library
+
+Package: libxshmfence1
+Installed-Size: 22
+Architecture: amd64
+Version: 1.3-1
+Depends: libc6 (>= 2.27)
+Description: X shared memory fences - shared library
+
+Package: libxslt1.1
+Installed-Size: 474
+Architecture: amd64
+Version: 1.1.29-5ubuntu0.1
+Depends: libc6 (>= 2.17), libgcrypt20 (>= 1.8.0), libxml2 (>= 2.9.0)
+Description: XSLT 1.0 processing library - runtime library
+Homepage: http://xmlsoft.org/xslt/
+
+Package: libxt6
+Installed-Size: 451
+Architecture: amd64
+Version: 1:1.1.5-1
+Depends: libc6 (>= 2.14), libice6 (>= 1:1.0.0), libsm6, libx11-6
+Description: X11 toolkit intrinsics library
+
+Package: libxtables12
+Installed-Size: 102
+Architecture: amd64
+Version: 1.6.1-2ubuntu2
+Depends: libc6 (>= 2.14)
+Description: netfilter xtables library
+Homepage: http://www.netfilter.org/
+
+Package: libxtst6
+Installed-Size: 44
+Architecture: amd64
+Version: 2:1.2.3-1
+Depends: libc6 (>= 2.4), libx11-6 (>= 2:1.6.0), libxext6, x11-common
+Description: X11 Testing -- Record extension library
+
+Package: libxv1
+Installed-Size: 36
+Architecture: amd64
+Version: 2:1.0.11-1
+Depends: libc6 (>= 2.14), libx11-6 (>= 2:1.6.0), libxext6
+Description: X11 Video extension library
+
+Package: libxxf86dga1
+Installed-Size: 59
+Architecture: amd64
+Version: 2:1.1.4-1
+Depends: libc6 (>= 2.3.4), libx11-6 (>= 2:1.4.99.1), libxext6
+Pre-Depends: multiarch-support
+Description: X11 Direct Graphics Access extension library
+
+Package: libxxf86vm1
+Installed-Size: 59
+Architecture: amd64
+Version: 1:1.1.4-1
+Depends: libc6 (>= 2.4), libx11-6 (>= 2:1.6.0), libxext6
+Pre-Depends: multiarch-support
+Description: X11 XFree86 video mode extension library
+
+Package: libyaml-0-2
+Installed-Size: 137
+Architecture: amd64
+Version: 0.1.7-2ubuntu3
+Depends: libc6 (>= 2.14)
+Description: Fast YAML 1.1 parser and emitter library
+Homepage: http://pyyaml.org/wiki/LibYAML
+
+Package: libzstd1
+Installed-Size: 519
+Architecture: amd64
+Version: 1.3.3+dfsg-2ubuntu1.1
+Depends: libc6 (>= 2.14)
+Description: fast lossless compression algorithm
+Homepage: https://github.com/facebook/zstd
+
+Package: linux-base
+Installed-Size: 57
+Architecture: all
+Version: 4.5ubuntu1
+Depends: debconf (>= 0.5) | debconf-2.0
+Description: Linux image base package
+
+Package: linux-libc-dev
+Installed-Size: 5256
+Architecture: amd64
+Version: 4.15.0-62.69
+Description: Linux Kernel Headers for development
+
+Package: locales
+Installed-Size: 14128
+Architecture: all
+Version: 2.27-3ubuntu1
+Depends: libc-bin (>> 2.27), debconf (>= 0.5) | debconf-2.0
+Description: GNU C Library
+Homepage: https://www.gnu.org/software/libc/libc.html
+
+Package: login
+Installed-Size: 1212
+Architecture: amd64
+Version: 1:4.5-1ubuntu2
+Pre-Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), libpam0g (>= 0.99.7.1), libpam-runtime, libpam-modules (>= 1.1.8-1)
+Description: system login tools
+Homepage: https://github.com/shadow-maint/shadow
+
+Package: logrotate
+Installed-Size: 125
+Architecture: amd64
+Version: 3.11.0-0.1ubuntu1
+Depends: libacl1 (>= 2.2.51-8), libc6 (>= 2.14), libpopt0 (>= 1.14), libselinux1 (>= 1.32), cron | anacron | cron-daemon, base-passwd (>= 2.0.3.4)
+Description: Log rotation utility
+Homepage: https://github.com/logrotate/logrotate
+
+Package: lsb-base
+Installed-Size: 58
+Architecture: all
+Version: 9.20170808ubuntu1
+Description: Linux Standard Base init script functionality
+Homepage: https://wiki.linuxfoundation.org/lsb/start
+
+Package: lsb-release
+Installed-Size: 65
+Architecture: all
+Version: 9.20170808ubuntu1
+Depends: python3:any (>= 3.4~), distro-info-data
+Description: Linux Standard Base version reporting utility
+Homepage: https://wiki.linuxfoundation.org/lsb/start
+
+Package: lshw
+Installed-Size: 691
+Architecture: amd64
+Version: 02.18-0.1ubuntu6.18.04.1
+Depends: libc6 (>= 2.27), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Description: information about hardware configuration
+
+Package: lsof
+Installed-Size: 440
+Architecture: amd64
+Version: 4.89+dfsg-0.1
+Depends: libc6 (>= 2.14), libselinux1 (>= 1.32)
+Description: Utility to list open files
+Homepage: http://people.freebsd.org/~abe/
+
+Package: ltrace
+Installed-Size: 392
+Architecture: amd64
+Version: 0.7.3-6ubuntu1
+Depends: libc6 (>= 2.14), libelf1 (>= 0.131), libselinux1 (>= 1.32)
+Description: Tracks runtime library calls in dynamically linked programs
+
+Package: lvm2
+Installed-Size: 3312
+Architecture: amd64
+Version: 2.02.176-4.1ubuntu3.18.04.1
+Depends: libblkid1 (>= 2.24.2), libc6 (>= 2.17), libdevmapper-event1.02.1 (>= 2:1.02.74), libdevmapper1.02.1 (>= 2:1.02.141), liblvm2app2.2 (>= 2.02.176), libreadline5 (>= 5.2), libsystemd0 (>= 222), libudev1 (>= 183), lsb-base, dmsetup (>= 1.02.145-2~), dmeventd
+Description: Linux Logical Volume Manager
+Homepage: http://sources.redhat.com/lvm2/
+
+Package: lxcfs
+Installed-Size: 137
+Architecture: amd64
+Version: 3.0.3-0ubuntu1~18.04.1
+Depends: libc6 (>= 2.17), libfuse2 (>= 2.6), lsb-base (>= 3.0-6)
+Description: FUSE based filesystem for LXC
+Homepage: https://linuxcontainers.org
+
+Package: lxd
+Installed-Size: 20141
+Architecture: amd64
+Version: 3.0.3-0ubuntu1~18.04.1
+Depends: acl, adduser, dnsmasq-base, ebtables, iproute2, iptables, liblxc1 (>= 2.1.0~), lsb-base (>= 3.0-6), lxcfs, lxd-client (= 3.0.3-0ubuntu1~18.04.1), passwd (>= 1:4.1.5.1-1ubuntu5~), rsync, squashfs-tools, uidmap (>= 1:4.1.5.1-1ubuntu5~), xdelta3, xz-utils, libacl1 (>= 2.2.51-8), libc6 (>= 2.14), libuv1 (>= 1.4.2)
+Description: Container hypervisor based on LXC - daemon
+Homepage: https://linuxcontainers.org/
+
+Package: lxd-client
+Installed-Size: 10773
+Architecture: amd64
+Version: 3.0.3-0ubuntu1~18.04.1
+Depends: libc6 (>= 2.14)
+Description: Container hypervisor based on LXC - client
+Homepage: https://linuxcontainers.org/
+
+Package: make
+Installed-Size: 372
+Architecture: amd64
+Version: 4.1-9.1ubuntu1
+Depends: libc6 (>= 2.27)
+Description: utility for directing compilation
+Homepage: http://www.gnu.org/software/make/
+
+Package: man-db
+Installed-Size: 2428
+Architecture: amd64
+Version: 2.8.3-2ubuntu0.1
+Depends: bsdmainutils, debconf (>= 1.2.0) | debconf-2.0, groff-base (>= 1.18.1.1-15), libc6 (>= 2.17), libgdbm5 (>= 1.12), libpipeline1 (>= 1.5.0), libseccomp2 (>= 2.1.0), zlib1g (>= 1:1.1.4)
+Pre-Depends: dpkg (>= 1.16.1~)
+Description: on-line manual pager
+Homepage: http://man-db.nongnu.org/
+
+Package: manpages
+Installed-Size: 1471
+Architecture: all
+Version: 4.15-1
+Description: Manual pages about using a GNU/Linux system
+Homepage: https://www.kernel.org/doc/man-pages/
+
+Package: manpages-dev
+Installed-Size: 3820
+Architecture: all
+Version: 4.15-1
+Depends: manpages
+Description: Manual pages about using GNU/Linux for development
+Homepage: https://www.kernel.org/doc/man-pages/
+
+Package: mawk
+Installed-Size: 184
+Architecture: amd64
+Version: 1.3.3-17ubuntu3
+Pre-Depends: libc6 (>= 2.14)
+Description: a pattern scanning and text processing language
+
+Package: mdadm
+Installed-Size: 1206
+Architecture: amd64
+Version: 4.1~rc1-3~ubuntu18.04.2
+Depends: libc6 (>= 2.27), udev, debconf (>= 0.5) | debconf-2.0, lsb-base, debconf
+Description: tool to administer Linux MD arrays (software RAID)
+Homepage: http://neil.brown.name/blog/mdadm
+
+Package: mime-support
+Installed-Size: 111
+Architecture: all
+Version: 3.60ubuntu1
+Description: MIME files 'mime.types' & 'mailcap', and support programs
+
+Package: mlocate
+Installed-Size: 228
+Architecture: amd64
+Version: 0.26-2ubuntu3.1
+Depends: libc6 (>= 2.14), adduser
+Description: quickly find files on the filesystem based on their name
+Homepage: https://pagure.io/mlocate
+
+Package: mount
+Installed-Size: 370
+Architecture: amd64
+Version: 2.31.1-0.4ubuntu3.4
+Depends: util-linux (>= 2.30.1-0ubuntu4~)
+Pre-Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.17), libmount1 (>= 2.30.2), libsmartcols1 (>= 2.27~rc1)
+Description: tools for mounting and manipulating filesystems
+
+Package: mtr-tiny
+Installed-Size: 140
+Architecture: amd64
+Version: 0.92-1
+Depends: libc6 (>= 2.15), libncurses5 (>= 6), libtinfo5 (>= 6)
+Description: Full screen ncurses traceroute tool
+Homepage: http://www.bitwizard.nl/mtr/
+
+Package: multiarch-support
+Installed-Size: 243
+Architecture: amd64
+Version: 2.27-3ubuntu1
+Depends: libc6 (>= 2.3.6-2)
+Description: Transitional package to ensure multiarch compatibility
+Homepage: https://www.gnu.org/software/libc/libc.html
+
+Package: nano
+Installed-Size: 760
+Architecture: amd64
+Version: 2.9.3-2
+Depends: libc6 (>= 2.14), libncursesw5 (>= 6), libtinfo5 (>= 6)
+Description: small, friendly text editor inspired by Pico
+Homepage: https://www.nano-editor.org/
+
+Package: ncurses-base
+Installed-Size: 364
+Architecture: all
+Version: 6.1-1ubuntu1.18.04
+Description: basic terminal type definitions
+Homepage: https://invisible-island.net/ncurses/
+
+Package: ncurses-bin
+Installed-Size: 576
+Architecture: amd64
+Version: 6.1-1ubuntu1.18.04
+Pre-Depends: libc6 (>= 2.14), libtinfo5 (>= 6.1)
+Description: terminal-related programs and man pages
+Homepage: https://invisible-island.net/ncurses/
+
+Package: ncurses-term
+Installed-Size: 4143
+Architecture: all
+Version: 6.1-1ubuntu1.18.04
+Description: additional terminal type definitions
+Homepage: https://invisible-island.net/ncurses/
+
+Package: net-tools
+Installed-Size: 784
+Architecture: amd64
+Version: 1.60+git20161116.90da8a0-1ubuntu1
+Depends: libc6 (>= 2.14), libselinux1 (>= 1.32)
+Description: NET-3 networking toolkit
+Homepage: http://sourceforge.net/projects/net-tools/
+
+Package: netbase
+Installed-Size: 44
+Architecture: all
+Version: 5.4
+Description: Basic TCP/IP networking system
+
+Package: netcat-openbsd
+Installed-Size: 94
+Architecture: amd64
+Version: 1.187-1ubuntu0.1
+Depends: libbsd0 (>= 0.2.0), libc6 (>= 2.15)
+Description: TCP/IP swiss army knife
+
+Package: netplan.io
+Installed-Size: 220
+Architecture: amd64
+Version: 0.97-0ubuntu1~18.04.1
+Depends: libc6 (>= 2.27), libglib2.0-0 (>= 2.16.0), libuuid1 (>= 2.16), libyaml-0-2, iproute2, python3, python3-yaml, python3-netifaces, systemd (>= 235-3ubuntu3)
+Description: YAML network configuration abstraction for various backends
+Homepage: https://netplan.io/
+
+Package: networkd-dispatcher
+Installed-Size: 58
+Architecture: all
+Version: 1.7-0ubuntu3.3
+Depends: gir1.2-glib-2.0, python3-dbus, python3-gi, python3:any
+Description: Dispatcher service for systemd-networkd connection status changes
+Homepage: https://github.com/craftyguy/networkd-dispatcher
+
+Package: nplan
+Installed-Size: 18
+Architecture: all
+Version: 0.97-0ubuntu1~18.04.1
+Depends: netplan.io
+Description: YAML network configuration abstraction - transitional package
+Homepage: https://netplan.io/
+
+Package: ntfs-3g
+Installed-Size: 1367
+Architecture: amd64
+Version: 1:2017.3.23-2ubuntu0.18.04.2
+Depends: libc6 (>= 2.17), libgcrypt20 (>= 1.8.0), libgnutls30 (>= 3.5.0), libntfs-3g88 (= 1:2017.3.23-2ubuntu0.18.04.2)
+Pre-Depends: fuse
+Description: read/write NTFS driver for FUSE
+Homepage: http://www.tuxera.com/community/ntfs-3g-advanced/
+
+Package: open-iscsi
+Installed-Size: 1386
+Architecture: amd64
+Version: 2.0.874-5ubuntu2.7
+Depends: udev, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.14), libisns0 (>= 0.96-4~), libmount1 (>= 2.24.2), lsb-base (>= 3.0-6)
+Pre-Depends: debconf | debconf-2.0
+Description: iSCSI initiator tools
+Homepage: http://www.open-iscsi.com/
+
+Package: open-vm-tools
+Installed-Size: 2091
+Architecture: amd64
+Version: 2:10.3.10-1~ubuntu0.18.04.1
+Depends: libc6 (>= 2.16), libdrm2 (>= 2.4.3), libdumbnet1 (>= 1.8), libfuse2 (>= 2.6), libgcc1 (>= 1:3.3), libglib2.0-0 (>= 2.31.8), libicu60 (>= 60.1-1~), libmspack0 (>= 0.4), libssl1.1 (>= 1.1.0), libudev1 (>= 183), libxml2 (>= 2.7.4), libxmlsec1 (>= 1.2.25), libxmlsec1-openssl (>= 1.2.25), pciutils, iproute2
+Description: Open VMware Tools for virtual machines hosted on VMware (CLI)
+Homepage: https://github.com/vmware/open-vm-tools
+
+Package: openssh-client
+Installed-Size: 4064
+Architecture: amd64
+Version: 1:7.6p1-4ubuntu0.3
+Depends: adduser (>= 3.10), dpkg (>= 1.7.0), passwd, libbsd0 (>= 0.7.0), libc6 (>= 2.26), libedit2 (>= 2.11-20080614), libgssapi-krb5-2 (>= 1.14+dfsg), libselinux1 (>= 1.32), libssl1.0.0 (>= 1.0.2), zlib1g (>= 1:1.1.4)
+Description: secure shell (SSH) client, for secure access to remote machines
+Homepage: http://www.openssh.com/
+
+Package: openssh-server
+Installed-Size: 877
+Architecture: amd64
+Version: 1:7.6p1-4ubuntu0.3
+Depends: adduser (>= 3.9), dpkg (>= 1.9.0), libpam-modules (>= 0.72-9), libpam-runtime (>= 0.76-14), lsb-base (>= 4.1+Debian3), openssh-client (= 1:7.6p1-4ubuntu0.3), openssh-sftp-server, procps, ucf (>= 0.28), debconf (>= 0.5) | debconf-2.0, libaudit1 (>= 1:2.2.1), libc6 (>= 2.26), libcom-err2 (>= 1.01), libgssapi-krb5-2 (>= 1.14+dfsg), libkrb5-3 (>= 1.13~alpha1+dfsg), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libssl1.0.0 (>= 1.0.2), libsystemd0, libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4)
+Description: secure shell (SSH) server, for secure access from remote machines
+Homepage: http://www.openssh.com/
+
+Package: openssh-sftp-server
+Installed-Size: 118
+Architecture: amd64
+Version: 1:7.6p1-4ubuntu0.3
+Depends: openssh-client (= 1:7.6p1-4ubuntu0.3), libc6 (>= 2.26)
+Description: secure shell (SSH) sftp server module, for SFTP access from remote machines
+Homepage: http://www.openssh.com/
+
+Package: openssl
+Installed-Size: 1223
+Architecture: amd64
+Version: 1.1.1-1ubuntu2.1~18.04.4
+Depends: libc6 (>= 2.15), libssl1.1 (>= 1.1.1)
+Description: Secure Sockets Layer toolkit - cryptographic utility
+Homepage: https://www.openssl.org/
+
+Package: overlayroot
+Installed-Size: 65
+Architecture: all
+Version: 0.40ubuntu1.1
+Depends: cryptsetup, cryptsetup-bin, initramfs-tools
+Description: use an overlayfs on top of a read-only root filesystem
+Homepage: http://launchpad.net/cloud-initramfs-tools
+
+Package: parted
+Installed-Size: 154
+Architecture: amd64
+Version: 3.2-20ubuntu0.2
+Depends: libc6 (>= 2.11), libparted2 (= 3.2-20ubuntu0.2), libreadline7 (>= 6.0), libtinfo5 (>= 6)
+Description: disk partition manipulator
+Homepage: http://www.gnu.org/software/parted
+
+Package: passwd
+Installed-Size: 2549
+Architecture: amd64
+Version: 1:4.5-1ubuntu2
+Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.14), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libsemanage1 (>= 2.0.3), libpam-modules
+Description: change and administer password and group data
+Homepage: https://github.com/shadow-maint/shadow
+
+Package: pastebinit
+Installed-Size: 156
+Architecture: all
+Version: 1.5-2
+Depends: python3
+Description: command-line pastebin client
+Homepage: http://launchpad.net/pastebinit/
+
+Package: patch
+Installed-Size: 238
+Architecture: amd64
+Version: 2.7.6-2ubuntu1.1
+Depends: libc6 (>= 2.17)
+Description: Apply a diff file to an original
+Homepage: http://savannah.gnu.org/projects/patch/
+
+Package: pciutils
+Installed-Size: 1297
+Architecture: amd64
+Version: 1:3.5.2-1ubuntu1.1
+Depends: libc6 (>= 2.14), libkmod2 (>= 5~), libpci3 (= 1:3.5.2-1ubuntu1.1)
+Description: Linux PCI Utilities
+Homepage: http://atrey.karlin.mff.cuni.cz/~mj/pciutils.shtml
+
+Package: perl
+Installed-Size: 568
+Architecture: amd64
+Version: 5.26.1-6ubuntu0.3
+Depends: perl-base (= 5.26.1-6ubuntu0.3), perl-modules-5.26 (>= 5.26.1-6ubuntu0.3), libperl5.26 (= 5.26.1-6ubuntu0.3)
+Pre-Depends: dpkg (>= 1.17.17)
+Description: Larry Wall's Practical Extraction and Report Language
+Homepage: http://dev.perl.org/perl5/
+
+Package: perl-base
+Installed-Size: 7826
+Architecture: amd64
+Version: 5.26.1-6ubuntu0.3
+Pre-Depends: libc6 (>= 2.23), dpkg (>= 1.17.17)
+Description: minimal Perl system
+Homepage: http://dev.perl.org/perl5/
+
+Package: perl-modules-5.26
+Installed-Size: 18501
+Architecture: all
+Version: 5.26.1-6ubuntu0.3
+Depends: perl-base (>= 5.26.1-1)
+Pre-Depends: dpkg (>= 1.17.17)
+Description: Core Perl modules
+Homepage: http://dev.perl.org/perl5/
+
+Package: pinentry-curses
+Installed-Size: 96
+Architecture: amd64
+Version: 1.1.0-1
+Depends: libassuan0 (>= 2.0.1), libc6 (>= 2.14), libgpg-error0 (>= 1.14), libncursesw5 (>= 6), libtinfo5 (>= 6)
+Description: curses-based PIN or pass-phrase entry dialog for GnuPG
+Homepage: https://www.gnupg.org/related_software/pinentry/
+
+Package: plymouth
+Installed-Size: 453
+Architecture: amd64
+Version: 0.9.3-1ubuntu7.18.04.2
+Depends: init-system-helpers (>= 1.18), lsb-base (>= 3.0-6), systemd (>= 232-8~), udev (>= 232-8~), libc6 (>= 2.14), libdrm2 (>= 2.4.17), libplymouth4 (>= 0.9.3-1ubuntu7.18.04.2)
+Description: boot animation, logger and I/O multiplexer
+Homepage: http://www.freedesktop.org/wiki/Software/Plymouth
+
+Package: plymouth-theme-ubuntu-text
+Installed-Size: 54
+Architecture: amd64
+Version: 0.9.3-1ubuntu7.18.04.2
+Depends: libc6 (>= 2.2.5), libplymouth4 (>= 0.9.2), plymouth (= 0.9.3-1ubuntu7.18.04.2), lsb-release
+Description: boot animation, logger and I/O multiplexer - ubuntu text theme
+Homepage: http://www.freedesktop.org/wiki/Software/Plymouth
+
+Package: policykit-1
+Installed-Size: 436
+Architecture: amd64
+Version: 0.105-20ubuntu0.18.04.5
+Depends: dbus, libpam-systemd, libc6 (>= 2.7), libglib2.0-0 (>= 2.37.3), libpam0g (>= 0.99.7.1), libpolkit-agent-1-0 (= 0.105-20ubuntu0.18.04.5), libpolkit-backend-1-0 (= 0.105-20ubuntu0.18.04.5), libpolkit-gobject-1-0 (= 0.105-20ubuntu0.18.04.5)
+Description: framework for managing administrative policies and privileges
+Homepage: https://www.freedesktop.org/wiki/Software/polkit/
+
+Package: pollinate
+Installed-Size: 53
+Architecture: all
+Version: 4.33-0ubuntu1~18.04.1
+Depends: curl, adduser, xxd | vim-common
+Description: seed the pseudo random number generator
+Homepage: http://launchpad.net/pollinate
+
+Package: popularity-contest
+Installed-Size: 118
+Architecture: all
+Version: 1.66ubuntu1
+Depends: debconf (>= 0.5) | debconf-2.0, dpkg (>= 1.10)
+Pre-Depends: debconf (>= 1.5.34) | cdebconf (>= 0.106)
+Description: Vote for your favourite packages automatically
+Homepage: https://popcon.debian.org/
+
+Package: powermgmt-base
+Installed-Size: 28
+Architecture: all
+Version: 1.33
+Description: common utils for power management
+
+Package: procps
+Installed-Size: 709
+Architecture: amd64
+Version: 2:3.3.12-3ubuntu1.2
+Depends: libc6 (>= 2.27), libncurses5 (>= 6), libncursesw5 (>= 6), libprocps6, libtinfo5 (>= 6), lsb-base (>= 3.0-10), init-system-helpers (>= 1.29~)
+Description: /proc file system utilities
+Homepage: https://gitlab.com/procps-ng/procps
+
+Package: psmisc
+Installed-Size: 260
+Architecture: amd64
+Version: 23.1-1ubuntu0.1
+Depends: libc6 (>= 2.14), libselinux1 (>= 1.32), libtinfo5 (>= 6)
+Description: utilities that use the proc file system
+Homepage: http://psmisc.sf.net/
+
+Package: publicsuffix
+Installed-Size: 283
+Architecture: all
+Version: 20180223.1310-1
+Description: accurate, machine-readable list of domain name suffixes
+Homepage: https://publicsuffix.org
+
+Package: pulseaudio-utils
+Installed-Size: 308
+Architecture: amd64
+Version: 1:11.1-1ubuntu7.2
+Depends: libc6 (>= 2.16), libcap2 (>= 1:2.10), libice6 (>= 1:1.0.0), libpulse0 (= 1:11.1-1ubuntu7.2), libsm6, libsndfile1 (>= 1.0.20), libx11-6, libx11-xcb1, libxcb1, libxtst6, libpulsedsp
+Description: Command line tools for the PulseAudio sound server
+Homepage: http://www.pulseaudio.org
+
+Package: python-apt-common
+Installed-Size: 244
+Architecture: all
+Version: 1.6.4
+Description: Python interface to libapt-pkg (locales)
+
+Package: python-pip-whl
+Installed-Size: 1813
+Architecture: all
+Version: 9.0.1-2.3~ubuntu1.18.04.1
+Depends: ca-certificates
+Description: Python package installer
+Homepage: https://pip.pypa.io/en/stable/
+
+Package: python3
+Installed-Size: 187
+Architecture: amd64
+Version: 3.6.7-1~18.04
+Depends: python3.6 (>= 3.6.7-1~), libpython3-stdlib (= 3.6.7-1~18.04)
+Pre-Depends: python3-minimal (= 3.6.7-1~18.04)
+Description: interactive high-level object-oriented language (default python3 version)
+Homepage: https://www.python.org/
+
+Package: python3-apport
+Installed-Size: 559
+Architecture: all
+Version: 2.20.9-0ubuntu7.7
+Depends: python3:any (>= 3.3.2-2~), python3-apt (>= 0.7.9), python3-httplib2, python3-problem-report (>= 0.94), python3-requests-unixsocket, lsb-release
+Description: Python 3 library for Apport crash report handling
+Homepage: https://wiki.ubuntu.com/Apport
+
+Package: python3-apt
+Installed-Size: 662
+Architecture: amd64
+Version: 1.6.4
+Depends: python3 (<< 3.7), python3 (>= 3.6~), python3:any (>= 3.3.2-2~), libapt-inst2.0 (>= 1.6.5~), libapt-pkg5.0 (>= 1.6.5~), libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2), python-apt-common
+Description: Python 3 interface to libapt-pkg
+
+Package: python3-asn1crypto
+Installed-Size: 493
+Architecture: all
+Version: 0.24.0-1
+Depends: python3:any (>= 3.3.2-2~)
+Description: Fast ASN.1 parser and serializer (Python 3)
+Homepage: https://github.com/wbond/asn1crypto
+
+Package: python3-attr
+Installed-Size: 108
+Architecture: all
+Version: 17.4.0-2
+Depends: python3:any (>= 3.3.2-2~)
+Description: Attributes without boilerplate (Python 3)
+Homepage: https://attrs.readthedocs.org/
+
+Package: python3-automat
+Installed-Size: 134
+Architecture: all
+Version: 0.6.0-1
+Depends: python3-attr, python3-six, python3:any (>= 3.3.2-2~)
+Description: Self-service finite-state machines for the programmer on the go
+Homepage: https://github.com/freeekanayaka/systemfixtures
+
+Package: python3-blinker
+Installed-Size: 54
+Architecture: all
+Version: 1.4+dfsg1-0.1
+Depends: python3:any (>= 3.3.2-2~)
+Description: fast, simple object-to-object and broadcast signaling library
+Homepage: http://pythonhosted.org/blinker/
+
+Package: python3-certifi
+Installed-Size: 308
+Architecture: all
+Version: 2018.1.18-2
+Depends: python3:any (>= 3.4~), ca-certificates
+Description: root certificates for validating SSL certs and verifying TLS hosts (python3)
+Homepage: https://certifi.io/en/latest/
+
+Package: python3-cffi-backend
+Installed-Size: 190
+Architecture: amd64
+Version: 1.11.5-1
+Depends: python3 (<< 3.7), python3 (>= 3.6~), python3:any (>= 3.1~), libc6 (>= 2.14), libffi6 (>= 3.0.4)
+Description: Foreign Function Interface for Python 3 calling C code - runtime
+Homepage: http://cffi.readthedocs.org/
+
+Package: python3-chardet
+Installed-Size: 410
+Architecture: all
+Version: 3.0.4-1
+Depends: python3:any (>= 3.3.2-2~), python3-pkg-resources
+Description: universal character encoding detector for Python3
+Homepage: https://github.com/chardet/chardet
+
+Package: python3-click
+Installed-Size: 259
+Architecture: all
+Version: 6.7-3
+Depends: python3:any (>= 3.3.2-2~), python3-colorama
+Description: Simple wrapper around optparse for powerful command line utilities - Python 3.x
+Homepage: https://salsa.debian.org/debian/python-click.git
+
+Package: python3-colorama
+Installed-Size: 65
+Architecture: all
+Version: 0.3.7-1
+Depends: python3:any (>= 3.4~)
+Description: Cross-platform colored terminal text in Python - Python 3.x
+Homepage: http://pypi.python.org/pypi/colorama/
+
+Package: python3-commandnotfound
+Installed-Size: 54
+Architecture: all
+Version: 18.04.5
+Depends: command-not-found-data (= 18.04.5), lsb-release, python3-apt, python3-gdbm, python3:any (>= 3.3.2-2~)
+Description: Python 3 bindings for command-not-found.
+
+Package: python3-configobj
+Installed-Size: 183
+Architecture: all
+Version: 5.0.6-2
+Depends: python3-six, python3:any (>= 3.3.2-2~)
+Description: simple but powerful config file reader and writer for Python 3
+Homepage: http://www.voidspace.org.uk/python/configobj.html
+
+Package: python3-constantly
+Installed-Size: 40
+Architecture: all
+Version: 15.1.0-1
+Depends: python3:any (>= 3.3.2-2~)
+Description: Symbolic constants in Python
+Homepage: https://github.com/twisted/constantly
+
+Package: python3-crypto
+Installed-Size: 1387
+Architecture: amd64
+Version: 2.6.1-8ubuntu2
+Depends: python3 (<< 3.7), python3 (>= 3.6~), python3:any (>= 3.3.2-2~), libc6 (>= 2.14), libgmp10
+Description: cryptographic algorithms and protocols for Python 3
+Homepage: http://www.pycrypto.org/
+
+Package: python3-cryptography
+Installed-Size: 1487
+Architecture: amd64
+Version: 2.1.4-1ubuntu1.3
+Depends: python3 (>= 3~), python3-asn1crypto (>= 0.21.0~), python3-cffi-backend-api-min (<= 9729), python3-cffi-backend-api-max (>= 9729), python3-idna (>= 2.1), python3-six (>= 1.4.1), python3:any (>= 3.4~), libc6 (>= 2.14), libssl1.1 (>= 1.1.1)
+Description: Python library exposing cryptographic recipes and primitives (Python 3)
+Homepage: https://cryptography.io/
+
+Package: python3-dbus
+Installed-Size: 393
+Architecture: amd64
+Version: 1.2.6-1
+Depends: python3 (<< 3.7), python3 (>= 3.6~), python3:any (>= 3.4~), libc6 (>= 2.4), libdbus-1-3 (>= 1.9.14), libglib2.0-0 (>= 2.40)
+Description: simple interprocess messaging system (Python 3 interface)
+Homepage: http://www.freedesktop.org/wiki/Software/DBusBindings#Python
+
+Package: python3-debconf
+Installed-Size: 18
+Architecture: all
+Version: 1.5.66ubuntu1
+Depends: debconf (= 1.5.66ubuntu1), python3:any (>= 3.3.2-2~)
+Description: interact with debconf from Python 3
+
+Package: python3-debian
+Installed-Size: 259
+Architecture: all
+Version: 0.1.32
+Depends: python3-chardet, python3-six (>> 1.4~), python3:any (>= 3.3.2-2~)
+Description: Python 3 modules to work with Debian-related data formats
+
+Package: python3-dev
+Installed-Size: 17
+Architecture: amd64
+Version: 3.6.7-1~18.04
+Depends: python3 (= 3.6.7-1~18.04), libpython3-dev (= 3.6.7-1~18.04), python3.6-dev (>= 3.6.7-1~), python3-distutils (>= 3.6.7-1~), dh-python
+Description: header files and a static library for Python (default)
+Homepage: https://www.python.org/
+
+Package: python3-distro-info
+Installed-Size: 53
+Architecture: all
+Version: 0.18ubuntu0.18.04.1
+Depends: distro-info-data, python3:any (>= 3.3.2-2~)
+Description: information about distributions' releases (Python 3 module)
+
+Package: python3-distupgrade
+Installed-Size: 639
+Architecture: all
+Version: 1:18.04.34
+Depends: python3:any (>= 3.3.2-2~), python3-update-manager (>= 1:18.04.11.9~), python3-apt (>= 0.8.5~), python3-distro-info, gpgv, lsb-release, sensible-utils
+Description: manage release upgrades
+
+Package: python3-distutils
+Installed-Size: 1367
+Architecture: all
+Version: 3.6.8-1~18.04
+Depends: python3 (>= 3.6.6-1~), python3 (<< 3.8), python3-lib2to3 (>= 3.6.4)
+Description: distutils package for Python 3.x
+
+Package: python3-gdbm
+Installed-Size: 67
+Architecture: amd64
+Version: 3.6.8-1~18.04
+Depends: python3 (>= 3.6.6-1~), python3 (<< 3.8), libc6 (>= 2.4), libgdbm5 (>= 1.14)
+Description: GNU dbm database support for Python 3.x
+
+Package: python3-gi
+Installed-Size: 630
+Architecture: amd64
+Version: 3.26.1-2ubuntu1
+Depends: python3 (<< 3.7), python3 (>= 3.6~), python3:any (>= 3.3.2-2~), libc6 (>= 2.14), libffi6 (>= 3.0.4), libgirepository-1.0-1 (>= 1.44.0), libglib2.0-0 (>= 2.41.1), gir1.2-glib-2.0 (>= 1.39.0)
+Description: Python 3 bindings for gobject-introspection libraries
+Homepage: https://wiki.gnome.org/Projects/PyGObject
+
+Package: python3-httplib2
+Installed-Size: 113
+Architecture: all
+Version: 0.9.2+dfsg-1ubuntu0.1
+Depends: python3:any (>= 3.3.2-2~), ca-certificates
+Description: comprehensive HTTP client library written for Python3
+Homepage: https://github.com/jcgregorio/httplib2
+
+Package: python3-hyperlink
+Installed-Size: 130
+Architecture: all
+Version: 17.3.1-2
+Depends: python3:any (>= 3.3.2-2~)
+Description: Immutable, Pythonic, correct URLs.
+Homepage: https://github.com/python-hyper/hyperlink
+
+Package: python3-idna
+Installed-Size: 269
+Architecture: all
+Version: 2.6-1
+Depends: python3:any (>= 3.3.2-2~)
+Description: Python IDNA2008 (RFC 5891) handling (Python 3)
+Homepage: https://github.com/kjd/idna
+
+Package: python3-incremental
+Installed-Size: 95
+Architecture: all
+Version: 16.10.1-3
+Depends: python3:any (>= 3.3.2-2~)
+Description: Library for versioning Python projects.
+Homepage: https://github.com/hawkowl/incremental
+
+Package: python3-jinja2
+Installed-Size: 481
+Architecture: all
+Version: 2.10-1ubuntu0.18.04.1
+Depends: python3-markupsafe, python3:any (>= 3.3.2-2~)
+Description: small but fast and easy to use stand-alone template engine
+Homepage: http://jinja.pocoo.org/
+
+Package: python3-json-pointer
+Installed-Size: 43
+Architecture: all
+Version: 1.10-1
+Depends: python3:any (>= 3.3.2-2~)
+Description: resolve JSON pointers - Python 3.x
+Homepage: https://github.com/stefankoegl/python-json-pointer
+
+Package: python3-jsonpatch
+Installed-Size: 58
+Architecture: all
+Version: 1.19+really1.16-1fakesync1
+Depends: python3-json-pointer (>= 1.9), python3:any (>= 3.3.2-2~)
+Description: library to apply JSON patches - Python 3.x
+Homepage: https://github.com/stefankoegl/python-json-patch
+
+Package: python3-jsonschema
+Installed-Size: 171
+Architecture: all
+Version: 2.6.0-2
+Depends: python3 (>= 3.2.3), python3-pkg-resources, python3:any (>= 3.3.2-2~)
+Description: An(other) implementation of JSON Schema (Draft 3 and 4) - Python 3.x
+Homepage: https://github.com/Julian/jsonschema
+
+Package: python3-jwt
+Installed-Size: 78
+Architecture: all
+Version: 1.5.3+ds1-1
+Depends: python3:any (>= 3.3.2-2~)
+Description: Python 3 implementation of JSON Web Token
+Homepage: https://github.com/jpadilla/pyjwt
+
+Package: python3-keyring
+Installed-Size: 141
+Architecture: all
+Version: 10.6.0-1
+Depends: python3-dbus, python3-secretstorage, python3:any (>= 3.3.2-2~)
+Description: store and access your passwords safely - Python 3 version of the package
+Homepage: https://github.com/jaraco/keyring
+
+Package: python3-keyrings.alt
+Installed-Size: 85
+Architecture: all
+Version: 3.0-1
+Depends: python3-crypto, python3-six, python3:any (>= 3.3.2-2~)
+Description: alternate backend implementations for python3-keyring
+Homepage: https://github.com/jaraco/keyrings.alt
+
+Package: python3-lib2to3
+Installed-Size: 700
+Architecture: all
+Version: 3.6.8-1~18.04
+Depends: python3 (>= 3.6.6-1~), python3 (<< 3.8)
+Description: Interactive high-level object-oriented language (2to3, version 3.6)
+
+Package: python3-markupsafe
+Installed-Size: 55
+Architecture: amd64
+Version: 1.0-1build1
+Depends: python3 (<< 3.7), python3 (>= 3.6~), python3:any (>= 3.3.2-2~), libc6 (>= 2.14)
+Description: HTML/XHTML/XML string library for Python 3
+Homepage: https://pypi.python.org/pypi/MarkupSafe
+
+Package: python3-minimal
+Installed-Size: 121
+Architecture: amd64
+Version: 3.6.7-1~18.04
+Depends: dpkg (>= 1.13.20)
+Pre-Depends: python3.6-minimal (>= 3.6.7-1~)
+Description: minimal subset of the Python language (default python3 version)
+Homepage: https://www.python.org/
+
+Package: python3-netifaces
+Installed-Size: 47
+Architecture: amd64
+Version: 0.10.4-0.1build4
+Depends: libc6 (>= 2.4), python3 (<< 3.7), python3 (>= 3.6~)
+Description: portable network interface information - Python 3.x
+Homepage: http://alastairs-place.net/projects/netifaces/
+
+Package: python3-newt
+Installed-Size: 105
+Architecture: amd64
+Version: 0.52.20-1ubuntu1
+Depends: libnewt0.52 (= 0.52.20-1ubuntu1), python3 (<< 3.7), python3 (>= 3.6~), python3:any (>= 3.3.2-2~), libc6 (>= 2.4)
+Description: NEWT module for Python3
+Homepage: https://fedorahosted.org/newt/
+
+Package: python3-oauthlib
+Installed-Size: 442
+Architecture: all
+Version: 2.0.6-1
+Depends: python3:any (>= 3.4~), python3-blinker, python3-cryptography, python3-jwt (>= 1.0.0)
+Description: generic, spec-compliant implementation of OAuth for Python3
+Homepage: https://github.com/idan/oauthlib
+
+Package: python3-openssl
+Installed-Size: 224
+Architecture: all
+Version: 17.5.0-1ubuntu1
+Depends: python3-cryptography (>= 2.1.4), python3-six (>= 1.5.2), python3:any (>= 3.3.2-2~)
+Description: Python 3 wrapper around the OpenSSL library
+Homepage: https://pyopenssl.org/
+
+Package: python3-pam
+Installed-Size: 40
+Architecture: amd64
+Version: 0.4.2-13.2ubuntu4
+Depends: python3 (<< 3.7), python3 (>= 3.6~), libc6 (>= 2.4), libpam0g (>= 0.99.7.1)
+Description: Python interface to the PAM library
+
+Package: python3-pip
+Installed-Size: 586
+Architecture: all
+Version: 9.0.1-2.3~ubuntu1.18.04.1
+Depends: ca-certificates, python3-distutils, python-pip-whl (= 9.0.1-2.3~ubuntu1.18.04.1), python3:any (>= 3.4~)
+Description: Python package installer
+Homepage: https://pip.pypa.io/en/stable/
+
+Package: python3-pkg-resources
+Installed-Size: 517
+Architecture: all
+Version: 39.0.1-2
+Depends: python3:any (>= 3.3.2-2~)
+Description: Package Discovery and Resource Access using pkg_resources
+Homepage: https://pypi.python.org/pypi/setuptools
+
+Package: python3-problem-report
+Installed-Size: 171
+Architecture: all
+Version: 2.20.9-0ubuntu7.7
+Depends: python3:any (>= 3.3.2-2~)
+Description: Python 3 library to handle problem reports
+Homepage: https://wiki.ubuntu.com/Apport
+
+Package: python3-pyasn1
+Installed-Size: 358
+Architecture: all
+Version: 0.4.2-3
+Depends: python3:any (>= 3.3.2-2~)
+Description: ASN.1 library for Python (Python 3 module)
+Homepage: http://pyasn1.sourceforge.net/
+
+Package: python3-pyasn1-modules
+Installed-Size: 363
+Architecture: all
+Version: 0.2.1-0.2
+Depends: python3-pyasn1 (>= 0.4.1), python3-pyasn1 (<< 0.5.0), python3:any (>= 3.3.2-2~)
+Description: Collection of protocols modules written in ASN.1 language (Python 3)
+Homepage: http://pypi.python.org/pypi/pyasn1-modules
+
+Package: python3-requests
+Installed-Size: 275
+Architecture: all
+Version: 2.18.4-2ubuntu0.1
+Depends: python3-certifi, python3-chardet (<< 3.1.0), python3-idna, python3-urllib3 (<< 1.23), python3:any (>= 3.4~), ca-certificates, python3-chardet (>= 3.0.2), python3-urllib3 (>= 1.21.1)
+Description: elegant and simple HTTP library for Python3, built for human beings
+Homepage: http://python-requests.org
+
+Package: python3-requests-unixsocket
+Installed-Size: 33
+Architecture: all
+Version: 0.1.5-3
+Depends: python3-requests, python3-urllib3, python3:any (>= 3.3.2-2~)
+Description: Use requests to talk HTTP via a UNIX domain socket - Python 3.x
+Homepage: https://github.com/msabramo/requests-unixsocket
+
+Package: python3-secretstorage
+Installed-Size: 53
+Architecture: all
+Version: 2.3.1-2
+Depends: dbus, python3-dbus, python3-cryptography, python3:any (>= 3.3.2-2~)
+Description: Python module for storing secrets - Python 3.x version
+Homepage: https://github.com/mitya57/secretstorage
+
+Package: python3-serial
+Installed-Size: 367
+Architecture: all
+Version: 3.4-2
+Depends: python3:any (>= 3.3.2-2~)
+Description: pyserial - module encapsulating access for the serial port
+Homepage: http://pyserial.sourceforge.net/
+
+Package: python3-service-identity
+Installed-Size: 45
+Architecture: all
+Version: 16.0.0-2
+Depends: python3-attr, python3-openssl, python3-pyasn1, python3-pyasn1-modules, python3:any (>= 3.3.2-2~)
+Description: Service identity verification for pyOpenSSL (Python 3 module)
+Homepage: https://pypi.python.org/pypi/service_identity
+
+Package: python3-setuptools
+Installed-Size: 1288
+Architecture: all
+Version: 39.0.1-2
+Depends: python3-pkg-resources (= 39.0.1-2), python3-distutils, python3:any (>= 3.3.2-2~)
+Description: Python3 Distutils Enhancements
+Homepage: https://pypi.python.org/pypi/setuptools
+
+Package: python3-six
+Installed-Size: 54
+Architecture: all
+Version: 1.11.0-2
+Depends: python3:any (>= 3.4~)
+Description: Python 2 and 3 compatibility library (Python 3 interface)
+Homepage: https://pypi.python.org/pypi/six
+
+Package: python3-software-properties
+Installed-Size: 140
+Architecture: all
+Version: 0.96.24.32.11
+Depends: python3:any (>= 3.3.2-2~), python3, python3-apt (>= 0.6.20ubuntu16), python3-gi, lsb-release, iso-codes, gpg
+Description: manage the repositories that you install software from
+
+Package: python3-systemd
+Installed-Size: 172
+Architecture: amd64
+Version: 234-1build1
+Depends: python3 (<< 3.7), python3 (>= 3.6~), python3:any (>= 3.3.2-2~), libc6 (>= 2.17), libsystemd0 (>= 233)
+Description: Python 3 bindings for systemd
+Homepage: http://www.freedesktop.org/wiki/Software/systemd
+
+Package: python3-twisted
+Installed-Size: 12396
+Architecture: all
+Version: 17.9.0-2
+Depends: python3-automat (>= 0.6.0), python3-constantly, python3-hyperlink, python3-incremental, python3-zope.interface (>= 4.0.2), python3:any (>= 3.3.2-2~), python3-twisted-bin (>= 17.9.0-2), python3-openssl, python3-service-identity
+Description: Event-based framework for internet applications
+Homepage: https://twistedmatrix.com/
+
+Package: python3-twisted-bin
+Installed-Size: 45
+Architecture: amd64
+Version: 17.9.0-2
+Depends: python3 (<< 3.7), python3 (>= 3.6~), libc6 (>= 2.4)
+Description: Event-based framework for internet applications
+Homepage: https://twistedmatrix.com/
+
+Package: python3-update-manager
+Installed-Size: 230
+Architecture: all
+Version: 1:18.04.11.10
+Depends: python3:any (>= 3.3.2-2~), python3-apt (>= 0.8.5~), python3-distupgrade, lsb-release
+Description: python 3.x module for update-manager
+
+Package: python3-urllib3
+Installed-Size: 401
+Architecture: all
+Version: 1.22-1ubuntu0.18.04.1
+Depends: python3:any (>= 3.3.2-2~), python3-six
+Description: HTTP library with thread-safe connection pooling for Python3
+Homepage: http://urllib3.readthedocs.org
+
+Package: python3-wheel
+Installed-Size: 151
+Architecture: all
+Version: 0.30.0-0.2
+Depends: python3:any (>= 3.3.2-2~)
+Description: built-package format for Python
+Homepage: https://bitbucket.org/pypa/wheel
+
+Package: python3-xdg
+Installed-Size: 162
+Architecture: all
+Version: 0.25-4ubuntu1
+Depends: python3:any (>= 3.3.2-2~)
+Description: Python 3 library to access freedesktop.org standards
+Homepage: http://www.freedesktop.org/wiki/Software/pyxdg
+
+Package: python3-yaml
+Installed-Size: 459
+Architecture: amd64
+Version: 3.12-1build2
+Depends: python3 (<< 3.7), python3 (>= 3.6~), python3:any (>= 3.3.2-2~), libc6 (>= 2.14), libyaml-0-2
+Description: YAML parser and emitter for Python3
+Homepage: https://github.com/yaml/pyyaml
+
+Package: python3-zope.interface
+Installed-Size: 664
+Architecture: amd64
+Version: 4.3.2-1build2
+Depends: python3 (<< 3.7), python3 (>= 3.6~), python3-pkg-resources, python3:any (>= 3.3.2-2~), libc6 (>= 2.4)
+Description: Interfaces for Python3
+Homepage: http://pypi.python.org/pypi/zope.interface
+
+Package: python3.6
+Installed-Size: 326
+Architecture: amd64
+Version: 3.6.8-1~18.04.2
+Depends: python3.6-minimal (= 3.6.8-1~18.04.2), libpython3.6-stdlib (= 3.6.8-1~18.04.2), mime-support
+Description: Interactive high-level object-oriented language (version 3.6)
+
+Package: python3.6-dev
+Installed-Size: 514
+Architecture: amd64
+Version: 3.6.8-1~18.04.2
+Depends: python3.6 (= 3.6.8-1~18.04.2), libpython3.6-dev (= 3.6.8-1~18.04.2), libpython3.6 (= 3.6.8-1~18.04.2), libexpat1-dev
+Description: Header files and a static library for Python (v3.6)
+
+Package: python3.6-minimal
+Installed-Size: 8965
+Architecture: amd64
+Version: 3.6.8-1~18.04.2
+Depends: libpython3.6-minimal (= 3.6.8-1~18.04.2), libexpat1 (>= 2.1~beta3), zlib1g (>= 1:1.2.0)
+Pre-Depends: libc6 (>= 2.25)
+Description: Minimal subset of the Python language (version 3.6)
+
+Package: readline-common
+Installed-Size: 78
+Architecture: all
+Version: 7.0-3
+Depends: dpkg (>= 1.15.4) | install-info
+Description: GNU readline and history libraries, common files
+
+Package: rsync
+Installed-Size: 703
+Architecture: amd64
+Version: 3.1.2-2.1ubuntu1
+Depends: libacl1 (>= 2.2.51-8), libattr1 (>= 1:2.4.46-8), libc6 (>= 2.15), libpopt0 (>= 1.14), lsb-base (>= 3.2-14), base-files (>= 4.0.1), init-system-helpers (>= 1.18~)
+Description: fast, versatile, remote (and local) file-copying tool
+Homepage: http://rsync.samba.org/
+
+Package: rsyslog
+Installed-Size: 1432
+Architecture: amd64
+Version: 8.32.0-1ubuntu4
+Depends: libc6 (>= 2.27), libestr0 (>= 0.1.4), libfastjson4 (>= 0.99.7), libsystemd0 (>= 209), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4), init-system-helpers (>= 1.47~), lsb-base (>= 3.2-14), adduser, ucf
+Description: reliable system and kernel logging daemon
+Homepage: http://www.rsyslog.com/
+
+Package: run-one
+Installed-Size: 44
+Architecture: all
+Version: 1.17-0ubuntu1
+Depends: procps
+Description: run just one instance of a command and its args at a time
+Homepage: http://launchpad.net/run-one
+
+Package: screen
+Installed-Size: 986
+Architecture: amd64
+Version: 4.6.2-1ubuntu1
+Depends: libc6 (>= 2.15), libpam0g (>= 0.99.7.1), libtinfo5 (>= 6), libutempter0 (>= 1.1.5)
+Description: terminal multiplexer with VT100/ANSI terminal emulation
+Homepage: https://savannah.gnu.org/projects/screen
+
+Package: sed
+Installed-Size: 320
+Architecture: amd64
+Version: 4.4-2
+Pre-Depends: libc6 (>= 2.14), libselinux1 (>= 1.32)
+Description: GNU stream editor for filtering/transforming text
+Homepage: https://www.gnu.org/software/sed/
+
+Package: sensible-utils
+Installed-Size: 62
+Architecture: all
+Version: 0.0.12
+Description: Utilities for sensible alternative selection
+
+Package: shared-mime-info
+Installed-Size: 2600
+Architecture: amd64
+Version: 1.9-2
+Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.35.9), libxml2 (>= 2.7.4)
+Description: FreeDesktop.org shared MIME database and spec
+Homepage: https://freedesktop.org/wiki/Software/shared-mime-info
+
+Package: snapd
+Installed-Size: 61976
+Architecture: amd64
+Version: 2.40+18.04
+Depends: adduser, apparmor (>= 2.10.95-0ubuntu2.2), ca-certificates, openssh-client, squashfs-tools, systemd, udev, libc6 (>= 2.27), libfuse2 (>= 2.8), liblzma5 (>= 5.1.1alpha+20110809), libudev1 (>= 183), zlib1g (>= 1:1.1.4)
+Description: Daemon and tooling that enable snap packages
+Homepage: https://github.com/snapcore/snapd
+
+Package: software-properties-common
+Installed-Size: 196
+Architecture: all
+Version: 0.96.24.32.11
+Depends: python3:any (>= 3.3.2-2~), python3, python3-gi, gir1.2-glib-2.0, python-apt-common (>= 0.9), python3-dbus, python3-software-properties (= 0.96.24.32.11), ca-certificates
+Description: manage the repositories that you install software from (common)
+
+Package: sosreport
+Installed-Size: 1548
+Architecture: amd64
+Version: 3.6-1ubuntu0.18.04.3
+Depends: python3-six, python3:any (>= 3.3.2-2~)
+Description: Set of tools to gather troubleshooting data from a system
+Homepage: https://github.com/sosreport/sos
+
+Package: squashfs-tools
+Installed-Size: 305
+Architecture: amd64
+Version: 1:4.3-6ubuntu0.18.04.1
+Depends: libc6 (>= 2.14), liblz4-1 (>= 0.0~r113), liblzma5 (>= 5.1.1alpha+20120614), liblzo2-2, zlib1g (>= 1:1.1.4)
+Description: Tool to create and append to squashfs filesystems
+Homepage: http://squashfs.sourceforge.net/
+
+Package: ssh-import-id
+Installed-Size: 53
+Architecture: all
+Version: 5.7-0ubuntu1.1
+Depends: ca-certificates, openssh-client, python3-requests (>= 1.1.0), wget, python3:any (>= 3.3.2-2~)
+Description: securely retrieve an SSH public key and install it locally
+Homepage: http://launchpad.net/ssh-import-id
+
+Package: strace
+Installed-Size: 1408
+Architecture: amd64
+Version: 4.21-1ubuntu1
+Depends: libc6 (>= 2.15), libunwind8
+Description: System call tracer
+Homepage: https://strace.io
+
+Package: sudo
+Installed-Size: 1724
+Architecture: amd64
+Version: 1.8.21p2-3ubuntu1
+Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.26), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libpam-modules, lsb-base
+Description: Provide limited super user privileges to specific users
+Homepage: http://www.sudo.ws/
+
+Package: systemd
+Installed-Size: 12460
+Architecture: amd64
+Version: 237-3ubuntu10.29
+Depends: libapparmor1 (>= 2.9.0-3+exp2), libaudit1 (>= 1:2.2.1), libcryptsetup12 (>= 2:1.4.3), libgpg-error0 (>= 1.14), libkmod2 (>= 5~), libmount1 (>= 2.26.2), libpam0g (>= 0.99.7.1), libsystemd0 (= 237-3ubuntu10.29), util-linux (>= 2.27.1), mount (>= 2.26), adduser, procps
+Pre-Depends: libacl1 (>= 2.2.51-8), libblkid1 (>= 2.19.1), libc6 (>= 2.27), libcap2 (>= 1:2.10), libcryptsetup12 (>= 2:1.4), libgcrypt20 (>= 1.8.0), libidn11 (>= 1.13), libip4tc0 (>= 1.6.0+snapshot20161117), liblz4-1 (>= 0.0~r130), liblzma5 (>= 5.1.1alpha+20120614), libseccomp2 (>= 2.3.1), libselinux1 (>= 2.1.9)
+Description: system and service manager
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+
+Package: systemd-sysv
+Installed-Size: 122
+Architecture: amd64
+Version: 237-3ubuntu10.29
+Pre-Depends: systemd
+Description: system and service manager - SysV links
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+
+Package: sysvinit-utils
+Installed-Size: 60
+Architecture: amd64
+Version: 2.88dsf-59.10ubuntu1
+Depends: libc6 (>= 2.14), init-system-helpers (>= 1.25~), util-linux (>> 2.28-2~)
+Description: System-V-like utilities
+Homepage: http://savannah.nongnu.org/projects/sysvinit
+
+Package: tar
+Installed-Size: 868
+Architecture: amd64
+Version: 1.29b-2ubuntu0.1
+Pre-Depends: libacl1 (>= 2.2.51-8), libc6 (>= 2.17), libselinux1 (>= 1.32)
+Description: GNU version of the tar archiving utility
+
+Package: tcpdump
+Installed-Size: 1170
+Architecture: amd64
+Version: 4.9.2-3
+Depends: libc6 (>= 2.14), libpcap0.8 (>= 1.5.1), libssl1.1 (>= 1.1.0)
+Description: command-line network traffic analyzer
+Homepage: http://www.tcpdump.org/
+
+Package: telnet
+Installed-Size: 161
+Architecture: amd64
+Version: 0.17-41
+Depends: netbase, libc6 (>= 2.15), libstdc++6 (>= 5)
+Description: basic telnet client
+
+Package: time
+Installed-Size: 78
+Architecture: amd64
+Version: 1.7-25.1build1
+Depends: libc6 (>= 2.4)
+Description: GNU time program for measuring CPU resource usage
+Homepage: http://www.gnu.org/software/time
+
+Package: tmux
+Installed-Size: 632
+Architecture: amd64
+Version: 2.6-3ubuntu0.2
+Depends: libc6 (>= 2.27), libevent-2.1-6 (>= 2.1.8-stable), libtinfo5 (>= 6), libutempter0 (>= 1.1.5)
+Description: terminal multiplexer
+Homepage: https://tmux.github.io/
+
+Package: tzdata
+Installed-Size: 3033
+Architecture: all
+Version: 2019b-0ubuntu0.18.04
+Depends: debconf (>= 0.5) | debconf-2.0
+Description: time zone and daylight-saving time data
+Homepage: https://www.iana.org/time-zones
+
+Package: ubuntu-advantage-tools
+Installed-Size: 74
+Architecture: all
+Version: 17
+Description: management tools for Ubuntu Advantage
+Homepage: https://buy.ubuntu.com
+
+Package: ubuntu-keyring
+Installed-Size: 46
+Architecture: all
+Version: 2018.09.18.1~18.04.0
+Description: GnuPG keys of the Ubuntu archive
+
+Package: ubuntu-minimal
+Installed-Size: 47
+Architecture: amd64
+Version: 1.417.3
+Depends: adduser, apt, apt-utils, bzip2, console-setup, debconf, debconf-i18n, eject, init, initramfs-tools, iproute2, iputils-ping, isc-dhcp-client, kbd, kmod, less, locales, lsb-release, mawk, mount, netbase, netcat-openbsd, nplan, passwd, procps, python3, sensible-utils, sudo, tzdata, ubuntu-advantage-tools, ubuntu-keyring, udev, vim-tiny, whiptail
+Description: Minimal core of Ubuntu
+
+Package: ubuntu-release-upgrader-core
+Installed-Size: 336
+Architecture: all
+Version: 1:18.04.34
+Depends: python3:any (>= 3.2~), python3-distupgrade (= 1:18.04.34), ca-certificates
+Description: manage release upgrades
+
+Package: ubuntu-server
+Installed-Size: 47
+Architecture: amd64
+Version: 1.417.3
+Depends: acpid, apport, at, bcache-tools, btrfs-tools, byobu, cloud-guest-utils, cloud-initramfs-copymods, cloud-initramfs-dyn-netconf, curl, dirmngr, ethtool, fonts-ubuntu-console, git, gnupg, htop, lvm2, mdadm, net-tools, open-iscsi, open-vm-tools, overlayroot, patch, pollinate, screen, software-properties-common, sosreport, tmux, update-notifier-common, vim, xfsprogs
+Description: The Ubuntu Server system
+
+Package: ubuntu-standard
+Installed-Size: 47
+Architecture: amd64
+Version: 1.417.3
+Depends: busybox-static, cpio, cron, dmidecode, dnsutils, dosfstools, ed, file, ftp, hdparm, info, iptables, language-selector-common, libpam-systemd, logrotate, lshw, lsof, ltrace, man-db, mime-support, parted, pciutils, popularity-contest, psmisc, rsync, strace, time, usbutils, wget
+Description: The Ubuntu standard system
+
+Package: ubuntu-wsl
+Installed-Size: 47
+Architecture: amd64
+Version: 1.417.3
+Depends: wslu
+Description: Ubuntu on Windows tools - Windows Subsystem for Linux integration
+
+Package: ucf
+Installed-Size: 183
+Architecture: all
+Version: 3.0038
+Depends: debconf (>= 1.5.19), coreutils (>= 5.91), sensible-utils
+Description: Update Configuration File(s)
+
+Package: udev
+Installed-Size: 7722
+Architecture: amd64
+Version: 237-3ubuntu10.29
+Depends: libacl1 (>= 2.2.51-8), libblkid1 (>= 2.19.1), libc6 (>= 2.27), libkmod2 (>= 5~), libselinux1 (>= 2.1.9), adduser, libudev1 (= 237-3ubuntu10.29), lsb-base (>= 3.0-6), util-linux (>= 2.27.1), procps
+Description: /dev/ and hotplug management daemon
+Homepage: https://www.freedesktop.org/wiki/Software/systemd
+
+Package: ufw
+Installed-Size: 823
+Architecture: all
+Version: 0.36-0ubuntu0.18.04.1
+Depends: iptables, lsb-base (>= 3.0-6), ucf, python3:any (>= 3.3.2-2~), debconf (>= 0.5) | debconf-2.0
+Description: program for managing a Netfilter firewall
+Homepage: https://launchpad.net/ufw
+
+Package: uidmap
+Installed-Size: 339
+Architecture: amd64
+Version: 1:4.5-1ubuntu2
+Depends: libc6 (>= 2.14), libselinux1 (>= 1.32)
+Description: programs to help use subuids
+Homepage: https://github.com/shadow-maint/shadow
+
+Package: unattended-upgrades
+Installed-Size: 384
+Architecture: all
+Version: 1.1ubuntu1.18.04.11
+Depends: debconf (>= 0.5) | debconf-2.0, debconf, gir1.2-glib-2.0, powermgmt-base, python3, python3-apt, python3-gi, python3-dbus, ucf, lsb-release, lsb-base, xz-utils
+Description: automatic installation of security upgrades
+
+Package: update-manager-core
+Installed-Size: 172
+Architecture: all
+Version: 1:18.04.11.10
+Depends: python3:any (>= 3.2~), python3-update-manager (= 1:18.04.11.10), python3-distro-info, distro-info-data, lsb-release, ubuntu-release-upgrader-core (>= 1:18.04.9)
+Description: manage release upgrades
+
+Package: update-notifier-common
+Installed-Size: 1378
+Architecture: all
+Version: 3.192.1.7
+Depends: python3:any, python3-apt, python3-dbus, python3-debian, python3-debconf | debconf (<< 1.5.64~), patch, update-manager-core (>= 1:17.04.2)
+Pre-Depends: dpkg (>= 1.15.7.2), apt (>= 1.1~)
+Description: Files shared between update-notifier and other packages
+
+Package: ureadahead
+Installed-Size: 73
+Architecture: amd64
+Version: 0.100.0-21
+Depends: libblkid1 (>= 2.16), libc6 (>= 2.4), libext2fs2 (>= 1.37), libnih1 (>= 1.0.0)
+Description: Read required files in advance
+
+Package: usbutils
+Installed-Size: 716
+Architecture: amd64
+Version: 1:007-4build1
+Depends: libc6 (>= 2.14), libusb-1.0-0 (>= 2:1.0.16), zlib1g (>= 1:1.1.4)
+Description: Linux USB utilities
+Homepage: https://github.com/gregkh/usbutils
+
+Package: util-linux
+Installed-Size: 3374
+Architecture: amd64
+Version: 2.31.1-0.4ubuntu3.4
+Depends: fdisk
+Pre-Depends: libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.31.1), libc6 (>= 2.25), libmount1 (>= 2.25), libpam0g (>= 0.99.7.1), libselinux1 (>= 2.6-3~), libsmartcols1 (>= 2.30.2), libsystemd0, libtinfo5 (>= 6), libudev1 (>= 183), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)
+Description: miscellaneous system utilities
+
+Package: uuid-runtime
+Installed-Size: 201
+Architecture: amd64
+Version: 2.31.1-0.4ubuntu3.4
+Depends: adduser, libc6 (>= 2.14), libsmartcols1 (>= 2.27~rc1), libsystemd0, libuuid1 (>= 2.31.1)
+Pre-Depends: libuuid1 (>= 2.25-5~)
+Description: runtime components for the Universally Unique ID library
+
+Package: vim
+Installed-Size: 2785
+Architecture: amd64
+Version: 2:8.0.1453-1ubuntu1.1
+Depends: vim-common (= 2:8.0.1453-1ubuntu1.1), vim-runtime (= 2:8.0.1453-1ubuntu1.1), libacl1 (>= 2.2.51-8), libc6 (>= 2.15), libgpm2 (>= 1.20.7), libpython3.6 (>= 3.6.5), libselinux1 (>= 1.32), libtinfo5 (>= 6)
+Description: Vi IMproved - enhanced vi editor
+Homepage: https://vim.sourceforge.io/
+
+Package: vim-common
+Installed-Size: 329
+Architecture: all
+Version: 2:8.0.1453-1ubuntu1.1
+Depends: xxd
+Description: Vi IMproved - Common files
+Homepage: https://vim.sourceforge.io/
+
+Package: vim-runtime
+Installed-Size: 28420
+Architecture: all
+Version: 2:8.0.1453-1ubuntu1.1
+Description: Vi IMproved - Runtime files
+Homepage: https://vim.sourceforge.io/
+
+Package: vim-tiny
+Installed-Size: 1271
+Architecture: amd64
+Version: 2:8.0.1453-1ubuntu1.1
+Depends: vim-common (= 2:8.0.1453-1ubuntu1.1), libacl1 (>= 2.2.51-8), libc6 (>= 2.15), libselinux1 (>= 1.32), libtinfo5 (>= 6)
+Description: Vi IMproved - enhanced vi editor - compact version
+Homepage: https://vim.sourceforge.io/
+
+Package: wget
+Installed-Size: 932
+Architecture: amd64
+Version: 1.19.4-1ubuntu2.2
+Depends: libc6 (>= 2.17), libidn2-0 (>= 0.6), libpcre3, libpsl5 (>= 0.16.0), libssl1.1 (>= 1.1.0), libuuid1 (>= 2.16)
+Description: retrieves files from the web
+Homepage: https://www.gnu.org/software/wget/
+
+Package: whiptail
+Installed-Size: 65
+Architecture: amd64
+Version: 0.52.20-1ubuntu1
+Depends: libc6 (>= 2.14), libnewt0.52, libpopt0 (>= 1.14), libslang2 (>= 2.2.4)
+Description: Displays user-friendly dialog boxes from shell scripts
+Homepage: https://fedorahosted.org/newt/
+
+Package: wslu
+Installed-Size: 207
+Architecture: all
+Version: 2.0.0-0ubuntu2~18.04.1
+Depends: bc
+Description: collection of utilities for the Windows 10 Linux Subsystem
+Homepage: https://wslu.patrickwu.space/
+
+Package: x11-common
+Installed-Size: 313
+Architecture: all
+Version: 1:7.7+19ubuntu7.1
+Depends: lsb-base (>= 1.3-9ubuntu2)
+Description: X Window System (X.Org) infrastructure
+Homepage: http://www.x.org/
+
+Package: x11-utils
+Installed-Size: 635
+Architecture: amd64
+Version: 7.7+3build1
+Depends: libc6 (>= 2.15), libfontconfig1 (>= 2.11.94), libfontenc1, libgl1-mesa-glx | libgl1, libx11-6, libx11-xcb1, libxaw7, libxcb-shape0, libxcb1 (>= 1.6), libxcomposite1 (>= 1:0.3-1), libxext6, libxft2 (>> 2.1.1), libxi6, libxinerama1, libxmu6, libxmuu1, libxrandr2 (>= 2:1.2.0), libxrender1, libxt6, libxtst6, libxv1, libxxf86dga1, libxxf86vm1
+Description: X11 utilities
+
+Package: xauth
+Installed-Size: 72
+Architecture: amd64
+Version: 1:1.0.10-1
+Depends: libc6 (>= 2.14), libx11-6, libxau6, libxext6, libxmuu1
+Description: X authentication utility
+
+Package: xdelta3
+Installed-Size: 165
+Architecture: amd64
+Version: 3.0.11-dfsg-1ubuntu1
+Depends: libc6 (>= 2.14), liblzma5 (>= 5.1.1alpha+20120614)
+Description: Diff utility which works with binary files
+
+Package: xdg-user-dirs
+Installed-Size: 533
+Architecture: amd64
+Version: 0.17-1ubuntu1
+Depends: libc6 (>= 2.14)
+Description: tool to manage well known user directories
+Homepage: http://www.freedesktop.org/wiki/Software/xdg-user-dirs
+
+Package: xfsprogs
+Installed-Size: 3876
+Architecture: amd64
+Version: 4.9.0+nmu1ubuntu2
+Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.14), libreadline5 (>= 5.2), libuuid1 (>= 2.16)
+Description: Utilities for managing the XFS filesystem
+Homepage: http://xfs.org/
+
+Package: xkb-data
+Installed-Size: 3186
+Architecture: all
+Version: 2.23.1-1ubuntu1.18.04.1
+Description: X Keyboard Extension (XKB) configuration data
+Homepage: https://www.freedesktop.org/Software/XKeyboardConfig
+
+Package: xxd
+Installed-Size: 195
+Architecture: amd64
+Version: 2:8.0.1453-1ubuntu1.1
+Depends: libc6 (>= 2.3.4)
+Description: tool to make (or reverse) a hex dump
+Homepage: https://vim.sourceforge.io/
+
+Package: xz-utils
+Installed-Size: 428
+Architecture: amd64
+Version: 5.2.2-1.3
+Depends: libc6 (>= 2.17), liblzma5 (>= 5.2.2)
+Description: XZ-format compression utilities
+Homepage: http://tukaani.org/xz/
+
+Package: zerofree
+Installed-Size: 25
+Architecture: amd64
+Version: 1.0.4-1
+Depends: e2fslibs (>= 1.37), libc6 (>= 2.4)
+Description: zero free blocks from ext2, ext3 and ext4 file-systems
+Homepage: https://frippery.org/uml/
+
+Package: zlib1g
+Installed-Size: 169
+Architecture: amd64
+Version: 1:1.2.11.dfsg-0ubuntu2
+Depends: libc6 (>= 2.14)
+Description: compression library - runtime
+Homepage: http://zlib.net/
+
+---------------------------------------------
+Pip Package info
+
+Name: wraptVersion: 1.11.2
+
+Name: typed-astVersion: 1.4.0
+
+Name: sixVersion: 1.12.0
+
+Name: pylintVersion: 2.3.1
+
+Name: pycodestyleVersion: 2.5.0
+
+Name: pep8Version: 1.7.1
+
+Name: mccabeVersion: 0.6.1
+
+Name: lazy-object-proxyVersion: 1.4.2
+
+Name: isortVersion: 4.3.21
+
+Name: autopep8Version: 1.4.4
+
+Name: astroidVersion: 2.2.5
+
+Name: zope.interfaceVersion: 4.3.2
+
+Name: wheelVersion: 0.30.0
+
+Name: urllib3Version: 1.22
+
+Name: unattended-upgradesVersion: 0.1
+
+Name: ufwVersion: 0.36
+
+Name: TwistedVersion: 17.9.0
+
+Name: systemd-pythonVersion: 234
+
+Name: ssh-import-idVersion: 5.7
+
+Name: setuptoolsVersion: 39.0.1
+
+Name: service-identityVersion: 16.0.0
+
+Name: SecretStorageVersion: 2.3.1
+
+Name: requestsVersion: 2.18.4
+
+Name: requests-unixsocketVersion: 0.1.5
+
+Name: PyYAMLVersion: 3.12
+
+Name: pyxdgVersion: 0.25
+
+Name: python-debianVersion: 0.1.32
+
+Name: python-aptVersion: 1.6.4
+
+Name: pyserialVersion: 3.4
+
+Name: pyOpenSSLVersion: 17.5.0
+
+Name: PyJWTVersion: 1.5.3
+
+Name: pygobjectVersion: 3.26.1
+
+Name: pycryptoVersion: 2.6.1
+
+Name: pyasn1Version: 0.4.2
+
+Name: pyasn1-modulesVersion: 0.2.1
+
+Name: pipVersion: 9.0.1
+
+Name: PAMVersion: 0.4.2
+
+Name: oauthlibVersion: 2.0.6
+
+Name: netifacesVersion: 0.10.4
+
+Name: MarkupSafeVersion: 1.0
+
+Name: language-selectorVersion: 0.1
+
+Name: keyrings.altVersion: 3.0
+
+Name: keyringVersion: 10.6.0
+
+Name: jsonschemaVersion: 2.6.0
+
+Name: jsonpointerVersion: 1.10
+
+Name: jsonpatchVersion: 1.16
+
+Name: Jinja2Version: 2.10
+
+Name: incrementalVersion: 16.10.1
+
+Name: idnaVersion: 2.6
+
+Name: hyperlinkVersion: 17.3.1
+
+Name: httplib2Version: 0.9.2
+
+Name: distro-infoVersion: 0.18ubuntu0.18.04.1
+
+Name: cryptographyVersion: 2.1.4
+
+Name: constantlyVersion: 15.1.0
+
+Name: configobjVersion: 5.0.6
+
+Name: command-not-foundVersion: 0.3
+
+Name: coloramaVersion: 0.3.7
+
+Name: cloud-initVersion: 19.2
+
+Name: clickVersion: 6.7
+
+Name: chardetVersion: 3.0.4
+
+Name: certifiVersion: 2018.1.18
+
+Name: blinkerVersion: 1.4
+
+Name: AutomatVersion: 0.6.0
+
+Name: attrsVersion: 17.4.0
+
+Name: asn1cryptoVersion: 0.24.0
+
