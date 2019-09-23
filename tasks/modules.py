@@ -35,7 +35,7 @@ class ModClass:
 def get_data(moddict):
     get_data_from_command(moddict)
 
-@logging_time
+# @logging_time
 def get_data_from_command(moddict):
     argstr = " ".join(moddict.keys())
 #    result = subprocess.check_output("./dateandhash.sh " + argstr,
@@ -55,7 +55,7 @@ def get_data_from_command(moddict):
         moddict[path].sha256 = line[4]
     # self.version
 
-@logging_time
+# @logging_time
 def modules():
     dirlist = processes.get_processes("/proc/")
 
@@ -95,6 +95,7 @@ def modules():
         del moddict[line[0]]
     get_data(moddict)
 
+    f = open("./res_modules", "w")
     for mod in moddict.values():
         mod.make_strpids()
         printstr = (
@@ -102,7 +103,9 @@ def modules():
             f"{mod.accdate:<20} {mod.moddate:<20} {mod.version:<5} "
             f"{mod.path:<40} {mod.md5:<50} {mod.sha256:<50}"
         )
-        print(printstr)
+#        print(printstr)
+        f.write(printstr + "\n")
+    f.close()
 
 # placeholder
 if __name__ == "__main__":

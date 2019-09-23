@@ -194,6 +194,7 @@ def processes():
             newproc = ProcClass(int(dirname))
             newproc.get_data()
             proclist.append(newproc)
+    f = open("./res_processes", "w")
     for proc in proclist:
         # Python 3.6+ code (f-string) started
         printstr = (
@@ -207,7 +208,9 @@ def processes():
             f"{proc.sha256:<50}"
         )
         # Python 3.6+ code (f-string) ended
-        print(printstr)
+#        print(printstr)
+        f.write(printstr + "\n")
+    f.close()
 
 
 if __name__ == "__main__":
