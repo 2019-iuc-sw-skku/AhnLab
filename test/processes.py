@@ -61,7 +61,7 @@ class ProcClass:
             datalist[1] += " " + datalist[i]
         for i in range(2 + cnt, len(datalist)):
             datalist[i - cnt] = datalist[i]
-
+            
         self.att = datalist[2]
         self.ppid = int(datalist[3])
         self.sessid = int(datalist[5])
@@ -184,7 +184,7 @@ def get_processes(path):
             dirlist.remove(dirname)
     return dirlist
 
-
+        
 def processes():
     basepath = "/proc/"
     dirlist = get_processes(basepath)
@@ -194,7 +194,6 @@ def processes():
             newproc = ProcClass(int(dirname))
             newproc.get_data()
             proclist.append(newproc)
-    f = open("./res_processes", "w")
     for proc in proclist:
         # Python 3.6+ code (f-string) started
         printstr = (
@@ -208,9 +207,7 @@ def processes():
             f"{proc.sha256:<50}"
         )
         # Python 3.6+ code (f-string) ended
-#        print(printstr)
-        f.write(printstr + "\n")
-    f.close()
+        print(printstr)
 
 
 if __name__ == "__main__":

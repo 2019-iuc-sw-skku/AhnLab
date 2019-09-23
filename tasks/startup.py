@@ -2,6 +2,7 @@
 
 def startup():
     print("here is startup")
+    printf("developing...")
 
 
 if __name__ == "__main__":
