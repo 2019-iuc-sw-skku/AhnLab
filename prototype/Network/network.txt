@@ -1,0 +1,82 @@
+*** FIREWALL RULES ***packets bytes target protocol option in out source destination 
+IPV4 (raw): 
+Chain INPUT (policy ACCEPT 0 packets, 0 bytes) 
+pkts bytes target prot opt in out source destination 
+Chain FORWARD (policy ACCEPT 0 packets, 0 bytes) 
+pkts bytes target prot opt in out source destination 
+Chain OUTPUT (policy ACCEPT 0 packets, 0 bytes) 
+pkts bytes target prot opt in out source destination 
+Chain PREROUTING (policy ACCEPT 0 packets, 0 bytes) 
+pkts bytes target prot opt in out source destination 
+Chain INPUT (policy ACCEPT 0 packets, 0 bytes) 
+pkts bytes target prot opt in out source destination 
+Chain OUTPUT (policy ACCEPT 0 packets, 0 bytes) 
+pkts bytes target prot opt in out source destination 
+Chain POSTROUTING (policy ACCEPT 0 packets, 0 bytes) 
+pkts bytes target prot opt in out source destination 
+Chain PREROUTING (policy ACCEPT 160 packets, 14059 bytes) 
+pkts bytes target prot opt in out source destination 
+Chain INPUT (policy ACCEPT 160 packets, 14059 bytes) 
+pkts bytes target prot opt in out source destination 
+Chain FORWARD (policy ACCEPT 0 packets, 0 bytes) 
+pkts bytes target prot opt in out source destination 
+Chain OUTPUT (policy ACCEPT 94 packets, 8427 bytes) 
+pkts bytes target prot opt in out source destination 
+Chain POSTROUTING (policy ACCEPT 100 packets, 9157 bytes) 
+pkts bytes target prot opt in out source destination 
+Chain PREROUTING (policy ACCEPT 160 packets, 14059 bytes) 
+pkts bytes target prot opt in out source destination 
+Chain OUTPUT (policy ACCEPT 94 packets, 8427 bytes) 
+pkts bytes target prot opt in out source destination 
+IPV6: 
+Chain INPUT (policy ACCEPT 0 packets, 0 bytes) 
+pkts bytes target prot opt in out source destination 
+Chain FORWARD (policy ACCEPT 0 packets, 0 bytes) 
+pkts bytes target prot opt in out source destination 
+Chain OUTPUT (policy ACCEPT 0 packets, 0 bytes) 
+pkts bytes target prot opt in out source destination 
+Chain PREROUTING (policy ACCEPT 49 packets, 4570 bytes) 
+pkts bytes target prot opt in out source destination 
+Chain INPUT (policy ACCEPT 49 packets, 4570 bytes) 
+pkts bytes target prot opt in out source destination 
+Chain FORWARD (policy ACCEPT 0 packets, 0 bytes) 
+pkts bytes target prot opt in out source destination 
+Chain OUTPUT (policy ACCEPT 6 packets, 850 bytes) 
+pkts bytes target prot opt in out source destination 
+Chain POSTROUTING (policy ACCEPT 12 packets, 1700 bytes) 
+pkts bytes target prot opt in out source destination 
+Chain PREROUTING (policy ACCEPT 49 packets, 4570 bytes) 
+pkts bytes target prot opt in out source destination 
+Chain OUTPUT (policy ACCEPT 6 packets, 850 bytes) 
+pkts bytes target prot opt in out source destination 
+----------------------------------------------------------------------------
+*** Network Connection ***
+Protocol Recv-Q Send-Q Local Address Foreign Address State 
+tcp 0 0 127.0.0.53:53 0.0.0.0:* LISTEN 
+tcp 0 0 127.0.0.1:631 0.0.0.0:* LISTEN 
+tcp6 0 0 ::1:631 :::* LISTEN 
+udp 0 0 0.0.0.0:631 0.0.0.0:* - 
+udp 0 0 0.0.0.0:60079 0.0.0.0:* - 
+udp 0 0 127.0.0.53:53 0.0.0.0:* - 
+udp 0 0 0.0.0.0:68 0.0.0.0:* - 
+udp 0 0 0.0.0.0:5353 0.0.0.0:* - 
+udp6 0 0 :::47318 :::* - 
+udp6 0 0 :::5353 :::* - 
+raw6 0 0 :::58 :::* 7 
+----------------------------------------------------------------------------
+*** IP Configuartion ***
+ens32 
+lo 
+ 
+----------------------------------------------------------------------------
+*** Routing Table ***
+Destination Gateway Genmask Flags Metric Ref Use Iface 
+0.0.0.0 192.168.217.2 0.0.0.0 UG 100 0 0 ens32 
+169.254.0.0 0.0.0.0 255.255.0.0 U 1000 0 0 ens32 
+192.168.217.0 0.0.0.0 255.255.255.0 U 100 0 0 ens32 
+----------------------------------------------------------------------------
+*** ARP Cache ***
+Address HWtype HWaddress Flags Iface 
+192.168.217.254 ether 00:50:56:fc:31:f6 C ens32 
+192.168.217.2 ether 00:50:56:e8:0c:69 C ens32 
+----------------------------------------------------------------------------
