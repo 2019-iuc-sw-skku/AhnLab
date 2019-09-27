@@ -65,7 +65,7 @@ def check_os():
 
 def os_parser(str_os):
     down_os = str_os.lower()
-    return {'debian': 1, 'fedora': 2, 'arch': 3}.get(down_os, 0)
+    return {'debian': 1, 'ubuntu': 1, 'fedora': 2, 'arch': 3}.get(down_os, 0)
 
 
 if __name__ == "__main__":
