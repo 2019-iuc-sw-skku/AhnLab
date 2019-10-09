@@ -21,17 +21,16 @@ class package:
 
     def check_syspkg(self):
         if self.os_type == 1:
-            res_syspkg = self.debian.pkglist(self.call_os, self)
+            self.sys_pkg = self.debian.pkglist(self.call_os, self)
         elif self.os_type == 2:
-            res_syspkg = self.fedora.pkglist(self.call_os, self)
+            self.sys_pkg = self.fedora.pkglist(self.call_os, self)
         elif self.os_type == 3:
-            res_syspkg = self.arch.pkglist(self.call_os, self)
+            self.sys_pkg = self.arch.pkglist(self.call_os, self)
         else:
             print("Package info can only run at supported Linux.")
             print("Please check your Linux OS type.")
             return None
-        self.syspkg = self.list_parse(res_syspkg)
-        return self.syspkg
+        return self.sys_pkg
 
     def check_pippkg(self):
         if self.os_type == 1:
@@ -86,76 +85,22 @@ class package:
     def infoparse(self, list_info):
         res_infostr = "---------------------------------------------\n"
         res_infostr += "Individual Package info\n\n"
-        print_number = "No."
-        print_pkgname = "Package Name"
-        print_size = "Size"
-        print_arch = "Arch."
-        print_version = "Package Version"
-        print_depend = "Package depends"
-        print_description = "Package description"
-        print_URL = "Package homepage"
-        res_infostr += f"{print_number:<5} | {print_pkgname:<45} | "
-        res_infostr += f"{print_size:<6} | {print_arch:<8} | "
-        res_infostr += f"{print_version:<45} | {print_depend:<400} | "
-        res_infostr += f"{print_description:<400} | {print_URL:<100}\n"
-        if self.os_type == 1:
-            number = 1
-            for sublist in list_info:
-                ind_name = ind_size = ind_arch = ""
-                ind_ver = ind_depend = ind_desc = ind_url = ""
-                for item in sublist:
-                    if 'Package' in item:
-                        ind_name += item[1]
-                    elif 'Installed-Size' in item:
-                        ind_size += item[1]
-                    elif 'Architecture' in item:
-                        ind_arch += item[1]
-                    elif 'Version' in item:
-                        ind_ver += item[1]
-                    elif 'Depends' in item:
-                        ind_depend += item[1]
-                    elif 'Pre-Depends' in item:
-                        ind_depend += item[1]
-                    elif 'Description' in item:
-                        for i in range(1, len(item)-1):
-                            ind_desc += item[i+1]
-                    elif 'Homepage' in item:
-                        ind_url += item[1]
-                print(ind_depend + '|' )
-                print(ind_desc + '|' )
-                print(ind_url)
-                res_infostr += f"{number:<5} | {ind_name:<45} | {ind_size:<6} | "
-                res_infostr += f"{ind_arch:<8} | {ind_ver:<45} | {ind_depend:<450} | "
-                res_infostr += f"{ind_desc:<400} | {ind_url:<100}\n"
-                number += 1
+        for sublist in list_info:
+            str_one = ""
+            for element in sublist:
+                str_one += element[0] + ": " + element[1] + '\n'
+            str_one += '\n'
+            res_infostr += str_one
         return res_infostr
 
     def pipparse(self, list_info):
         res_infostr = "---------------------------------------------\n"
         res_infostr += "Pip Package info\n\n"
-        print_name = "Package Name"
-        print_version = "Version"
-        print_number = "No."
-        res_infostr += f"{print_number:<5} | {print_name:<45} | {print_version:<20}\n"
-        number = 1
         for sublist in list_info:
-            res_infostr += f"{number:<5} | {sublist[0]:<45} | {sublist[1]:<20}\n"
-            number += 1
-        return res_infostr
-
-    def list_parse(self, list_list):
-        res_infostr = "----------------------------------------------\n"
-        res_infostr += "Package list info\n\n"
-        print_number = "No."
-        print_pkgname = "Package Name"
-        print_version = "Package Version"
-        res_infostr += f"{print_number:<5} | {print_pkgname:<40} | {print_version:<20}"
-        if self.os_type == 1:
-            number = 1
-            for sublist in list_list:
-                if len(sublist)>2:
-                    res_infostr += f"{number:<5} | {sublist[0]:<40} | {sublist[1]:<20} \n"
-                    number += 1
+            str_one = ""
+            str_one += "Name: " + sublist[0] + " | Version: " + sublist[1]
+            str_one += "\n"
+            res_infostr += str_one
         return res_infostr
 
     class debian:
