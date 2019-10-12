@@ -1,34 +1,65 @@
-시스템 부팅 시각 2019년 09월 20일 17시 56분 37초 
-런 레벨 5시작 시각 2019년 09월 16일 14시 59분 
+시스템 부팅 시각 2019년 10월 12일 13시 16분 57초 
+런 레벨 5시작 시각 2019년 10월 12일 13시 00분 
+시스템 부팅 시각 2019년 10월 12일 13시 16분 57초 
+런 레벨 5시작 시각 2019년 10월 12일 13시 00분 
                이름             값              사용자            
-1              LS_COLORS      rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:system shell 
-2              LESSCLOSE      /usr/bin/lesspipe %s %ssystem shell 
-3              A              in kms .bashrc system shell 
-4              B                             system shell 
-5              D              dasds          system shell 
-6              E              dsad"dsa       system shell 
-7              F              qqq            system shell 
-8              H              www            system shell 
-9              _              /usr/bin/env   system shell 
-10             LANG           ko_KR.UTF-8    system shell 
-11             DISPLAY        :1             system shell 
-12             SUDO_GID       1000           system shell 
-13             OLDPWD         /home/kms/바탕화면 system shell 
-14             COLORTERM      truecolor      system shell 
-15             USERNAME       root           system shell 
-16             ROOTINETC      root in etc/bash.bashrcsystem shell 
-17             SUDO_COMMAND   /bin/bash      system shell 
-18             USER           root           system shell 
-19             PWD            /home/kms/바탕화면/projsystem shell 
-20             HOME           /home/kms      system shell 
-21             SUDO_USER      kms            system shell 
-22             SUDO_UID       1000           system shell 
-23             MAIL           /var/mail/root system shell 
-24             SHELL          /bin/bash      system shell 
-25             TERM           xterm-256color system shell 
-26             ROOTINENV      root in /etc/environmentsystem shell 
-27             SHLVL          2              system shell 
-28             LOGNAME        root           system shell 
-29             XAUTHORITY     /run/user/1000/gdm/Xauthoritysystem shell 
-30             PATH           /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/binsystem shell 
-31             LESSOPEN       | /usr/bin/lesspipe %ssystem shell 
+1              CLUTTER_IM_MO..xim            system shell 
+2              LS_COLORS      rs=0:di=01;34..system shell 
+3              LESSCLOSE      /usr/bin/less..system shell 
+4              A              in kms .bashrc system shell 
+5              B                             system shell 
+6              D              dasds          system shell 
+7              E              dsad"dsa       system shell 
+8              XDG_MENU_PREFIXgnome-         system shell 
+9              F              qqq            system shell 
+10             _              /usr/bin/env   system shell 
+11             LANG           ko_KR.UTF-8    system shell 
+12             HHH            www            system shell 
+13             DISPLAY        :1             system shell 
+14             kmsinprfile    kms in .profilesystem shell 
+15             OLDPWD         /home/kms      system shell 
+16             GNOME_SHELL_S..ubuntu         system shell 
+17             COLORTERM      truecolor      system shell 
+18             USERNAME       kms            system shell 
+19             ROOTINETC      root in etc/b..system shell 
+20             XDG_VTNR       2              system shell 
+21             SSH_AUTH_SOCK  /run/user/100..system shell 
+22             XDG_SESSION_ID 4              system shell 
+23             USER           kms            system shell 
+24             DESKTOP_SESSIONubuntu         system shell 
+25             QT4_IM_MODULE  xim            system shell 
+26             TEXTDOMAINDIR  /usr/share/lo..system shell 
+27             GNOME_TERMINA../org/gnome/Te..system shell 
+28             PWD            /home/kms/바탕화..system shell 
+29             HOME           /home/kms      system shell 
+30             TEXTDOMAIN     im-config      system shell 
+31             SSH_AGENT_PID  1724           system shell 
+32             QT_ACCESSIBIL..1              system shell 
+33             XDG_SESSION_T..x11            system shell 
+34             XDG_DATA_DIRS  /usr/share/ub..system shell 
+35             XDG_SESSION_D..ubuntu         system shell 
+36             GTK_MODULES    gail:atk-bridgesystem shell 
+37             WINDOWPATH     2              system shell 
+38             VTE_VERSION    5202           system shell 
+39             SHELL          /bin/bash      system shell 
+40             TERM           xterm-256color system shell 
+41             QT_IM_MODULE   ibus           system shell 
+42             XMODIFIERS     @im=ibus       system shell 
+43             IM_CONFIG_PHASE2              system shell 
+44             XDG_CURRENT_D..ubuntu:GNOME   system shell 
+45             GPG_AGENT_INFO /run/user/100..system shell 
+46             GNOME_TERMINA..:1.60          system shell 
+47             ROOTINENV      root in /etc/..system shell 
+48             SHLVL          2              system shell 
+49             XDG_SEAT       seat0          system shell 
+50             GDMSESSION     ubuntu         system shell 
+51             GNOME_DESKTOP..this-is-depre..system shell 
+52             LOGNAME        kms            system shell 
+53             DBUS_SESSION_..unix:path=/ru..system shell 
+54             XDG_RUNTIME_DIR/run/user/1000 system shell 
+55             XAUTHORITY     /run/user/100..system shell 
+56             XDG_CONFIG_DIRS/etc/xdg/xdg-..system shell 
+57             PATH           /usr/local/sb..system shell 
+58             SESSION_MANAGERlocal/kms-vir..system shell 
+59             LESSOPEN       | /usr/bin/le..system shell 
+60             GTK_IM_MODULE  ibus           system shell 

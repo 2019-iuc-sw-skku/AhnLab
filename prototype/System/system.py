@@ -4,8 +4,8 @@ import os
 import subprocess
 
 ###############파일로 정보 저장######################
-f = open("/home/kms/바탕화면/proj/system_out.txt",'w')
-
+f1 = open("/home/kms/바탕화면/proj/system_orgout.txt",'w')
+f2 = open("/home/kms/바탕화면/proj/system_out.txt",'w')
 ##############환경변수 정보 수집########################
 class Environment:    
      def __init__(self):
@@ -27,7 +27,7 @@ class Environment:
          self.envnum=envnum
 
      def print_env(self):
-         print(self.envnum,end='')
+         print(str(self.envnum).ljust(3),end='')
          if len(self.envname) > 15:
              print(self.envname[:13]+"..",end='')
          else:
@@ -44,14 +44,26 @@ class Environment:
              print(i+" ",end='')
              idx+=1
          print("")
-     def write_env(self):
-         f.write(str(self.envnum).ljust(15))
-         f.write(self.envname.ljust(15))
-         f.write(self.envval.ljust(15))
+     def write_envorg(self):
+         f1.write(str(self.envnum).ljust(15))
+         f1.write(self.envname.ljust(15))
+         f1.write(self.envval.ljust(15))
          for user in self.envuser:
-            f.write(user+" ")
-         f.write("\n")
-
+            f1.write(user+" ")
+         f1.write("\n")
+     def write_env(self):
+         f2.write(str(self.envnum).ljust(15))
+         if len(self.envname) > 15: 
+             f2.write((self.envname[:13]+"..").ljust(15))
+         else:
+             f2.write((self.envname).ljust(15))
+         if len(self.envval) > 15: 
+             f2.write((self.envval[:13]+"..").ljust(15))
+         else:
+             f2.write((self.envval).ljust(15))
+         for user in self.envuser:
+             f2.write(user+" ")
+         f2.write("\n")
 
 ###############시스템, 런 레벨 부팅 시각 수집######################
 class SystemInfo:
@@ -113,13 +125,20 @@ class SystemInfo:
         print(self.rlyear + "년 " + self.rlmonth + "월 " + self.rlday + "일 ",end='')
         print(self.rlhour + "시 " + self.rlmin + "분 ")
     
+    def write_sys_info_org(self):
+        f1.write("시스템 부팅 시각 ")
+        f1.write(self.sysyear+"년 "+self.sysmonth+"월 "+self.sysday+"일 ")
+        f1.write(self.syshour + "시 " + self.sysmin + "분 " + self.syssec + "초 "+"\n")
+        f1.write("런 레벨 "+str(self.runlevel)+"시작 시각 ")
+        f1.write(self.rlyear + "년 " + self.rlmonth + "월 " + self.rlday + "일 ")
+        f1.write(self.rlhour + "시 " + self.rlmin + "분 "+"\n")
     def write_sys_info(self):
-        f.write("시스템 부팅 시각 ")
-        f.write(self.sysyear+"년 "+self.sysmonth+"월 "+self.sysday+"일 ")
-        f.write(self.syshour + "시 " + self.sysmin + "분 " + self.syssec + "초 "+"\n")
-        f.write("런 레벨 "+str(self.runlevel)+"시작 시각 ")
-        f.write(self.rlyear + "년 " + self.rlmonth + "월 " + self.rlday + "일 ")
-        f.write(self.rlhour + "시 " + self.rlmin + "분 "+"\n")
+        f2.write("시스템 부팅 시각 ")
+        f2.write(self.sysyear+"년 "+self.sysmonth+"월 "+self.sysday+"일 ")
+        f2.write(self.syshour + "시 " + self.sysmin + "분 " + self.syssec + "초 "+"\n")
+        f2.write("런 레벨 "+str(self.runlevel)+"시작 시각 ")
+        f2.write(self.rlyear + "년 " + self.rlmonth + "월 " + self.rlday + "일 ")
+        f2.write(self.rlhour + "시 " + self.rlmin + "분 "+"\n")
 
 
 #############시스템, 런 레벨 부팅 시각 정보 수집#########################
@@ -317,11 +336,14 @@ if __name__ == "__main__":
     extract_export_list(envlist)
     for i in syslist:
         i.write_sys_info()
+        i.write_sys_info()
         i.print_sys_info()
-    print(" 이름".ljust(15)+"  값".ljust(15)+"사용자".ljust(15))
+    print("   이름".ljust(15)+"  값".ljust(15)+"사용자".ljust(15))
     file_format=" ".ljust(15)+"이름".ljust(15)+"값".ljust(15)+"사용자".ljust(15) 
-    f.write(file_format+"\n")
+    f1.write(file_format+"\n")
+    f2.write(file_format+"\n")
     for i in envlist:
+        i.write_envorg()
         i.write_env()
         i.print_env() 
 
