@@ -40,12 +40,11 @@ class Firewall:
 
 class NetConnect:
     def __init__(self):
-        self.output = os.popen("sudo ss").read()
-        # self.output = self.parse(self.data.read())
+        self.data = os.popen("sudo netstat -n -a")
+        self.output = self.parse(self.data.read())
 
     def parse(self, data):
         net_info = []
-        print(data)
         internet, unix = data.split("\nActive ")
         split_data = internet.split("\n")
 
@@ -64,8 +63,8 @@ class NetConnect:
 
 class IpConfig:
     def __init__(self):
-        self.output = os.popen("sudo ip addr show").read()
-        # self.output = self.parse(self.data.read())
+        self.data = os.popen("sudo ifconfig -a")
+        self.output = self.parse(self.data.read())
 
     def parse(self, data):
         ip_info = []
@@ -108,8 +107,8 @@ class IpConfig:
 
 class RouteTable:
     def __init__(self):
-        self.output = os.popen("sudo ip route show").read()
-        # self.output = self.parse(self.data.read())
+        self.data = os.popen("sudo route -n")
+        self.output = self.parse(self.data.read())
 
     def parse(self, data):
         route_info = []
@@ -131,8 +130,8 @@ class RouteTable:
 
 class ArpCache:
     def __init__(self):
-        self.output = os.popen("sudo ip n s").read()
-        # self.output = self.parse(self.data.read())
+        self.data = os.popen("arp -n")
+        self.output = self.parse(self.data.read())
 
     def parse(self, data):
         arp_info = []
@@ -162,7 +161,7 @@ def get_netstat():
     route = RouteTable()
     arp = ArpCache()
 
-    f.write("*** Firwall Rules ***")
+    f.write("*** FIREWALL RULES ***")
     for i in firewall.output:
         for j in i:
             f.write(j + ' ')
@@ -170,22 +169,33 @@ def get_netstat():
     f.write("------------------------------------------------------------------\
             ----------\n")
     f.write("*** Network Connection ***\n")
-    f.write(net.output)
-    f.write("\n")
+    for i in net.output:
+        for j in i:
+            f.write(j + ' ')
+        f.write("\n")
     f.write("------------------------------------------------------------------\
             ----------\n")
     f.write("*** IP Configuartion ***\n")
-    f.write(ip.output)
+    for i in ip.output:
+        for j in i:
+            f.write(j + ' ')
+        f.write("\n")
     f.write("------------------------------------------------------------------\
             ----------\n")
     f.write("*** Routing Table ***\n")
-    f.write(route.output)
+    for i in route.output:
+        for j in i:
+            f.write(j + ' ')
+        f.write("\n")
     f.write("------------------------------------------------------------------\
             ----------\n")
     f.write("*** ARP Cache ***\n")
-    f.write(arp.output)
+    for i in arp.output:
+        for j in i:
+            f.write(j + ' ')
+        f.write("\n")
     f.write("------------------------------------------------------------------\
             ----------\n")
     f.close()
 
-    os.system("sudo cat network.txt")
+    # os.system("sudo cat network.txt")
