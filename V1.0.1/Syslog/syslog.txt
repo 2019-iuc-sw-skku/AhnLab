@@ -1,0 +1,365 @@
+--------------------Start of recent logs--------------------
+
+ 13:13:12 up  1:59,  1 user,  load average: 1.38, 0.79, 0.49
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+raven    tty7     :0               11:14    1:59m  1:57   0.43s cinnamon-session --session cinnamon
+raven    tty7         :0               Sat Oct 12 11:14    gone - no logout
+reboot   system boot  4.15.0-65-generi Sat Oct 12 11:14   still running
+raven    tty7         :0               Sat Oct 12 11:04 - 11:13  (00:09)
+reboot   system boot  4.15.0-65-generi Sat Oct 12 11:03 - 11:13  (00:10)
+raven    tty7         :0               Sat Oct  5 16:14 - 16:14  (00:00)
+reboot   system boot  4.15.0-65-generi Sat Oct  5 16:13 - 16:14  (00:01)
+
+wtmp begins Sat Oct  5 16:13:20 2019
+Username         Port     From             Latest
+root                                       **Never logged in**
+daemon                                     **Never logged in**
+bin                                        **Never logged in**
+sys                                        **Never logged in**
+sync                                       **Never logged in**
+games                                      **Never logged in**
+man                                        **Never logged in**
+lp                                         **Never logged in**
+mail                                       **Never logged in**
+news                                       **Never logged in**
+uucp                                       **Never logged in**
+proxy                                      **Never logged in**
+www-data                                   **Never logged in**
+backup                                     **Never logged in**
+list                                       **Never logged in**
+irc                                        **Never logged in**
+gnats                                      **Never logged in**
+nobody                                     **Never logged in**
+systemd-network                            **Never logged in**
+systemd-resolve                            **Never logged in**
+syslog                                     **Never logged in**
+messagebus                                 **Never logged in**
+_apt                                       **Never logged in**
+uuidd                                      **Never logged in**
+cups-pk-helper                             **Never logged in**
+kernoops                                   **Never logged in**
+rtkit                                      **Never logged in**
+avahi-autoipd                              **Never logged in**
+usbmux                                     **Never logged in**
+lightdm                                    **Never logged in**
+dnsmasq                                    **Never logged in**
+saned                                      **Never logged in**
+nm-openvpn                                 **Never logged in**
+avahi                                      **Never logged in**
+colord                                     **Never logged in**
+speech-dispatcher                           **Never logged in**
+pulse                                      **Never logged in**
+hplip                                      **Never logged in**
+geoclue                                    **Never logged in**
+raven                                      **Never logged in**
+mysql                                      **Never logged in**
+
+btmp begins Sat Oct  5 16:11:26 2019
+--------------------End of recent logs--------------------
+
+failed log at kern.log
+----------------------------------------------------------------------
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.024000] NMI watchdog: Perf event create on CPU 0 failed with -2
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400435] pci 0000:00:15.3: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400438] pci 0000:00:15.4: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400440] pci 0000:00:15.5: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400441] pci 0000:00:15.6: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400443] pci 0000:00:15.7: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400445] pci 0000:00:16.3: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400448] pci 0000:00:16.4: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400450] pci 0000:00:16.5: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400453] pci 0000:00:16.6: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400456] pci 0000:00:16.7: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400459] pci 0000:00:17.3: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400461] pci 0000:00:17.4: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400463] pci 0000:00:17.5: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400466] pci 0000:00:17.6: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400467] pci 0000:00:17.7: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400469] pci 0000:00:18.2: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400471] pci 0000:00:18.3: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400473] pci 0000:00:18.4: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400475] pci 0000:00:18.5: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400477] pci 0000:00:18.6: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400479] pci 0000:00:18.7: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400484] pci 0000:00:18.7: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400486] pci 0000:00:18.6: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400488] pci 0000:00:18.5: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400489] pci 0000:00:18.4: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400491] pci 0000:00:18.3: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400493] pci 0000:00:18.2: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400495] pci 0000:00:17.7: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400496] pci 0000:00:17.6: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400498] pci 0000:00:17.5: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400500] pci 0000:00:17.4: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400502] pci 0000:00:17.3: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400504] pci 0000:00:16.7: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400506] pci 0000:00:16.6: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400508] pci 0000:00:16.5: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400509] pci 0000:00:16.4: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400511] pci 0000:00:16.3: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400513] pci 0000:00:15.7: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400515] pci 0000:00:15.6: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400516] pci 0000:00:15.5: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400518] pci 0000:00:15.4: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400520] pci 0000:00:15.3: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.046094] NMI watchdog: Perf event create on CPU 0 failed with -2
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499478] pci 0000:00:15.3: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499480] pci 0000:00:15.4: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499481] pci 0000:00:15.5: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499483] pci 0000:00:15.6: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499485] pci 0000:00:15.7: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499487] pci 0000:00:16.3: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499488] pci 0000:00:16.4: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499490] pci 0000:00:16.5: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499492] pci 0000:00:16.6: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499494] pci 0000:00:16.7: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499495] pci 0000:00:17.3: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499497] pci 0000:00:17.4: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499498] pci 0000:00:17.5: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499500] pci 0000:00:17.6: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499502] pci 0000:00:17.7: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499503] pci 0000:00:18.2: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499505] pci 0000:00:18.3: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499507] pci 0000:00:18.4: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499508] pci 0000:00:18.5: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499510] pci 0000:00:18.6: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499512] pci 0000:00:18.7: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499515] pci 0000:00:18.7: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499516] pci 0000:00:18.6: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499518] pci 0000:00:18.5: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499520] pci 0000:00:18.4: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499521] pci 0000:00:18.3: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499523] pci 0000:00:18.2: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499524] pci 0000:00:17.7: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499526] pci 0000:00:17.6: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499528] pci 0000:00:17.5: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499529] pci 0000:00:17.4: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499531] pci 0000:00:17.3: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499532] pci 0000:00:16.7: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499534] pci 0000:00:16.6: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499536] pci 0000:00:16.5: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499537] pci 0000:00:16.4: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499539] pci 0000:00:16.3: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499541] pci 0000:00:15.7: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499542] pci 0000:00:15.6: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499544] pci 0000:00:15.5: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499546] pci 0000:00:15.4: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499547] pci 0000:00:15.3: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.023252] NMI watchdog: Perf event create on CPU 0 failed with -2
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379098] pci 0000:00:15.3: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379100] pci 0000:00:15.4: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379102] pci 0000:00:15.5: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379104] pci 0000:00:15.6: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379105] pci 0000:00:15.7: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379107] pci 0000:00:16.3: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379109] pci 0000:00:16.4: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379110] pci 0000:00:16.5: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379112] pci 0000:00:16.6: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379114] pci 0000:00:16.7: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379116] pci 0000:00:17.3: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379117] pci 0000:00:17.4: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379119] pci 0000:00:17.5: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379121] pci 0000:00:17.6: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379122] pci 0000:00:17.7: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379124] pci 0000:00:18.2: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379126] pci 0000:00:18.3: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379127] pci 0000:00:18.4: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379129] pci 0000:00:18.5: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379131] pci 0000:00:18.6: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379132] pci 0000:00:18.7: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379136] pci 0000:00:18.7: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379137] pci 0000:00:18.6: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379139] pci 0000:00:18.5: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379141] pci 0000:00:18.4: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379142] pci 0000:00:18.3: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379144] pci 0000:00:18.2: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379146] pci 0000:00:17.7: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379147] pci 0000:00:17.6: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379149] pci 0000:00:17.5: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379151] pci 0000:00:17.4: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379152] pci 0000:00:17.3: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379154] pci 0000:00:16.7: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379155] pci 0000:00:16.6: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379157] pci 0000:00:16.5: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379159] pci 0000:00:16.4: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379160] pci 0000:00:16.3: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379162] pci 0000:00:15.7: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379164] pci 0000:00:15.6: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379165] pci 0000:00:15.5: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379167] pci 0000:00:15.4: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379168] pci 0000:00:15.3: BAR 13: failed to assign [io  size 0x1000]
+
+
+failed log at syslog
+----------------------------------------------------------------------
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.023252] NMI watchdog: Perf event create on CPU 0 failed with -2
+Oct 12 11:14:07 raven-virtual-machine systemd-udevd[476]: Process '/bin/sh -c 'echo 180 >/sys$DEVPATH/timeout'' failed with exit code 2.
+Oct 12 11:14:07 raven-virtual-machine systemd-udevd[480]: Process '/bin/sh -c 'echo 180 >/sys$DEVPATH/timeout'' failed with exit code 2.
+Oct 12 11:14:07 raven-virtual-machine systemd-udevd[479]: Process '/bin/sh -c 'echo 180 >/sys$DEVPATH/timeout'' failed with exit code 2.
+Oct 12 11:14:07 raven-virtual-machine systemd-udevd[474]: Process '/bin/sh -c 'echo 180 >/sys$DEVPATH/timeout'' failed with exit code 2.
+Oct 12 11:14:07 raven-virtual-machine systemd-udevd[483]: Process '/bin/sh -c 'echo 180 >/sys$DEVPATH/timeout'' failed with exit code 2.
+Oct 12 11:14:07 raven-virtual-machine systemd-udevd[483]: Process '/bin/sh -c 'echo 180 >/sys$DEVPATH/timeout'' failed with exit code 2.
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379098] pci 0000:00:15.3: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379100] pci 0000:00:15.4: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379102] pci 0000:00:15.5: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379104] pci 0000:00:15.6: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379105] pci 0000:00:15.7: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379107] pci 0000:00:16.3: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379109] pci 0000:00:16.4: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379110] pci 0000:00:16.5: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379112] pci 0000:00:16.6: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379114] pci 0000:00:16.7: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379116] pci 0000:00:17.3: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379117] pci 0000:00:17.4: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379119] pci 0000:00:17.5: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379121] pci 0000:00:17.6: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379122] pci 0000:00:17.7: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379124] pci 0000:00:18.2: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379126] pci 0000:00:18.3: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379127] pci 0000:00:18.4: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379129] pci 0000:00:18.5: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379131] pci 0000:00:18.6: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379132] pci 0000:00:18.7: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379136] pci 0000:00:18.7: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379137] pci 0000:00:18.6: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379139] pci 0000:00:18.5: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379141] pci 0000:00:18.4: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379142] pci 0000:00:18.3: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379144] pci 0000:00:18.2: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379146] pci 0000:00:17.7: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379147] pci 0000:00:17.6: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379149] pci 0000:00:17.5: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379151] pci 0000:00:17.4: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379152] pci 0000:00:17.3: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379154] pci 0000:00:16.7: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379155] pci 0000:00:16.6: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379157] pci 0000:00:16.5: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379159] pci 0000:00:16.4: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379160] pci 0000:00:16.3: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379162] pci 0000:00:15.7: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379164] pci 0000:00:15.6: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379165] pci 0000:00:15.5: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379167] pci 0000:00:15.4: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine kernel: [    0.379168] pci 0000:00:15.3: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:14:07 raven-virtual-machine thermald[665]: THD engine start failed
+Oct 12 11:14:07 raven-virtual-machine udisksd[642]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+Oct 12 11:14:09 raven-virtual-machine vmware-tools[641]:    Mounting HGFS shares:#033[71Gfailed
+Oct 12 11:15:00 raven-virtual-machine colord[1593]: failed to get edid data: EDID length is too small
+Oct 12 11:15:24 raven-virtual-machine pulseaudio[1577]: [pulseaudio] bluez5-util.c: GetManagedObjects() failed: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+
+
+failed log at syslog.1
+----------------------------------------------------------------------
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.024000] NMI watchdog: Perf event create on CPU 0 failed with -2
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400435] pci 0000:00:15.3: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400438] pci 0000:00:15.4: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400440] pci 0000:00:15.5: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400441] pci 0000:00:15.6: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400443] pci 0000:00:15.7: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400445] pci 0000:00:16.3: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400448] pci 0000:00:16.4: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400450] pci 0000:00:16.5: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400453] pci 0000:00:16.6: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400456] pci 0000:00:16.7: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400459] pci 0000:00:17.3: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400461] pci 0000:00:17.4: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400463] pci 0000:00:17.5: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400466] pci 0000:00:17.6: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400467] pci 0000:00:17.7: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400469] pci 0000:00:18.2: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400471] pci 0000:00:18.3: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400473] pci 0000:00:18.4: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400475] pci 0000:00:18.5: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400477] pci 0000:00:18.6: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400479] pci 0000:00:18.7: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400484] pci 0000:00:18.7: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400486] pci 0000:00:18.6: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400488] pci 0000:00:18.5: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400489] pci 0000:00:18.4: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400491] pci 0000:00:18.3: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400493] pci 0000:00:18.2: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400495] pci 0000:00:17.7: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400496] pci 0000:00:17.6: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400498] pci 0000:00:17.5: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400500] pci 0000:00:17.4: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400502] pci 0000:00:17.3: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400504] pci 0000:00:16.7: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400506] pci 0000:00:16.6: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400508] pci 0000:00:16.5: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400509] pci 0000:00:16.4: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400511] pci 0000:00:16.3: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400513] pci 0000:00:15.7: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400515] pci 0000:00:15.6: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400516] pci 0000:00:15.5: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400518] pci 0000:00:15.4: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine kernel: [    0.400520] pci 0000:00:15.3: BAR 13: failed to assign [io  size 0x1000]
+Oct  5 16:13:32 raven-virtual-machine systemd-udevd[510]: Process '/bin/sh -c 'echo 180 >/sys$DEVPATH/timeout'' failed with exit code 2.
+Oct  5 16:13:32 raven-virtual-machine systemd-udevd[505]: Process '/bin/sh -c 'echo 180 >/sys$DEVPATH/timeout'' failed with exit code 2.
+Oct  5 16:13:32 raven-virtual-machine systemd-udevd[500]: Process '/bin/sh -c 'echo 180 >/sys$DEVPATH/timeout'' failed with exit code 2.
+Oct  5 16:13:32 raven-virtual-machine systemd-udevd[507]: Process '/bin/sh -c 'echo 180 >/sys$DEVPATH/timeout'' failed with exit code 2.
+Oct  5 16:13:32 raven-virtual-machine systemd-udevd[501]: Process '/bin/sh -c 'echo 180 >/sys$DEVPATH/timeout'' failed with exit code 2.
+Oct  5 16:13:32 raven-virtual-machine systemd-udevd[500]: Process '/bin/sh -c 'echo 180 >/sys$DEVPATH/timeout'' failed with exit code 2.
+Oct  5 16:13:32 raven-virtual-machine thermald[656]: THD engine start failed
+Oct  5 16:13:32 raven-virtual-machine udisksd[655]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+Oct  5 16:13:34 raven-virtual-machine vmware-tools[696]:    Mounting HGFS shares:#033[71Gfailed
+Oct  5 16:14:02 raven-virtual-machine colord[1613]: failed to get edid data: EDID length is too small
+Oct  5 16:14:22 raven-virtual-machine pulseaudio[1599]: [pulseaudio] bluez5-util.c: GetManagedObjects() failed: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+Oct  5 16:14:49 raven-virtual-machine cinnamon-session[1409]: GLib-GIO-CRITICAL: t+53.02476s: g_dbus_connection_call_sync_internal: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+Oct 12 11:03:37 raven-virtual-machine systemd-udevd[479]: Process '/bin/sh -c 'echo 180 >/sys$DEVPATH/timeout'' failed with exit code 2.
+Oct 12 11:03:37 raven-virtual-machine systemd-udevd[477]: Process '/bin/sh -c 'echo 180 >/sys$DEVPATH/timeout'' failed with exit code 2.
+Oct 12 11:03:37 raven-virtual-machine systemd-udevd[479]: Process '/bin/sh -c 'echo 180 >/sys$DEVPATH/timeout'' failed with exit code 2.
+Oct 12 11:03:37 raven-virtual-machine systemd-udevd[477]: Process '/bin/sh -c 'echo 180 >/sys$DEVPATH/timeout'' failed with exit code 2.
+Oct 12 11:03:37 raven-virtual-machine systemd-udevd[478]: Process '/bin/sh -c 'echo 180 >/sys$DEVPATH/timeout'' failed with exit code 2.
+Oct 12 11:03:37 raven-virtual-machine systemd-udevd[478]: Process '/bin/sh -c 'echo 180 >/sys$DEVPATH/timeout'' failed with exit code 2.
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.046094] NMI watchdog: Perf event create on CPU 0 failed with -2
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499478] pci 0000:00:15.3: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499480] pci 0000:00:15.4: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499481] pci 0000:00:15.5: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499483] pci 0000:00:15.6: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499485] pci 0000:00:15.7: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499487] pci 0000:00:16.3: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499488] pci 0000:00:16.4: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499490] pci 0000:00:16.5: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499492] pci 0000:00:16.6: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499494] pci 0000:00:16.7: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499495] pci 0000:00:17.3: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499497] pci 0000:00:17.4: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499498] pci 0000:00:17.5: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499500] pci 0000:00:17.6: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499502] pci 0000:00:17.7: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499503] pci 0000:00:18.2: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499505] pci 0000:00:18.3: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499507] pci 0000:00:18.4: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499508] pci 0000:00:18.5: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499510] pci 0000:00:18.6: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499512] pci 0000:00:18.7: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499515] pci 0000:00:18.7: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499516] pci 0000:00:18.6: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499518] pci 0000:00:18.5: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499520] pci 0000:00:18.4: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499521] pci 0000:00:18.3: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499523] pci 0000:00:18.2: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499524] pci 0000:00:17.7: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499526] pci 0000:00:17.6: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499528] pci 0000:00:17.5: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499529] pci 0000:00:17.4: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499531] pci 0000:00:17.3: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499532] pci 0000:00:16.7: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499534] pci 0000:00:16.6: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499536] pci 0000:00:16.5: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499537] pci 0000:00:16.4: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499539] pci 0000:00:16.3: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499541] pci 0000:00:15.7: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499542] pci 0000:00:15.6: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499544] pci 0000:00:15.5: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499546] pci 0000:00:15.4: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:37 raven-virtual-machine kernel: [    0.499547] pci 0000:00:15.3: BAR 13: failed to assign [io  size 0x1000]
+Oct 12 11:03:41 raven-virtual-machine thermald[723]: THD engine start failed
+Oct 12 11:03:41 raven-virtual-machine udisksd[714]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+Oct 12 11:03:44 raven-virtual-machine vmware-tools[718]:    Mounting HGFS shares:#033[71Gfailed
+Oct 12 11:04:20 raven-virtual-machine colord[1772]: failed to get edid data: EDID length is too small
+Oct 12 11:04:44 raven-virtual-machine pulseaudio[1727]: [pulseaudio] bluez5-util.c: GetManagedObjects() failed: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+
+
+No messages file founded
+No messages.1 file founded

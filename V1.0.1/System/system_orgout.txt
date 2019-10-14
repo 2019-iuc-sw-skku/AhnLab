@@ -1,0 +1,55 @@
+               이름             값              사용자            
+1              CLUTTER_IM_MODULExim            system shell 
+2              LS_COLORS      rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:system shell 
+3              INSIDE_NEMO_PYTHON               system shell 
+4              LESSCLOSE      /usr/bin/lesspipe %s %ssystem shell 
+5              _              /usr/bin/env   system shell 
+6              LANG           ko_KR.UTF-8    system shell 
+7              GDM_LANG       ko             system shell 
+8              DISPLAY        :0             system shell 
+9              GTK_OVERLAY_SCROLLING1              system shell 
+10             COLORTERM      truecolor      system shell 
+11             XDG_VTNR       7              system shell 
+12             SSH_AUTH_SOCK  /run/user/1000/keyring/sshsystem shell 
+13             MANDATORY_PATH /usr/share/gconf/cinnamon.mandatory.pathsystem shell 
+14             XDG_SESSION_ID c2             system shell 
+15             XDG_GREETER_DATA_DIR/var/lib/lightdm-data/ravensystem shell 
+16             USER           raven          system shell 
+17             DESKTOP_SESSIONcinnamon       system shell 
+18             QT4_IM_MODULE  fcitx          system shell 
+19             GNOME_TERMINAL_SCREEN/org/gnome/Terminal/screen/3213232d_18b8_47ae_8287_794111b01115system shell 
+20             DEFAULTS_PATH  /usr/share/gconf/cinnamon.default.pathsystem shell 
+21             QT_QPA_PLATFORMTHEMEqt5ct          system shell 
+22             PWD            /home/raven/바탕화면/V1.0.1/Systemsystem shell 
+23             HOME           /home/raven    system shell 
+24             SSH_AGENT_PID  1379           system shell 
+25             QT_ACCESSIBILITY1              system shell 
+26             XDG_SESSION_TYPEx11            system shell 
+27             XDG_DATA_DIRS  /usr/share/cinnamon:/usr/share/gnome:/home/raven/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/sharesystem shell 
+28             XDG_SESSION_DESKTOPcinnamon       system shell 
+29             GTK_MODULES    gail:atk-bridgesystem shell 
+30             VTE_VERSION    5202           system shell 
+31             SHELL          /bin/bash      system shell 
+32             TERM           xterm-256color system shell 
+33             XDG_SEAT_PATH  /org/freedesktop/DisplayManager/Seat0system shell 
+34             QT_IM_MODULE   fcitx          system shell 
+35             XMODIFIERS     @im=fcitx      system shell 
+36             XDG_CURRENT_DESKTOPX-Cinnamon     system shell 
+37             GPG_AGENT_INFO /run/user/1000/gnupg/S.gpg-agent:0:1system shell 
+38             GNOME_TERMINAL_SERVICE:1.81          system shell 
+39             SHLVL          2              system shell 
+40             XDG_SEAT       seat0          system shell 
+41             LANGUAGE       ko             system shell 
+42             GDMSESSION     cinnamon       system shell 
+43             GNOME_DESKTOP_SESSION_IDthis-is-deprecatedsystem shell 
+44             LOGNAME        raven          system shell 
+45             DBUS_SESSION_BUS_ADDRESSunix:path=/run/user/1000/bussystem shell 
+46             XDG_RUNTIME_DIR/run/user/1000 system shell 
+47             XAUTHORITY     /home/raven/.Xauthoritysystem shell 
+48             XDG_SESSION_PATH/org/freedesktop/DisplayManager/Session0system shell 
+49             XDG_CONFIG_DIRS/etc/xdg/xdg-cinnamon:/etc/xdgsystem shell 
+50             PATH           /home/raven/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/gamessystem shell 
+51             SESSION_MANAGERlocal/raven-virtual-machine:@/tmp/.ICE-unix/1305,unix/raven-virtual-machine:/tmp/.ICE-unix/1305system shell 
+52             LESSOPEN       | /usr/bin/lesspipe %ssystem shell 
+53             GTK_IM_MODULE  fcitx          system shell 
+1              OLDPWD                        shell 
