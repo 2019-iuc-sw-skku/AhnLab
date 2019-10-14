@@ -7,7 +7,7 @@ class package:
     def __init__(self, int_type):
         self.os_type = int_type
         self.syspkg = []
-        self.pippkg = []
+        self.pippkg = ""
         self.web = []
         self.info = []
         self.call_os = None
@@ -39,7 +39,7 @@ class package:
         if self.os_type == 2:
             checkpip = self.check_existpkg('python36u-pip')
         if checkpip is False:
-            self.pippkg.append('not installed')
+            self.pippkg = 'PIP package is not installed\n'
             return 'not installed'
         else:
             installed_packages = [(d.project_name, d.version) for d in
