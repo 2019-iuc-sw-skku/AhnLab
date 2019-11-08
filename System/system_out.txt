@@ -1,0 +1,336 @@
+시스템 부팅 시각 2019년 11월 08일 11시 13분 21초 
+런 레벨 5시작 시각 2019년 11월 06일 20시 54분 
+시스템 부팅 시각 2019년 11월 08일 11시 13분 21초 
+런 레벨 5시작 시각 2019년 11월 06일 20시 54분 
+               이름             값              사용자            
+1              CLUTTER_IM_MO..xim            system shell 
+2              LS_COLORS      rs=0:di=01;34..system shell 
+3              LESSCLOSE      /usr/bin/less..system shell 
+4              A              in kms .bashrc system shell 
+5              B                             system shell 
+6              D              dasds          system shell 
+7              E              dsad"dsa       system shell 
+8              XDG_MENU_PREFIXgnome-         system shell 
+9              F              qqq            system shell 
+10             _              /usr/bin/env   system shell 
+11             LANG           ko_KR.UTF-8    system shell 
+12             HHH            www            system shell 
+13             DISPLAY        :1             system shell 
+14             kmsinprfile    kms in .profilesystem shell 
+15             GNOME_SHELL_S..ubuntu         system shell 
+16             COLORTERM      truecolor      system shell 
+17             USERNAME       kms            system shell 
+18             ROOTINETC      root in etc/b..system shell 
+19             XDG_VTNR       2              system shell 
+20             SSH_AUTH_SOCK  /run/user/100..system shell 
+21             XDG_SESSION_ID 3              system shell 
+22             USER           kms            system shell 
+23             DESKTOP_SESSIONubuntu         system shell 
+24             QT4_IM_MODULE  xim            system shell 
+25             TEXTDOMAINDIR  /usr/share/lo..system shell 
+26             GNOME_TERMINA../org/gnome/Te..system shell 
+27             PWD            /home/kms/바탕화..system shell 
+28             HOME           /home/kms      system shell 
+29             TEXTDOMAIN     im-config      system shell 
+30             SSH_AGENT_PID  2070           system shell 
+31             QT_ACCESSIBIL..1              system shell 
+32             XDG_SESSION_T..x11            system shell 
+33             XDG_DATA_DIRS  /usr/share/ub..system shell 
+34             XDG_SESSION_D..ubuntu         system shell 
+35             GTK_MODULES    gail:atk-bridgesystem shell 
+36             WINDOWPATH     2              system shell 
+37             VTE_VERSION    5202           system shell 
+38             SHELL          /bin/bash      system shell 
+39             TERM           xterm-256color system shell 
+40             QT_IM_MODULE   ibus           system shell 
+41             XMODIFIERS     @im=ibus       system shell 
+42             IM_CONFIG_PHASE2              system shell 
+43             XDG_CURRENT_D..ubuntu:GNOME   system shell 
+44             GPG_AGENT_INFO /run/user/100..system shell 
+45             GNOME_TERMINA..:1.76          system shell 
+46             ROOTINENV      root in /etc/..system shell 
+47             SHLVL          2              system shell 
+48             XDG_SEAT       seat0          system shell 
+49             GDMSESSION     ubuntu         system shell 
+50             GNOME_DESKTOP..this-is-depre..system shell 
+51             LOGNAME        kms            system shell 
+52             DBUS_SESSION_..unix:path=/ru..system shell 
+53             XDG_RUNTIME_DIR/run/user/1000 system shell 
+54             XAUTHORITY     /run/user/100..system shell 
+55             XDG_CONFIG_DIRS/etc/xdg/xdg-..system shell 
+56             PATH           /usr/local/sb..system shell 
+57             SESSION_MANAGERlocal/kms-vir..system shell 
+58             LESSOPEN       | /usr/bin/le..system shell 
+59             GTK_IM_MODULE  ibus           system shell 
+1              OLDPWD                        shell 
+인증서 정보
+Name                Expire Date         Issuer              Subject             Serial Number       Location            02265526.0           Dec  7 17:55:54 2.. C = US, O = "Entr.. C = US, O = "Entr.. 1246989352 (0x4a5..  /etx/ssl/certs 
+03179a64.0           Dec  8 11:10:28 2.. C = NL, O = Staat.. C = NL, O = Staat.. 10000013 (0x98968..  /etx/ssl/certs 
+062cdee6.0           Mar 18 10:00:00 2.. OU = GlobalSign R.. OU = GlobalSign R.. 04:00:00:00:00:01..  /etx/ssl/certs 
+064e0aa9.0           Jan 12 18:59:32 2.. C = BM, O = QuoVa.. C = BM, O = QuoVa.. 44:57:34:24:5b:81..  /etx/ssl/certs 
+06dc52d5.0           May 30 18:14:37 2.. C = US, ST = Texa.. C = US, ST = Texa.. 62482274943529433..  /etx/ssl/certs 
+080911ac.0           Mar 17 18:33:33 2.. C = BM, O = QuoVa.. C = BM, O = QuoVa.. 985026699 (0x3ab6..  /etx/ssl/certs 
+09789157.0           Dec 31 23:59:59 2.. C = US, ST = Ariz.. C = US, ST = Ariz.. 0 (0x0)              /etx/ssl/certs 
+0b1b94ef.0           Dec 31 03:07:01 2.. C = CN, O = China.. C = CN, O = China.. 407555286 (0x184a..  /etx/ssl/certs 
+0bf05006.0           Feb 12 18:14:03 2.. C = US, ST = Texa.. C = US, ST = Texa.. 84957238132972164..  /etx/ssl/certs 
+0c31d5ce             Jun 28 09:31:11 2.. CN = ubuntu         CN = ubuntu         a1:63:31:e5:f9:23..  /etx/ssl/certs 
+0c4c9b6c.0           Jul 31 12:31:40 2.. C = EU, L = Madri.. C = EU, L = Madri.. c9:cd:d3:e9:d5:7d..  /etx/ssl/certs 
+0f6fa695.0           Dec 31 15:59:59 2.. C = CN, O = "GUAN.. C = CN, O = "GUAN.. 90098996507401201..  /etx/ssl/certs 
+106f3e4d.0           Dec 18 15:55:36 2.. C = US, O = "Entr.. C = US, O = "Entr.. a6:8b:79:29:00:00..  /etx/ssl/certs 
+116bf586.0           Jan 18 23:59:59 2.. C = US, O = GeoTr.. C = US, O = GeoTr.. 3c:b2:f4:48:0a:00..  /etx/ssl/certs 
+128805a3.0           Dec 17 23:59:59 2.. C = EE, O = AS Se.. C = EE, O = AS Se.. 54:80:f9:a0:73:ed..  /etx/ssl/certs 
+157753a5.0           May 30 10:48:38 2.. C = SE, O = AddTr.. C = SE, O = AddTr.. 1 (0x1)              /etx/ssl/certs 
+1636090b.0           Dec  1 13:49:52 2.. C = GR, O = Helle.. C = GR, O = Helle.. 0 (0x0)              /etx/ssl/certs 
+18856ac4.0           Apr  8 04:56:47 2.. C = JP, O = "Japa.. C = JP, O = "Japa.. 1 (0x1)              /etx/ssl/certs 
+1c7314a2             Jun 28 09:31:11 2.. CN = ubuntu         CN = ubuntu         a1:63:31:e5:f9:23..  /etx/ssl/certs 
+1d3472b9.0           Jan 19 03:14:07 2.. OU = GlobalSign E.. OU = GlobalSign E.. 60:59:49:e0:26:2e..  /etx/ssl/certs 
+1e08bfd1.0           Jan 16 17:53:32 2.. C = US, O = IdenT.. C = US, O = IdenT.. 0a:01:42:80:00:00..  /etx/ssl/certs 
+1e09d511.0           Oct  1 23:59:59 2.. C = DE, O = T-Sys.. C = DE, O = T-Sys.. 1 (0x1)              /etx/ssl/certs 
+244b5494.0           Nov 10 00:00:00 2.. C = US, O = DigiC.. C = US, O = DigiC.. 02:ac:5c:26:6a:0b..  /etx/ssl/certs 
+2ae6433e.0           Jul 19 09:15:30 2.. C = SK, L = Brati.. C = SK, L = Brati.. 92:b8:88:db:b0:8a..  /etx/ssl/certs 
+2b349938.0           Dec 31 14:06:06 2.. C = US, O = Affir.. C = US, O = Affir.. 86083559779641388..  /etx/ssl/certs 
+2c11d503.0           Jan 15 00:00:00 2.. C = FR, O = OpenT.. C = FR, O = OpenT.. 11:20:e6:f8:4c:fc..  /etx/ssl/certs 
+2c543cd1.0           May 21 04:00:00 2.. C = US, O = GeoTr.. C = US, O = GeoTr.. 144470 (0x23456)     /etx/ssl/certs 
+2e4eed3c.0           Jul 16 23:59:59 2.. C = US, O = "thaw.. C = US, O = "thaw.. 34:4e:d5:57:20:d5..  /etx/ssl/certs 
+2e5ac55d.0           Sep 30 14:01:15 2.. O = Digital Signa.. O = Digital Signa.. 44:af:b0:80:d6:a3..  /etx/ssl/certs 
+32888f65.0           Jun 30 10:11:21 2.. C = GR, L = Athen.. C = GR, L = Athen.. 0 (0x0)              /etx/ssl/certs 
+349f2832.0           Jan  7 22:59:59 2.. C = ES, O = Agenc.. C = ES, O = Agenc..  (Negative)11:d4:..  /etx/ssl/certs 
+3513523f.0           Nov 10 00:00:00 2.. C = US, O = DigiC.. C = US, O = DigiC.. 08:3b:e0:56:90:42..  /etx/ssl/certs 
+3bde41ac.0           Dec 31 08:38:15 2.. C = ES, CN = Auto.. C = ES, CN = Auto.. 60472742972627538..  /etx/ssl/certs 
+3e44d2f7.0           Dec 31 17:26:39 2.. C = PA, ST = Pana.. C = PA, ST = Pana.. 27116945101991016..  /etx/ssl/certs 
+3e45d192.0           May 15 04:52:29 2.. C = HK, O = Hongk.. C = HK, O = Hongk.. 1000 (0x3e8)         /etx/ssl/certs 
+40193066.0           Oct  6 08:39:56 2.. C = PL, O = Unize.. C = PL, O = Unize.. 21:d6:d0:4a:4f:25..  /etx/ssl/certs 
+4042bcee.0           Jun  4 11:04:38 2.. C = US, O = Inter.. C = US, O = Inter.. 82:10:cf:b0:d2:40..  /etx/ssl/certs 
+40547a79.0           Dec 31 23:59:59 2.. C = GB, ST = Grea.. C = GB, ST = Grea.. 4e:81:2d:8a:82:65..  /etx/ssl/certs 
+4304c5e5.0           Dec 31 23:59:59 2.. C = US, O = Netwo.. C = US, O = Netwo.. 57:cb:33:6f:c2:5c..  /etx/ssl/certs 
+451b5485.0           Jan 15 00:00:00 2.. C = FR, O = Certp.. C = FR, O = Certp.. 11:20:d9:91:ce:ae..  /etx/ssl/certs 
+480720ec.0           Jul 16 23:59:59 2.. C = US, O = GeoTr.. C = US, O = GeoTr.. 18:ac:b5:6a:fd:69..  /etx/ssl/certs 
+48bec511.0           Dec 31 12:07:37 2.. C = PL, O = Unize.. C = PL, O = Unize.. 279744 (0x444c0)     /etx/ssl/certs 
+4a6481c9.0           Dec 15 08:00:00 2.. OU = GlobalSign R.. OU = GlobalSign R.. 04:00:00:00:00:01..  /etx/ssl/certs 
+4bfab552.0           Dec 31 23:59:59 2.. C = US, ST = Ariz.. C = US, ST = Ariz.. 0 (0x0)              /etx/ssl/certs 
+4f316efb.0           Oct 25 08:30:35 2.. C = CH, O = Swiss.. C = CH, O = Swiss.. bb:40:1c:43:f5:5e..  /etx/ssl/certs 
+5273a94c.0           Mar  3 12:09:48 2.. C = TR, L = Ankar.. C = TR, L = Ankar.. 76674472067032543..  /etx/ssl/certs 
+5443e9e3.0           Oct  1 23:59:59 2.. C = DE, O = T-Sys.. C = DE, O = T-Sys.. 1 (0x1)              /etx/ssl/certs 
+54657681.0           Oct 26 08:38:03 2.. C = NO, O = Buypa.. C = NO, O = Buypa.. 2 (0x2)              /etx/ssl/certs 
+57bcb2da.0           Oct 25 08:32:46 2.. C = CH, O = Swiss.. C = CH, O = Swiss.. 57003830531175995..  /etx/ssl/certs 
+5a4d6896.0           Nov 13 23:00:00 2.. C = NL, O = Staat.. C = NL, O = Staat.. 10003001 (0x98a23..  /etx/ssl/certs 
+5ad8a5d6.0           Jan 28 12:00:00 2.. C = BE, O = Globa.. C = BE, O = Globa.. 04:00:00:00:00:01..  /etx/ssl/certs 
+5c44d531.0           Mar 25 11:03:10 2.. C = NL, O = Staat.. C = NL, O = Staat.. 10000012 (0x98968..  /etx/ssl/certs 
+5cd81ad7.0           Oct 18 12:00:50 2.. O = TeliaSonera, .. O = TeliaSonera, .. 95:be:16:a0:f7:2e..  /etx/ssl/certs 
+5d3033c5.0           Dec 31 17:23:16 2.. C = PA, ST = Pana.. C = PA, ST = Pana.. da:9b:ec:71:f3:03..  /etx/ssl/certs 
+5f15c80c.0           Dec 31 15:59:59 2.. C = TW, O = TAIWA.. C = TW, O = TAIWA.. 3262 (0xcbe)         /etx/ssl/certs 
+607986c7.0           Jan 15 12:00:00 2.. C = US, O = DigiC.. C = US, O = DigiC.. 03:3a:f1:e6:a7:11..  /etx/ssl/certs 
+608a55ad.0           Jan 15 00:00:00 2.. C = FR, O = OpenT.. C = FR, O = OpenT.. 11:20:a1:69:1b:bf..  /etx/ssl/certs 
+6410666e.0           Dec  5 13:23:33 2.. C = TW, O = Gover.. C = TW, O = Gover.. 1f:9d:59:5a:d7:2f..  /etx/ssl/certs 
+653b494a.0           May 12 23:59:00 2.. C = IE, O = Balti.. C = IE, O = Balti.. 33554617 (0x20000..  /etx/ssl/certs 
+6b99d060.0           Nov 27 20:53:42 2.. C = US, O = "Entr.. C = US, O = "Entr.. 1164660820 (0x456..  /etx/ssl/certs 
+6d41d539.0           May 26 00:00:00 2.. C = US, O = Amazo.. C = US, O = Amazo.. 06:6c:9f:d2:96:35..  /etx/ssl/certs 
+6fa5da56.0           Feb 12 17:39:39 2.. C = US, ST = Texa.. C = US, ST = Texa.. 88756402965583100..  /etx/ssl/certs 
+706f604c.0           Jan  1 05:37:19 2.. C = US, OU = www... C = US, OU = www... 50:94:6c:ec:18:ea..  /etx/ssl/certs 
+749e9e03.0           Jan 12 17:27:44 2.. C = BM, O = QuoVa.. C = BM, O = QuoVa.. 78:58:5f:2e:ad:2c..  /etx/ssl/certs 
+75d1b2ed.0           Jan 15 12:00:00 2.. C = US, O = DigiC.. C = US, O = DigiC.. 05:9b:1b:57:9e:8e..  /etx/ssl/certs 
+76cb8f92.0           Dec 15 08:00:00 2.. O = "Cybertrust, .. O = "Cybertrust, .. 04:00:00:00:00:01..  /etx/ssl/certs 
+76faf6c0.0           Nov 24 19:06:44 2.. C = BM, O = QuoVa.. C = BM, O = QuoVa.. 1478 (0x5c6)         /etx/ssl/certs 
+7719f463.0           Jun 30 10:37:12 2.. C = GR, L = Athen.. C = GR, L = Athen.. 0 (0x0)              /etx/ssl/certs 
+7992b8bb.0           Apr 28 08:07:01 2.. C = TR, L = Ankar.. C = TR, L = Ankar.. 156233699172481 (..  /etx/ssl/certs 
+7aaf71c0.0           Dec 31 17:28:07 2.. C = PA, ST = Pana.. C = PA, ST = Pana.. 84:82:2c:5f:1c:62..  /etx/ssl/certs 
+7d0b38bd.0           Jan 18 23:59:59 2.. C = US, O = "Veri.. C = US, O = "Veri.. 2f:80:fe:23:8c:0e..  /etx/ssl/certs 
+7f3d5d1d.0           Jan 15 12:00:00 2.. C = US, O = DigiC.. C = US, O = DigiC.. 0b:a1:5a:fa:1d:df..  /etx/ssl/certs 
+812e17de.0           Jul  9 23:59:00 2.. C = DE, O = Deuts.. C = DE, O = Deuts.. 38 (0x26)            /etx/ssl/certs 
+8160b96c.0           Dec 30 11:30:18 2.. C = HU, L = Budap.. C = HU, L = Budap.. c2:7e:43:04:4e:47..  /etx/ssl/certs 
+87229d21.0           Jan 15 00:00:00 2.. C = FR, O = OpenT.. C = FR, O = OpenT.. 11:20:b3:90:55:39..  /etx/ssl/certs 
+8867006a.0           Mar  4 05:00:00 2.. C = US, O = GeoTr.. C = US, O = GeoTr.. 1 (0x1)              /etx/ssl/certs 
+8cb5ee0f.0           May 26 00:00:00 2.. C = US, O = Amazo.. C = US, O = Amazo.. 06:6c:9f:d5:74:97..  /etx/ssl/certs 
+8d86cdd1.0           Jul  4 17:20:04 2.. C = RO, O = certS.. C = RO, O = certS.. 35210227249154 (0..  /etx/ssl/certs 
+9168f543.0           Jan 15 00:00:00 2.. C = FR, O = Certp.. C = FR, O = Certp.. 11:20:55:83:e4:2d..  /etx/ssl/certs 
+930ac5d2.0           Sep 22 11:22:02 2.. C = IT, L = Milan.. C = IT, L = Milan.. 62718447724247705..  /etx/ssl/certs 
+93bc0acc.0           Dec 31 14:08:24 2.. C = US, O = Affir.. C = US, O = Affir.. 89573828272065477..  /etx/ssl/certs 
+988a38cb.0           Dec  6 15:08:21 2.. C = HU, L = Budap.. C = HU, L = Budap.. 80544274841616 (0..  /etx/ssl/certs 
+9c2e7d30.0           Apr  6 07:29:40 2.. C = FI, O = Soner.. C = FI, O = Soner.. 29 (0x1d)            /etx/ssl/certs 
+9c8dfbd4.0           Dec 31 14:20:24 2.. C = US, O = Affir.. C = US, O = Affir.. 84012249078614902..  /etx/ssl/certs 
+9d04f354.0           Jan 15 12:00:00 2.. C = US, O = DigiC.. C = US, O = DigiC.. 0b:93:1c:3a:d6:39..  /etx/ssl/certs 
+9f0f5fd6.0           Oct 21 09:17:18 2.. C = FR, O = Certi.. C = FR, O = Certi.. 1 (0x1)              /etx/ssl/certs 
+ACCVRAIZ1.pem        Dec 31 09:37:37 2.. CN = ACCVRAIZ1, O.. CN = ACCVRAIZ1, O.. 68285033847486968..  /etx/ssl/certs 
+AC_RAIZ_FNMT-RCM.p.. Jan  1 00:00:00 2.. C = ES, O = FNMT-.. C = ES, O = FNMT-.. 5d:93:8d:30:67:36..  /etx/ssl/certs 
+Actalis_Authentica.. Sep 22 11:22:02 2.. C = IT, L = Milan.. C = IT, L = Milan.. 62718447724247705..  /etx/ssl/certs 
+AddTrust_External_.. May 30 10:48:38 2.. C = SE, O = AddTr.. C = SE, O = AddTr.. 1 (0x1)              /etx/ssl/certs 
+AffirmTrust_Commer.. Dec 31 14:06:06 2.. C = US, O = Affir.. C = US, O = Affir.. 86083559779641388..  /etx/ssl/certs 
+AffirmTrust_Networ.. Dec 31 14:08:24 2.. C = US, O = Affir.. C = US, O = Affir.. 89573828272065477..  /etx/ssl/certs 
+AffirmTrust_Premiu.. Dec 31 14:10:36 2.. C = US, O = Affir.. C = US, O = Affir.. 78937065407343521..  /etx/ssl/certs 
+AffirmTrust_Premiu.. Dec 31 14:20:24 2.. C = US, O = Affir.. C = US, O = Affir.. 84012249078614902..  /etx/ssl/certs 
+Amazon_Root_CA_1.p.. Jan 17 00:00:00 2.. C = US, O = Amazo.. C = US, O = Amazo.. 06:6c:9f:cf:99:bf..  /etx/ssl/certs 
+Amazon_Root_CA_2.p.. May 26 00:00:00 2.. C = US, O = Amazo.. C = US, O = Amazo.. 06:6c:9f:d2:96:35..  /etx/ssl/certs 
+Amazon_Root_CA_3.p.. May 26 00:00:00 2.. C = US, O = Amazo.. C = US, O = Amazo.. 06:6c:9f:d5:74:97..  /etx/ssl/certs 
+Amazon_Root_CA_4.p.. May 26 00:00:00 2.. C = US, O = Amazo.. C = US, O = Amazo.. 06:6c:9f:d7:c1:bb..  /etx/ssl/certs 
+Atos_TrustedRoot_2.. Dec 31 23:59:59 2.. CN = Atos Trusted.. CN = Atos Trusted.. 66438774978133164..  /etx/ssl/certs 
+Autoridad_de_Certi.. Dec 31 08:38:15 2.. C = ES, CN = Auto.. C = ES, CN = Auto.. 60472742972627538..  /etx/ssl/certs 
+Baltimore_CyberTru.. May 12 23:59:00 2.. C = IE, O = Balti.. C = IE, O = Balti.. 33554617 (0x20000..  /etx/ssl/certs 
+Buypass_Class_2_Ro.. Oct 26 08:38:03 2.. C = NO, O = Buypa.. C = NO, O = Buypa.. 2 (0x2)              /etx/ssl/certs 
+Buypass_Class_3_Ro.. Oct 26 08:28:58 2.. C = NO, O = Buypa.. C = NO, O = Buypa.. 2 (0x2)              /etx/ssl/certs 
+CA_Disig_Root_R2.p.. Jul 19 09:15:30 2.. C = SK, L = Brati.. C = SK, L = Brati.. 92:b8:88:db:b0:8a..  /etx/ssl/certs 
+CFCA_EV_ROOT.pem     Dec 31 03:07:01 2.. C = CN, O = China.. C = CN, O = China.. 407555286 (0x184a..  /etx/ssl/certs 
+COMODO_Certificati.. Dec 31 23:59:59 2.. C = GB, ST = Grea.. C = GB, ST = Grea.. 4e:81:2d:8a:82:65..  /etx/ssl/certs 
+COMODO_ECC_Certifi.. Jan 18 23:59:59 2.. C = GB, ST = Grea.. C = GB, ST = Grea.. 1f:47:af:aa:62:00..  /etx/ssl/certs 
+COMODO_RSA_Certifi.. Jan 18 23:59:59 2.. C = GB, ST = Grea.. C = GB, ST = Grea.. 4c:aa:f9:ca:db:63..  /etx/ssl/certs 
+Certigna.pem         Jun 29 15:13:05 2.. C = FR, O = Dhimy.. C = FR, O = Dhimy.. fe:dc:e3:01:0f:c9..  /etx/ssl/certs 
+Certinomis_-_Root_.. Oct 21 09:17:18 2.. C = FR, O = Certi.. C = FR, O = Certi.. 1 (0x1)              /etx/ssl/certs 
+Certplus_Class_2_P.. Jul  6 23:59:59 2.. C = FR, O = Certp.. C = FR, O = Certp.. 85:bd:4b:f3:d8:da..  /etx/ssl/certs 
+Certplus_Root_CA_G.. Jan 15 00:00:00 2.. C = FR, O = Certp.. C = FR, O = Certp.. 11:20:55:83:e4:2d..  /etx/ssl/certs 
+Certplus_Root_CA_G.. Jan 15 00:00:00 2.. C = FR, O = Certp.. C = FR, O = Certp.. 11:20:d9:91:ce:ae..  /etx/ssl/certs 
+Certum_Trusted_Net.. Dec 31 12:07:37 2.. C = PL, O = Unize.. C = PL, O = Unize.. 279744 (0x444c0)     /etx/ssl/certs 
+Certum_Trusted_Net.. Oct  6 08:39:56 2.. C = PL, O = Unize.. C = PL, O = Unize.. 21:d6:d0:4a:4f:25..  /etx/ssl/certs 
+Chambers_of_Commer.. Jul 31 12:29:50 2.. C = EU, L = Madri.. C = EU, L = Madri.. a3:da:42:7e:a4:b1..  /etx/ssl/certs 
+Comodo_AAA_Service.. Dec 31 23:59:59 2.. C = GB, ST = Grea.. C = GB, ST = Grea.. 1 (0x1)              /etx/ssl/certs 
+Cybertrust_Global_.. Dec 15 08:00:00 2.. O = "Cybertrust, .. O = "Cybertrust, .. 04:00:00:00:00:01..  /etx/ssl/certs 
+D-TRUST_Root_Class.. Nov  5 08:35:58 2.. C = DE, O = D-Tru.. C = DE, O = D-Tru.. 623603 (0x983f3)     /etx/ssl/certs 
+D-TRUST_Root_Class.. Nov  5 08:50:46 2.. C = DE, O = D-Tru.. C = DE, O = D-Tru.. 623604 (0x983f4)     /etx/ssl/certs 
+DST_Root_CA_X3.pem   Sep 30 14:01:15 2.. O = Digital Signa.. O = Digital Signa.. 44:af:b0:80:d6:a3..  /etx/ssl/certs 
+Deutsche_Telekom_R.. Jul  9 23:59:00 2.. C = DE, O = Deuts.. C = DE, O = Deuts.. 38 (0x26)            /etx/ssl/certs 
+DigiCert_Assured_I.. Nov 10 00:00:00 2.. C = US, O = DigiC.. C = US, O = DigiC.. 0c:e7:e0:e5:17:d8..  /etx/ssl/certs 
+DigiCert_Assured_I.. Jan 15 12:00:00 2.. C = US, O = DigiC.. C = US, O = DigiC.. 0b:93:1c:3a:d6:39..  /etx/ssl/certs 
+DigiCert_Assured_I.. Jan 15 12:00:00 2.. C = US, O = DigiC.. C = US, O = DigiC.. 0b:a1:5a:fa:1d:df..  /etx/ssl/certs 
+DigiCert_Global_Ro.. Nov 10 00:00:00 2.. C = US, O = DigiC.. C = US, O = DigiC.. 08:3b:e0:56:90:42..  /etx/ssl/certs 
+DigiCert_Global_Ro.. Jan 15 12:00:00 2.. C = US, O = DigiC.. C = US, O = DigiC.. 03:3a:f1:e6:a7:11..  /etx/ssl/certs 
+DigiCert_Global_Ro.. Jan 15 12:00:00 2.. C = US, O = DigiC.. C = US, O = DigiC.. 05:55:56:bc:f2:5e..  /etx/ssl/certs 
+DigiCert_High_Assu.. Nov 10 00:00:00 2.. C = US, O = DigiC.. C = US, O = DigiC.. 02:ac:5c:26:6a:0b..  /etx/ssl/certs 
+DigiCert_Trusted_R.. Jan 15 12:00:00 2.. C = US, O = DigiC.. C = US, O = DigiC.. 05:9b:1b:57:9e:8e..  /etx/ssl/certs 
+E-Tugra_Certificat.. Mar  3 12:09:48 2.. C = TR, L = Ankar.. C = TR, L = Ankar.. 76674472067032543..  /etx/ssl/certs 
+EC-ACC.pem           Jan  7 22:59:59 2.. C = ES, O = Agenc.. C = ES, O = Agenc..  (Negative)11:d4:..  /etx/ssl/certs 
+EE_Certification_C.. Dec 17 23:59:59 2.. C = EE, O = AS Se.. C = EE, O = AS Se.. 54:80:f9:a0:73:ed..  /etx/ssl/certs 
+Entrust.net_Premiu.. Jul 24 14:15:12 2.. O = Entrust.net, .. O = Entrust.net, .. 946069240 (0x3863..  /etx/ssl/certs 
+Entrust_Root_Certi.. Nov 27 20:53:42 2.. C = US, O = "Entr.. C = US, O = "Entr.. 1164660820 (0x456..  /etx/ssl/certs 
+Entrust_Root_Certi.. Dec 18 15:55:36 2.. C = US, O = "Entr.. C = US, O = "Entr.. a6:8b:79:29:00:00..  /etx/ssl/certs 
+Entrust_Root_Certi.. Dec  7 17:55:54 2.. C = US, O = "Entr.. C = US, O = "Entr.. 1246989352 (0x4a5..  /etx/ssl/certs 
+GDCA_TrustAUTH_R5_.. Dec 31 15:59:59 2.. C = CN, O = "GUAN.. C = CN, O = "GUAN.. 90098996507401201..  /etx/ssl/certs 
+GeoTrust_Global_CA.. May 21 04:00:00 2.. C = US, O = GeoTr.. C = US, O = GeoTr.. 144470 (0x23456)     /etx/ssl/certs 
+GeoTrust_Primary_C.. Jul 16 23:59:59 2.. C = US, O = GeoTr.. C = US, O = GeoTr.. 18:ac:b5:6a:fd:69..  /etx/ssl/certs 
+GeoTrust_Primary_C.. Jan 18 23:59:59 2.. C = US, O = GeoTr.. C = US, O = GeoTr.. 3c:b2:f4:48:0a:00..  /etx/ssl/certs 
+GeoTrust_Primary_C.. Dec  1 23:59:59 2.. C = US, O = GeoTr.. C = US, O = GeoTr.. 15:ac:6e:94:19:b2..  /etx/ssl/certs 
+GeoTrust_Universal.. Mar  4 05:00:00 2.. C = US, O = GeoTr.. C = US, O = GeoTr.. 1 (0x1)              /etx/ssl/certs 
+GeoTrust_Universal.. Mar  4 05:00:00 2.. C = US, O = GeoTr.. C = US, O = GeoTr.. 1 (0x1)              /etx/ssl/certs 
+GlobalSign_ECC_Roo.. Jan 19 03:14:07 2.. OU = GlobalSign E.. OU = GlobalSign E.. 2a:38:a4:1c:96:0a..  /etx/ssl/certs 
+GlobalSign_ECC_Roo.. Jan 19 03:14:07 2.. OU = GlobalSign E.. OU = GlobalSign E.. 60:59:49:e0:26:2e..  /etx/ssl/certs 
+GlobalSign_Root_CA.. Jan 28 12:00:00 2.. C = BE, O = Globa.. C = BE, O = Globa.. 04:00:00:00:00:01..  /etx/ssl/certs 
+GlobalSign_Root_CA.. Dec 15 08:00:00 2.. OU = GlobalSign R.. OU = GlobalSign R.. 04:00:00:00:00:01..  /etx/ssl/certs 
+GlobalSign_Root_CA.. Mar 18 10:00:00 2.. OU = GlobalSign R.. OU = GlobalSign R.. 04:00:00:00:00:01..  /etx/ssl/certs 
+Global_Chambersign.. Jul 31 12:31:40 2.. C = EU, L = Madri.. C = EU, L = Madri.. c9:cd:d3:e9:d5:7d..  /etx/ssl/certs 
+Go_Daddy_Class_2_C.. Jun 29 17:06:20 2.. C = US, O = "The .. C = US, O = "The .. 0 (0x0)              /etx/ssl/certs 
+Go_Daddy_Root_Cert.. Dec 31 23:59:59 2.. C = US, ST = Ariz.. C = US, ST = Ariz.. 0 (0x0)              /etx/ssl/certs 
+Hellenic_Academic_.. Jun 30 10:37:12 2.. C = GR, L = Athen.. C = GR, L = Athen.. 0 (0x0)              /etx/ssl/certs 
+Hellenic_Academic_.. Dec  1 13:49:52 2.. C = GR, O = Helle.. C = GR, O = Helle.. 0 (0x0)              /etx/ssl/certs 
+Hellenic_Academic_.. Jun 30 10:11:21 2.. C = GR, L = Athen.. C = GR, L = Athen.. 0 (0x0)              /etx/ssl/certs 
+Hongkong_Post_Root.. May 15 04:52:29 2.. C = HK, O = Hongk.. C = HK, O = Hongk.. 1000 (0x3e8)         /etx/ssl/certs 
+ISRG_Root_X1.pem     Jun  4 11:04:38 2.. C = US, O = Inter.. C = US, O = Inter.. 82:10:cf:b0:d2:40..  /etx/ssl/certs 
+IdenTrust_Commerci.. Jan 16 18:12:23 2.. C = US, O = IdenT.. C = US, O = IdenT.. 0a:01:42:80:00:00..  /etx/ssl/certs 
+IdenTrust_Public_S.. Jan 16 17:53:32 2.. C = US, O = IdenT.. C = US, O = IdenT.. 0a:01:42:80:00:00..  /etx/ssl/certs 
+Izenpe.com.pem       Dec 13 08:27:25 2.. C = ES, O = IZENP.. C = ES, O = IZENP.. b0:b7:5a:16:48:5f..  /etx/ssl/certs 
+LuxTrust_Global_Ro.. Mar  5 13:21:57 2.. C = LU, O = LuxTr.. C = LU, O = LuxTr.. 0a:7e:a6:df:4b:44..  /etx/ssl/certs 
+Microsec_e-Szigno_.. Dec 30 11:30:18 2.. C = HU, L = Budap.. C = HU, L = Budap.. c2:7e:43:04:4e:47..  /etx/ssl/certs 
+NetLock_Arany_=Cla.. Dec  6 15:08:21 2.. C = HU, L = Budap.. C = HU, L = Budap.. 80544274841616 (0..  /etx/ssl/certs 
+Network_Solutions_.. Dec 31 23:59:59 2.. C = US, O = Netwo.. C = US, O = Netwo.. 57:cb:33:6f:c2:5c..  /etx/ssl/certs 
+OISTE_WISeKey_Glob.. Dec 11 16:09:51 2.. C = CH, O = WISeK.. C = CH, O = WISeK.. 41:3d:72:c7:f4:6b..  /etx/ssl/certs 
+OISTE_WISeKey_Glob.. Dec  1 15:10:31 2.. C = CH, O = WISeK.. C = CH, O = WISeK.. 76:b1:20:52:74:f0..  /etx/ssl/certs 
+OpenTrust_Root_CA_.. Jan 15 00:00:00 2.. C = FR, O = OpenT.. C = FR, O = OpenT.. 11:20:b3:90:55:39..  /etx/ssl/certs 
+OpenTrust_Root_CA_.. Jan 15 00:00:00 2.. C = FR, O = OpenT.. C = FR, O = OpenT.. 11:20:a1:69:1b:bf..  /etx/ssl/certs 
+OpenTrust_Root_CA_.. Jan 15 00:00:00 2.. C = FR, O = OpenT.. C = FR, O = OpenT.. 11:20:e6:f8:4c:fc..  /etx/ssl/certs 
+QuoVadis_Root_CA.p.. Mar 17 18:33:33 2.. C = BM, O = QuoVa.. C = BM, O = QuoVa.. 985026699 (0x3ab6..  /etx/ssl/certs 
+QuoVadis_Root_CA_1.. Jan 12 17:27:44 2.. C = BM, O = QuoVa.. C = BM, O = QuoVa.. 78:58:5f:2e:ad:2c..  /etx/ssl/certs 
+QuoVadis_Root_CA_2.. Nov 24 18:23:33 2.. C = BM, O = QuoVa.. C = BM, O = QuoVa.. 1289 (0x509)         /etx/ssl/certs 
+QuoVadis_Root_CA_2.. Jan 12 18:59:32 2.. C = BM, O = QuoVa.. C = BM, O = QuoVa.. 44:57:34:24:5b:81..  /etx/ssl/certs 
+QuoVadis_Root_CA_3.. Nov 24 19:06:44 2.. C = BM, O = QuoVa.. C = BM, O = QuoVa.. 1478 (0x5c6)         /etx/ssl/certs 
+QuoVadis_Root_CA_3.. Jan 12 20:26:32 2.. C = BM, O = QuoVa.. C = BM, O = QuoVa.. 2e:f5:9b:02:28:a7..  /etx/ssl/certs 
+SSL.com_EV_Root_Ce.. Feb 12 18:15:23 2.. C = US, ST = Texa.. C = US, ST = Texa.. 31822465267545552..  /etx/ssl/certs 
+SSL.com_EV_Root_Ce.. May 30 18:14:37 2.. C = US, ST = Texa.. C = US, ST = Texa.. 62482274943529433..  /etx/ssl/certs 
+SSL.com_Root_Certi.. Feb 12 18:14:03 2.. C = US, ST = Texa.. C = US, ST = Texa.. 84957238132972164..  /etx/ssl/certs 
+SSL.com_Root_Certi.. Feb 12 17:39:39 2.. C = US, ST = Texa.. C = US, ST = Texa.. 88756402965583100..  /etx/ssl/certs 
+SZAFIR_ROOT_CA2.pem  Oct 19 07:43:30 2.. C = PL, O = Krajo.. C = PL, O = Krajo.. 3e:8a:5d:07:ec:55..  /etx/ssl/certs 
+SecureSign_RootCA1.. Apr  8 04:56:47 2.. C = JP, O = "Japa.. C = JP, O = "Japa.. 1 (0x1)              /etx/ssl/certs 
+SecureTrust_CA.pem   Dec 31 19:40:55 2.. C = US, O = Secur.. C = US, O = Secur.. 0c:f0:8e:5c:08:16..  /etx/ssl/certs 
+Secure_Global_CA.p.. Dec 31 19:52:06 2.. C = US, O = Secur.. C = US, O = Secur.. 07:56:22:a4:e8:d4..  /etx/ssl/certs 
+Security_Communica.. May 29 05:00:39 2.. C = JP, O = "SECO.. C = JP, O = "SECO.. 0 (0x0)              /etx/ssl/certs 
+Security_Communica.. Sep 30 04:20:49 2.. C = JP, O = SECOM.. C = JP, O = SECOM.. 0 (0x0)              /etx/ssl/certs 
+Sonera_Class_2_Roo.. Apr  6 07:29:40 2.. C = FI, O = Soner.. C = FI, O = Soner.. 29 (0x1d)            /etx/ssl/certs 
+Staat_der_Nederlan.. Dec  8 11:10:28 2.. C = NL, O = Staat.. C = NL, O = Staat.. 10000013 (0x98968..  /etx/ssl/certs 
+Staat_der_Nederlan.. Mar 25 11:03:10 2.. C = NL, O = Staat.. C = NL, O = Staat.. 10000012 (0x98968..  /etx/ssl/certs 
+Staat_der_Nederlan.. Nov 13 23:00:00 2.. C = NL, O = Staat.. C = NL, O = Staat.. 10003001 (0x98a23..  /etx/ssl/certs 
+Starfield_Class_2_.. Jun 29 17:39:16 2.. C = US, O = "Star.. C = US, O = "Star.. 0 (0x0)              /etx/ssl/certs 
+Starfield_Root_Cer.. Dec 31 23:59:59 2.. C = US, ST = Ariz.. C = US, ST = Ariz.. 0 (0x0)              /etx/ssl/certs 
+Starfield_Services.. Dec 31 23:59:59 2.. C = US, ST = Ariz.. C = US, ST = Ariz.. 0 (0x0)              /etx/ssl/certs 
+SwissSign_Gold_CA_.. Oct 25 08:30:35 2.. C = CH, O = Swiss.. C = CH, O = Swiss.. bb:40:1c:43:f5:5e..  /etx/ssl/certs 
+SwissSign_Silver_C.. Oct 25 08:32:46 2.. C = CH, O = Swiss.. C = CH, O = Swiss.. 57003830531175995..  /etx/ssl/certs 
+TÜRKTRUST_Elektron.. Apr 28 08:07:01 2.. C = TR, L = Ankar.. C = TR, L = Ankar.. 156233699172481 (..  /etx/ssl/certs 
+T-TeleSec_GlobalRo.. Oct  1 23:59:59 2.. C = DE, O = T-Sys.. C = DE, O = T-Sys.. 1 (0x1)              /etx/ssl/certs 
+T-TeleSec_GlobalRo.. Oct  1 23:59:59 2.. C = DE, O = T-Sys.. C = DE, O = T-Sys.. 1 (0x1)              /etx/ssl/certs 
+TUBITAK_Kamu_SM_SS.. Oct 25 08:25:55 2.. C = TR, L = Gebze.. C = TR, L = Gebze.. 1 (0x1)              /etx/ssl/certs 
+TWCA_Global_Root_C.. Dec 31 15:59:59 2.. C = TW, O = TAIWA.. C = TW, O = TAIWA.. 3262 (0xcbe)         /etx/ssl/certs 
+TWCA_Root_Certific.. Dec 31 15:59:59 2.. C = TW, O = TAIWA.. C = TW, O = TAIWA.. 1 (0x1)              /etx/ssl/certs 
+Taiwan_GRCA.pem      Dec  5 13:23:33 2.. C = TW, O = Gover.. C = TW, O = Gover.. 1f:9d:59:5a:d7:2f..  /etx/ssl/certs 
+TeliaSonera_Root_C.. Oct 18 12:00:50 2.. O = TeliaSonera, .. O = TeliaSonera, .. 95:be:16:a0:f7:2e..  /etx/ssl/certs 
+TrustCor_ECA-1.pem   Dec 31 17:28:07 2.. C = PA, ST = Pana.. C = PA, ST = Pana.. 84:82:2c:5f:1c:62..  /etx/ssl/certs 
+TrustCor_RootCert_.. Dec 31 17:23:16 2.. C = PA, ST = Pana.. C = PA, ST = Pana.. da:9b:ec:71:f3:03..  /etx/ssl/certs 
+TrustCor_RootCert_.. Dec 31 17:26:39 2.. C = PA, ST = Pana.. C = PA, ST = Pana.. 27116945101991016..  /etx/ssl/certs 
+Trustis_FPS_Root_C.. Jan 21 11:36:54 2.. C = GB, O = Trust.. C = GB, O = Trust.. 1b:1f:ad:b6:20:f9..  /etx/ssl/certs 
+USERTrust_ECC_Cert.. Jan 18 23:59:59 2.. C = US, ST = New .. C = US, ST = New .. 5c:8b:99:c5:5a:94..  /etx/ssl/certs 
+USERTrust_RSA_Cert.. Jan 18 23:59:59 2.. C = US, ST = New .. C = US, ST = New .. 01:fd:6d:30:fc:a3..  /etx/ssl/certs 
+VeriSign_Class_3_P.. Jan 18 23:59:59 2.. C = US, O = "Veri.. C = US, O = "Veri.. 2f:80:fe:23:8c:0e..  /etx/ssl/certs 
+VeriSign_Class_3_P.. Jul 16 23:59:59 2.. C = US, O = "Veri.. C = US, O = "Veri.. 18:da:d1:9e:26:7d..  /etx/ssl/certs 
+VeriSign_Universal.. Dec  1 23:59:59 2.. C = US, O = "Veri.. C = US, O = "Veri.. 40:1a:c4:64:21:b3..  /etx/ssl/certs 
+Verisign_Class_3_P.. Jul 16 23:59:59 2.. C = US, O = "Veri.. C = US, O = "Veri.. 9b:7e:06:49:a3:3e..  /etx/ssl/certs 
+Visa_eCommerce_Roo.. Jun 24 00:16:12 2.. C = US, O = VISA,.. C = US, O = VISA,.. 13:86:35:4d:1d:3f..  /etx/ssl/certs 
+XRamp_Global_CA_Ro.. Jan  1 05:37:19 2.. C = US, OU = www... C = US, OU = www... 50:94:6c:ec:18:ea..  /etx/ssl/certs 
+a760e1bd.0           Jun 24 00:16:12 2.. C = US, O = VISA,.. C = US, O = VISA,.. 13:86:35:4d:1d:3f..  /etx/ssl/certs 
+a94d09e5.0           Dec 31 09:37:37 2.. CN = ACCVRAIZ1, O.. CN = ACCVRAIZ1, O.. 68285033847486968..  /etx/ssl/certs 
+ad088e1d.0           Mar  4 05:00:00 2.. C = US, O = GeoTr.. C = US, O = GeoTr.. 1 (0x1)              /etx/ssl/certs 
+aee5f10d.0           Jul 24 14:15:12 2.. O = Entrust.net, .. O = Entrust.net, .. 946069240 (0x3863..  /etx/ssl/certs 
+b0e59380.0           Jan 19 03:14:07 2.. OU = GlobalSign E.. OU = GlobalSign E.. 2a:38:a4:1c:96:0a..  /etx/ssl/certs 
+b1159c4c.0           Nov 10 00:00:00 2.. C = US, O = DigiC.. C = US, O = DigiC.. 0c:e7:e0:e5:17:d8..  /etx/ssl/certs 
+b1b8a7f3.0           Dec 11 16:09:51 2.. C = CH, O = WISeK.. C = CH, O = WISeK.. 41:3d:72:c7:f4:6b..  /etx/ssl/certs 
+b204d74a.0           Jul 16 23:59:59 2.. C = US, O = "Veri.. C = US, O = "Veri.. 18:da:d1:9e:26:7d..  /etx/ssl/certs 
+b66938e9.0           Dec 31 19:52:06 2.. C = US, O = Secur.. C = US, O = Secur.. 07:56:22:a4:e8:d4..  /etx/ssl/certs 
+b727005e.0           Dec 31 14:10:36 2.. C = US, O = Affir.. C = US, O = Affir.. 78937065407343521..  /etx/ssl/certs 
+b7a5b843.0           Dec 31 15:59:59 2.. C = TW, O = TAIWA.. C = TW, O = TAIWA.. 1 (0x1)              /etx/ssl/certs 
+ba89ed3b.0           Dec  1 23:59:59 2.. C = US, O = "thaw.. C = US, O = "thaw.. 60:01:97:b7:46:a7..  /etx/ssl/certs 
+c01cdfa2.0           Dec  1 23:59:59 2.. C = US, O = "Veri.. C = US, O = "Veri.. 40:1a:c4:64:21:b3..  /etx/ssl/certs 
+c089bbbd.0           Jan 18 23:59:59 2.. C = US, O = "thaw.. C = US, O = "thaw.. 35:fc:26:5c:d9:84..  /etx/ssl/certs 
+c0ff1f52.0           Jul 16 23:59:59 2.. C = US, O = "Veri.. C = US, O = "Veri.. 9b:7e:06:49:a3:3e..  /etx/ssl/certs 
+c28a8a30.0           Nov  5 08:35:58 2.. C = DE, O = D-Tru.. C = DE, O = D-Tru.. 623603 (0x983f3)     /etx/ssl/certs 
+c47d9980.0           Jul 31 12:29:50 2.. C = EU, L = Madri.. C = EU, L = Madri.. a3:da:42:7e:a4:b1..  /etx/ssl/certs 
+ca-certificates.crt  Dec 31 09:37:37 2.. CN = ACCVRAIZ1, O.. CN = ACCVRAIZ1, O.. 68285033847486968..  /etx/ssl/certs 
+ca6e4ad9.0           Dec 20 02:31:27 2.. C = TW, O = "Chun.. C = TW, O = "Chun.. 15:c8:bd:65:47:5c..  /etx/ssl/certs 
+cbf06781.0           Dec 31 23:59:59 2.. C = US, ST = Ariz.. C = US, ST = Ariz.. 0 (0x0)              /etx/ssl/certs 
+cc450945.0           Dec 13 08:27:25 2.. C = ES, O = IZENP.. C = ES, O = IZENP.. b0:b7:5a:16:48:5f..  /etx/ssl/certs 
+cd58d51e.0           May 29 05:00:39 2.. C = JP, O = "SECO.. C = JP, O = "SECO.. 0 (0x0)              /etx/ssl/certs 
+cd8c0d63.0           Jan  1 00:00:00 2.. C = ES, O = FNMT-.. C = ES, O = FNMT-.. 5d:93:8d:30:67:36..  /etx/ssl/certs 
+ce5e74ef.0           Jan 17 00:00:00 2.. C = US, O = Amazo.. C = US, O = Amazo.. 06:6c:9f:cf:99:bf..  /etx/ssl/certs 
+certSIGN_ROOT_CA.p.. Jul  4 17:20:04 2.. C = RO, O = certS.. C = RO, O = certS.. 35210227249154 (0..  /etx/ssl/certs 
+d4dae3dd.0           Nov  5 08:50:46 2.. C = DE, O = D-Tru.. C = DE, O = D-Tru.. 623604 (0x983f4)     /etx/ssl/certs 
+d6325660.0           Jan 18 23:59:59 2.. C = GB, ST = Grea.. C = GB, ST = Grea.. 4c:aa:f9:ca:db:63..  /etx/ssl/certs 
+d7e8dc79.0           Nov 24 18:23:33 2.. C = BM, O = QuoVa.. C = BM, O = QuoVa.. 1289 (0x509)         /etx/ssl/certs 
+d853d49e.0           Jan 21 11:36:54 2.. C = GB, O = Trust.. C = GB, O = Trust.. 1b:1f:ad:b6:20:f9..  /etx/ssl/certs 
+dd8e9d41.0           Jan 15 12:00:00 2.. C = US, O = DigiC.. C = US, O = DigiC.. 05:55:56:bc:f2:5e..  /etx/ssl/certs 
+de6d66f3.0           May 26 00:00:00 2.. C = US, O = Amazo.. C = US, O = Amazo.. 06:6c:9f:d7:c1:bb..  /etx/ssl/certs 
+def36a68.0           Mar  5 13:21:57 2.. C = LU, O = LuxTr.. C = LU, O = LuxTr.. 0a:7e:a6:df:4b:44..  /etx/ssl/certs 
+e113c810.0           Jun 29 15:13:05 2.. C = FR, O = Dhimy.. C = FR, O = Dhimy.. fe:dc:e3:01:0f:c9..  /etx/ssl/certs 
+e18bfb83.0           Jan 12 20:26:32 2.. C = BM, O = QuoVa.. C = BM, O = QuoVa.. 2e:f5:9b:02:28:a7..  /etx/ssl/certs 
+e2799e36.0           Dec  1 23:59:59 2.. C = US, O = GeoTr.. C = US, O = GeoTr.. 15:ac:6e:94:19:b2..  /etx/ssl/certs 
+e36a6752.0           Dec 31 23:59:59 2.. CN = Atos Trusted.. CN = Atos Trusted.. 66438774978133164..  /etx/ssl/certs 
+e73d606e.0           Dec  1 15:10:31 2.. C = CH, O = WISeK.. C = CH, O = WISeK.. 76:b1:20:52:74:f0..  /etx/ssl/certs 
+e8de2f56.0           Oct 26 08:28:58 2.. C = NO, O = Buypa.. C = NO, O = Buypa.. 2 (0x2)              /etx/ssl/certs 
+ePKI_Root_Certific.. Dec 20 02:31:27 2.. C = TW, O = "Chun.. C = TW, O = "Chun.. 15:c8:bd:65:47:5c..  /etx/ssl/certs 
+ee64a828.0           Dec 31 23:59:59 2.. C = GB, ST = Grea.. C = GB, ST = Grea.. 1 (0x1)              /etx/ssl/certs 
+eed8c118.0           Jan 18 23:59:59 2.. C = GB, ST = Grea.. C = GB, ST = Grea.. 1f:47:af:aa:62:00..  /etx/ssl/certs 
+ef954a4e.0           Jan 16 18:12:23 2.. C = US, O = IdenT.. C = US, O = IdenT.. 0a:01:42:80:00:00..  /etx/ssl/certs 
+f060240e.0           Jul  6 23:59:59 2.. C = FR, O = Certp.. C = FR, O = Certp.. 85:bd:4b:f3:d8:da..  /etx/ssl/certs 
+f081611a.0           Jun 29 17:06:20 2.. C = US, O = "The .. C = US, O = "The .. 0 (0x0)              /etx/ssl/certs 
+f0c70a8d.0           Feb 12 18:15:23 2.. C = US, ST = Texa.. C = US, ST = Texa.. 31822465267545552..  /etx/ssl/certs 
+f30dd6ad.0           Jan 18 23:59:59 2.. C = US, ST = New .. C = US, ST = New .. 5c:8b:99:c5:5a:94..  /etx/ssl/certs 
+f3377b1b.0           Sep 30 04:20:49 2.. C = JP, O = SECOM.. C = JP, O = SECOM.. 0 (0x0)              /etx/ssl/certs 
+f387163d.0           Jun 29 17:39:16 2.. C = US, O = "Star.. C = US, O = "Star.. 0 (0x0)              /etx/ssl/certs 
+f39fc864.0           Dec 31 19:40:55 2.. C = US, O = Secur.. C = US, O = Secur.. 0c:f0:8e:5c:08:16..  /etx/ssl/certs 
+fc5a8f99.0           Jan 18 23:59:59 2.. C = US, ST = New .. C = US, ST = New .. 01:fd:6d:30:fc:a3..  /etx/ssl/certs 
+fe8a2cd8.0           Oct 19 07:43:30 2.. C = PL, O = Krajo.. C = PL, O = Krajo.. 3e:8a:5d:07:ec:55..  /etx/ssl/certs 
+ff34af3f.0           Oct 25 08:25:55 2.. C = TR, L = Gebze.. C = TR, L = Gebze.. 1 (0x1)              /etx/ssl/certs 
+ssl-cert-snakeoil... Jun 28 09:31:11 2.. CN = ubuntu         CN = ubuntu         a1:63:31:e5:f9:23..  /etx/ssl/certs 
+thawte_Primary_Roo.. Jul 16 23:59:59 2.. C = US, O = "thaw.. C = US, O = "thaw.. 34:4e:d5:57:20:d5..  /etx/ssl/certs 
+thawte_Primary_Roo.. Jan 18 23:59:59 2.. C = US, O = "thaw.. C = US, O = "thaw.. 35:fc:26:5c:d9:84..  /etx/ssl/certs 
+thawte_Primary_Roo.. Dec  1 23:59:59 2.. C = US, O = "thaw.. C = US, O = "thaw.. 60:01:97:b7:46:a7..  /etx/ssl/certs 
